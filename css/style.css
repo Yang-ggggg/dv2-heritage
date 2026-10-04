@@ -4,7 +4,7 @@
   --ink-secondary: #55554D;
   --ground: #FFFFFF;
   --gutter: 24px;
-  --section-gap: 96px;   /* at least 2x the gap inside a section */
+  --section-gap: 72px;   /* at least 2x the gap inside a section (32px) */
   --inner-gap: 32px;
 }
 
@@ -85,3 +85,19 @@ h3 { font-size: 16px; margin: 0 0 8px; }
 .source-list li { margin-bottom: 8px; max-width: 60ch; }
 a { color: var(--nla); }
 @media (max-width: 900px) { .span-3 { grid-column: span 6; } }
+
+/* --- layout fixes after first review: balance the empty right side, tighter section gaps --- */
+h2 { margin-bottom: 20px; }
+.span-5 { grid-column: span 5; }
+.span-7 { grid-column: span 7; }
+.intro-row { margin-top: 8px; align-items: start; }
+.intro { margin: 0; }
+.force-list { margin: 0; padding-left: 20px; font-size: 16px; line-height: 1.5; border-left: 1px solid #DCDCD3; padding: 4px 0 4px 36px; }
+.force-list li { margin-bottom: 8px; }
+.force-list a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--nla); }
+.callout { border-left: 1px solid #DCDCD3; padding: 4px 0 4px 24px; }
+.callout-number { margin: 0; font-size: 30px; font-weight: 700; line-height: 1.1; }
+.callout-label { margin: 6px 0 0; font-size: 15px; color: var(--ink-secondary); }
+.nla-text { color: var(--nla); }
+figure { margin-top: 0; }
+@media (max-width: 900px) { .span-5, .span-7 { grid-column: span 12; } }
