@@ -1,0 +1,202 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "New South Wales grew nine times, the Northern Territory not at all",
+    "subtitle": [
+      "Digitised newspaper articles on Trove by state.",
+      "Outline circle = April 2011, filled circle = February 2025."
+    ],
+    "anchor": "start"
+  },
+  "width": 500,
+  "height": 400,
+  "projection": {
+    "type": "conicEqualArea",
+    "parallels": [
+      -18,
+      -36
+    ],
+    "rotate": [
+      -132,
+      0
+    ]
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/australia_states.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "australia_states"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#E6E6E0",
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "url": "data/trove_states.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "articles_2011": "number",
+            "articles_2025": "number",
+            "growth_times": "number",
+            "lon": "number",
+            "lat": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "calculate": "-datum.articles_2025",
+          "as": "draw_order"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "opacity": 0.85,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "articles_2025",
+          "type": "quantitative",
+          "title": "Articles",
+          "scale": {
+            "domain": [
+              0,
+              90000000
+            ],
+            "range": [
+              0,
+              3600
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "values": [
+              5000000,
+              25000000,
+              90000000
+            ],
+            "labelExpr": "format(datum.value/1e6,'.0f') + ' million'",
+            "symbolFillColor": "#3182bd",
+            "symbolStrokeColor": "#FFFFFF",
+            "direction": "horizontal",
+            "titleOrient": "left"
+          }
+        },
+        "color": {
+          "value": "#3182bd"
+        },
+        "order": {
+          "field": "draw_order",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State or territory"
+          },
+          {
+            "field": "articles_2011",
+            "title": "April 2011",
+            "format": ","
+          },
+          {
+            "field": "articles_2025",
+            "title": "February 2025",
+            "format": ","
+          },
+          {
+            "field": "growth_times",
+            "title": "Times bigger",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/trove_states.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "articles_2011": "number",
+            "articles_2025": "number",
+            "growth_times": "number",
+            "lon": "number",
+            "lat": "number"
+          }
+        }
+      },
+      "mark": {
+        "type": "circle",
+        "filled": false,
+        "stroke": "#1E1E1A",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "articles_2011",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State or territory"
+          },
+          {
+            "field": "articles_2011",
+            "title": "April 2011",
+            "format": ","
+          },
+          {
+            "field": "articles_2025",
+            "title": "February 2025",
+            "format": ","
+          },
+          {
+            "field": "growth_times",
+            "title": "Times bigger",
+            "format": ".1f"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
+    "title": {
+      "font": "'Libre Caslon Text', Georgia, serif",
+      "fontSize": 18,
+      "subtitleFontSize": 13,
+      "subtitleColor": "#55554D"
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

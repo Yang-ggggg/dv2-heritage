@@ -1,0 +1,63 @@
+/* Draft styles: final colours and spacing are decided in the polish phase */
+:root {
+  --ink: #1E1E1A;
+  --ink-secondary: #55554D;
+  --ground: #FFFFFF;
+  --gutter: 24px;
+  --section-gap: 96px;   /* at least 2x the gap inside a section */
+  --inner-gap: 32px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.page {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 56px 24px 72px;
+}
+
+.section { margin-bottom: var(--section-gap); }
+
+h1, h2 { font-family: 'Libre Caslon Text', Georgia, serif; margin: 0 0 12px; }
+h1 { font-size: 48px; line-height: 1.1; }
+h2 { font-size: 32px; line-height: 1.2; }
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-secondary);
+}
+
+.subtitle { margin: 0 0 8px; font-size: 22px; color: var(--ink-secondary); }
+.byline { margin: 0; font-size: 14px; color: var(--ink-secondary); }
+.body-text { max-width: 60ch; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--gutter);
+  row-gap: var(--inner-gap);
+}
+.span-4 { grid-column: span 4; }
+.span-6 { grid-column: span 6; }
+.span-8 { grid-column: span 8; }
+.span-12 { grid-column: span 12; }
+
+figure { margin: 0; min-width: 0; }
+
+/* small screens: stack the columns, never scroll sideways */
+@media (max-width: 900px) {
+  .span-4, .span-6, .span-8 { grid-column: span 12; }
+}
