@@ -36,5 +36,11 @@
     "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
     "fontSize": 13,
     "color": "#1E1E1A"
+  },
+  "padding": {
+    "left": 0,
+    "top": 5,
+    "right": 5,
+    "bottom": 5
   }
 }

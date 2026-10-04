@@ -1,0 +1,149 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": [
+      "Only 3 in 10 manuscript",
+      "items are online"
+    ],
+    "subtitle": [
+      "Items in the National Library's",
+      "manuscript collections (March 2023).",
+      "One square is one per cent."
+    ]
+  },
+  "width": 315,
+  "height": 363,
+  "data": {
+    "url": "data/manuscripts_waffle.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "row": "number",
+        "column": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "datum.column + floor(datum.column / 5) * 0.35",
+      "as": "left_edge"
+    },
+    {
+      "calculate": "datum.left_edge + 0.9",
+      "as": "right_edge"
+    },
+    {
+      "calculate": "datum.row",
+      "as": "top_edge"
+    },
+    {
+      "calculate": "datum.top_edge + 0.9",
+      "as": "bottom_edge"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "#8C8C84",
+        "strokeWidth": 0.75
+      },
+      "encoding": {
+        "x": {
+          "field": "left_edge",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              10.25
+            ],
+            "nice": false
+          },
+          "axis": null
+        },
+        "x2": {
+          "field": "right_edge"
+        },
+        "y": {
+          "field": "top_edge",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              11.6,
+              0
+            ],
+            "nice": false
+          },
+          "axis": null
+        },
+        "y2": {
+          "field": "bottom_edge"
+        },
+        "color": {
+          "field": "status",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Digitised",
+              "Not digitised"
+            ],
+            "range": [
+              "#3182bd",
+              "#E3E3DC"
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "title": null,
+            "symbolType": "square",
+            "symbolSize": 120
+          }
+        },
+        "tooltip": [
+          {
+            "field": "status",
+            "type": "nominal",
+            "title": "Status"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "text": "128,619 of 435,537 items",
+            "left_edge": 0,
+            "top_edge": 10.75
+          },
+          {
+            "text": "are digitised (29.5%)",
+            "left_edge": 0,
+            "top_edge": 11.4
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "fontSize": 13,
+        "fontWeight": 700
+      },
+      "encoding": {
+        "x": {
+          "field": "left_edge",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "top_edge",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "text"
+        }
+      }
+    }
+  ]
+}

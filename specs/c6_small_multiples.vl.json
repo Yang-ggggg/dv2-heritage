@@ -1,0 +1,841 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": [
+      "Newspapers stop at the copyright wall.",
+      "Other collections reach later."
+    ],
+    "subtitle": [
+      "Share of each collection's items, by decade of content",
+      "(1800 to 2029). All panels use the same scale."
+    ]
+  },
+  "data": {
+    "url": "data/decade_shares.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "decade": "number",
+        "items": "number",
+        "share_percent": "number"
+      }
+    }
+  },
+  "spacing": 36,
+  "vconcat": [
+    {
+      "hconcat": [
+        {
+          "title": {
+            "text": "Newspaper articles",
+            "subtitle": "By year of publication, February 2025",
+            "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
+            "fontSize": 15,
+            "subtitleFontSize": 12,
+            "anchor": "start",
+            "offset": 8
+          },
+          "width": 290,
+          "height": 170,
+          "transform": [
+            {
+              "filter": "datum.collection_type == 'newspapers'"
+            },
+            {
+              "calculate": "datum.decade + 10",
+              "as": "decade_end"
+            }
+          ],
+          "encoding": {
+            "x": {
+              "field": "decade",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  1800,
+                  2030
+                ],
+                "nice": false
+              },
+              "axis": {
+                "title": null,
+                "values": [
+                  1800,
+                  1850,
+                  1900,
+                  1950,
+                  2000
+                ],
+                "format": "d",
+                "grid": false
+              }
+            }
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "bar",
+                "color": "#3182bd",
+                "binSpacing": 0
+              },
+              "encoding": {
+                "x2": {
+                  "field": "decade_end"
+                },
+                "y": {
+                  "field": "share_percent",
+                  "type": "quantitative",
+                  "scale": {
+                    "domain": [
+                      0,
+                      55
+                    ]
+                  },
+                  "axis": {
+                    "title": null,
+                    "values": [
+                      0,
+                      25,
+                      50
+                    ],
+                    "labelExpr": "datum.value + '%'"
+                  }
+                },
+                "y2": {
+                  "datum": 0
+                },
+                "tooltip": [
+                  {
+                    "field": "panel_title",
+                    "title": "Collection"
+                  },
+                  {
+                    "field": "year_measured",
+                    "title": "Year measured"
+                  },
+                  {
+                    "field": "decade",
+                    "title": "Decade begins",
+                    "format": "d"
+                  },
+                  {
+                    "field": "items",
+                    "title": "Items",
+                    "format": ","
+                  },
+                  {
+                    "field": "share_percent",
+                    "title": "Share of its items (per cent)",
+                    "format": ".1f"
+                  }
+                ]
+              }
+            },
+            {
+              "data": {
+                "values": [
+                  {
+                    "decade": 1805,
+                    "share": 44,
+                    "text": "Falls from 7.5% in the 1950s"
+                  },
+                  {
+                    "decade": 1805,
+                    "share": 39,
+                    "text": "to 0.7% in the 1960s"
+                  }
+                ]
+              },
+              "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "fontSize": 13,
+                "fontWeight": 700
+              },
+              "encoding": {
+                "x": {
+                  "field": "decade",
+                  "type": "quantitative"
+                },
+                "y": {
+                  "field": "share",
+                  "type": "quantitative"
+                },
+                "text": {
+                  "field": "text"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "text": "Periodical issues",
+            "subtitle": "By date of the issue, March 2024",
+            "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
+            "fontSize": 15,
+            "subtitleFontSize": 12,
+            "anchor": "start",
+            "offset": 8
+          },
+          "width": 290,
+          "height": 170,
+          "transform": [
+            {
+              "filter": "datum.collection_type == 'periodicals'"
+            },
+            {
+              "calculate": "datum.decade + 10",
+              "as": "decade_end"
+            }
+          ],
+          "encoding": {
+            "x": {
+              "field": "decade",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  1800,
+                  2030
+                ],
+                "nice": false
+              },
+              "axis": {
+                "title": null,
+                "values": [
+                  1800,
+                  1850,
+                  1900,
+                  1950,
+                  2000
+                ],
+                "format": "d",
+                "grid": false
+              }
+            }
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "bar",
+                "color": "#3182bd",
+                "binSpacing": 0
+              },
+              "encoding": {
+                "x2": {
+                  "field": "decade_end"
+                },
+                "y": {
+                  "field": "share_percent",
+                  "type": "quantitative",
+                  "scale": {
+                    "domain": [
+                      0,
+                      55
+                    ]
+                  },
+                  "axis": {
+                    "title": null,
+                    "values": [
+                      0,
+                      25,
+                      50
+                    ],
+                    "labelExpr": "datum.value + '%'"
+                  }
+                },
+                "y2": {
+                  "datum": 0
+                },
+                "tooltip": [
+                  {
+                    "field": "panel_title",
+                    "title": "Collection"
+                  },
+                  {
+                    "field": "year_measured",
+                    "title": "Year measured"
+                  },
+                  {
+                    "field": "decade",
+                    "title": "Decade begins",
+                    "format": "d"
+                  },
+                  {
+                    "field": "items",
+                    "title": "Items",
+                    "format": ","
+                  },
+                  {
+                    "field": "share_percent",
+                    "title": "Share of its items (per cent)",
+                    "format": ".1f"
+                  }
+                ]
+              }
+            },
+            {
+              "data": {
+                "values": [
+                  {
+                    "decade": 1805,
+                    "share": 44,
+                    "text": "28% of issues are from"
+                  },
+                  {
+                    "decade": 1805,
+                    "share": 39,
+                    "text": "1955 or later"
+                  }
+                ]
+              },
+              "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "fontSize": 13,
+                "fontWeight": 700
+              },
+              "encoding": {
+                "x": {
+                  "field": "decade",
+                  "type": "quantitative"
+                },
+                "y": {
+                  "field": "share",
+                  "type": "quantitative"
+                },
+                "text": {
+                  "field": "text"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "text": "Archive files",
+            "subtitle": "By start of date range, September 2026",
+            "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
+            "fontSize": 15,
+            "subtitleFontSize": 12,
+            "anchor": "start",
+            "offset": 8
+          },
+          "width": 290,
+          "height": 170,
+          "transform": [
+            {
+              "filter": "datum.collection_type == 'archive_files'"
+            },
+            {
+              "calculate": "datum.decade + 10",
+              "as": "decade_end"
+            }
+          ],
+          "encoding": {
+            "x": {
+              "field": "decade",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  1800,
+                  2030
+                ],
+                "nice": false
+              },
+              "axis": {
+                "title": null,
+                "values": [
+                  1800,
+                  1850,
+                  1900,
+                  1950,
+                  2000
+                ],
+                "format": "d",
+                "grid": false
+              }
+            }
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "bar",
+                "color": "#e6550d",
+                "binSpacing": 0
+              },
+              "encoding": {
+                "x2": {
+                  "field": "decade_end"
+                },
+                "y": {
+                  "field": "share_percent",
+                  "type": "quantitative",
+                  "scale": {
+                    "domain": [
+                      0,
+                      55
+                    ]
+                  },
+                  "axis": {
+                    "title": null,
+                    "values": [
+                      0,
+                      25,
+                      50
+                    ],
+                    "labelExpr": "datum.value + '%'"
+                  }
+                },
+                "y2": {
+                  "datum": 0
+                },
+                "tooltip": [
+                  {
+                    "field": "panel_title",
+                    "title": "Collection"
+                  },
+                  {
+                    "field": "year_measured",
+                    "title": "Year measured"
+                  },
+                  {
+                    "field": "decade",
+                    "title": "Decade begins",
+                    "format": "d"
+                  },
+                  {
+                    "field": "items",
+                    "title": "Items",
+                    "format": ","
+                  },
+                  {
+                    "field": "share_percent",
+                    "title": "Share of its items (per cent)",
+                    "format": ".1f"
+                  }
+                ]
+              }
+            },
+            {
+              "data": {
+                "values": [
+                  {
+                    "decade": 1805,
+                    "share": 44,
+                    "text": "52% of files begin"
+                  },
+                  {
+                    "decade": 1805,
+                    "share": 39,
+                    "text": "in the 1930s"
+                  }
+                ]
+              },
+              "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "fontSize": 13,
+                "fontWeight": 700
+              },
+              "encoding": {
+                "x": {
+                  "field": "decade",
+                  "type": "quantitative"
+                },
+                "y": {
+                  "field": "share",
+                  "type": "quantitative"
+                },
+                "text": {
+                  "field": "text"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "spacing": 36
+    },
+    {
+      "hconcat": [
+        {
+          "title": {
+            "text": "Manuscript collections",
+            "subtitle": "By start of collection, March 2023",
+            "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
+            "fontSize": 15,
+            "subtitleFontSize": 12,
+            "anchor": "start",
+            "offset": 8
+          },
+          "width": 290,
+          "height": 170,
+          "transform": [
+            {
+              "filter": "datum.collection_type == 'manuscripts'"
+            },
+            {
+              "calculate": "datum.decade + 10",
+              "as": "decade_end"
+            }
+          ],
+          "encoding": {
+            "x": {
+              "field": "decade",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  1800,
+                  2030
+                ],
+                "nice": false
+              },
+              "axis": {
+                "title": null,
+                "values": [
+                  1800,
+                  1850,
+                  1900,
+                  1950,
+                  2000
+                ],
+                "format": "d",
+                "grid": false
+              }
+            }
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "bar",
+                "color": "#3182bd",
+                "binSpacing": 0
+              },
+              "encoding": {
+                "x2": {
+                  "field": "decade_end"
+                },
+                "y": {
+                  "field": "share_percent",
+                  "type": "quantitative",
+                  "scale": {
+                    "domain": [
+                      0,
+                      55
+                    ]
+                  },
+                  "axis": {
+                    "title": null,
+                    "values": [
+                      0,
+                      25,
+                      50
+                    ],
+                    "labelExpr": "datum.value + '%'"
+                  }
+                },
+                "y2": {
+                  "datum": 0
+                },
+                "tooltip": [
+                  {
+                    "field": "panel_title",
+                    "title": "Collection"
+                  },
+                  {
+                    "field": "year_measured",
+                    "title": "Year measured"
+                  },
+                  {
+                    "field": "decade",
+                    "title": "Decade begins",
+                    "format": "d"
+                  },
+                  {
+                    "field": "items",
+                    "title": "Items",
+                    "format": ","
+                  },
+                  {
+                    "field": "share_percent",
+                    "title": "Share of its items (per cent)",
+                    "format": ".1f"
+                  }
+                ]
+              }
+            },
+            {
+              "data": {
+                "values": [
+                  {
+                    "decade": 1805,
+                    "share": 44,
+                    "text": "No decade has more than"
+                  },
+                  {
+                    "decade": 1805,
+                    "share": 39,
+                    "text": "8.3% of collections"
+                  }
+                ]
+              },
+              "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "fontSize": 13,
+                "fontWeight": 700
+              },
+              "encoding": {
+                "x": {
+                  "field": "decade",
+                  "type": "quantitative"
+                },
+                "y": {
+                  "field": "share",
+                  "type": "quantitative"
+                },
+                "text": {
+                  "field": "text"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "text": "Oral history recordings",
+            "subtitle": "By year recorded, December 2023",
+            "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
+            "fontSize": 15,
+            "subtitleFontSize": 12,
+            "anchor": "start",
+            "offset": 8
+          },
+          "width": 290,
+          "height": 170,
+          "transform": [
+            {
+              "filter": "datum.collection_type == 'oral_histories'"
+            },
+            {
+              "calculate": "datum.decade + 10",
+              "as": "decade_end"
+            }
+          ],
+          "encoding": {
+            "x": {
+              "field": "decade",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  1800,
+                  2030
+                ],
+                "nice": false
+              },
+              "axis": {
+                "title": null,
+                "values": [
+                  1800,
+                  1850,
+                  1900,
+                  1950,
+                  2000
+                ],
+                "format": "d",
+                "grid": false
+              }
+            }
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "bar",
+                "color": "#3182bd",
+                "binSpacing": 0
+              },
+              "encoding": {
+                "x2": {
+                  "field": "decade_end"
+                },
+                "y": {
+                  "field": "share_percent",
+                  "type": "quantitative",
+                  "scale": {
+                    "domain": [
+                      0,
+                      55
+                    ]
+                  },
+                  "axis": {
+                    "title": null,
+                    "values": [
+                      0,
+                      25,
+                      50
+                    ],
+                    "labelExpr": "datum.value + '%'"
+                  }
+                },
+                "y2": {
+                  "datum": 0
+                },
+                "tooltip": [
+                  {
+                    "field": "panel_title",
+                    "title": "Collection"
+                  },
+                  {
+                    "field": "year_measured",
+                    "title": "Year measured"
+                  },
+                  {
+                    "field": "decade",
+                    "title": "Decade begins",
+                    "format": "d"
+                  },
+                  {
+                    "field": "items",
+                    "title": "Items",
+                    "format": ","
+                  },
+                  {
+                    "field": "share_percent",
+                    "title": "Share of its items (per cent)",
+                    "format": ".1f"
+                  }
+                ]
+              }
+            },
+            {
+              "data": {
+                "values": [
+                  {
+                    "decade": 1805,
+                    "share": 44,
+                    "text": "89% were recorded in"
+                  },
+                  {
+                    "decade": 1805,
+                    "share": 39,
+                    "text": "the 1970s to 2010s"
+                  }
+                ]
+              },
+              "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "fontSize": 13,
+                "fontWeight": 700
+              },
+              "encoding": {
+                "x": {
+                  "field": "decade",
+                  "type": "quantitative"
+                },
+                "y": {
+                  "field": "share",
+                  "type": "quantitative"
+                },
+                "text": {
+                  "field": "text"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "width": 290,
+          "height": 170,
+          "data": {
+            "values": [
+              {
+                "line": 0,
+                "text": "How to read"
+              },
+              {
+                "line": 1,
+                "text": "Each panel is one kind of collection."
+              },
+              {
+                "line": 2,
+                "text": "Each bar is one decade."
+              },
+              {
+                "line": 3,
+                "text": "Bar height is the share of its items."
+              },
+              {
+                "line": 4,
+                "text": "Every panel uses the same scale."
+              }
+            ]
+          },
+          "encoding": {
+            "x": {
+              "datum": 0,
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  1
+                ]
+              },
+              "axis": null
+            },
+            "y": {
+              "field": "line",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  6.5,
+                  -0.5
+                ]
+              },
+              "axis": null
+            },
+            "text": {
+              "field": "text"
+            }
+          },
+          "layer": [
+            {
+              "transform": [
+                {
+                  "filter": "datum.line == 0"
+                }
+              ],
+              "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "fontSize": 15,
+                "fontWeight": 700
+              }
+            },
+            {
+              "transform": [
+                {
+                  "filter": "datum.line > 0"
+                }
+              ],
+              "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "fontSize": 13
+              }
+            }
+          ]
+        }
+      ],
+      "spacing": 36
+    }
+  ]
+}

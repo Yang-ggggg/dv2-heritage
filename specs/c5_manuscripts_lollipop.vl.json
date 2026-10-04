@@ -1,0 +1,184 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": [
+      "Older manuscripts are far more",
+      "likely to be online"
+    ],
+    "subtitle": [
+      "Share of items digitised, by the decade",
+      "a collection begins (March 2023).",
+      "Decades with under 20 collections are left out."
+    ]
+  },
+  "width": 640,
+  "height": 363,
+  "data": {
+    "url": "data/manuscripts_by_decade.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "decade": "number",
+        "collections": "number",
+        "items": "number",
+        "digitised_items": "number",
+        "share_digitised": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.collections >= 20"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "decade",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          1750,
+          2010
+        ],
+        "nice": false
+      },
+      "axis": {
+        "title": "Decade the collection begins",
+        "values": [
+          1760,
+          1800,
+          1840,
+          1880,
+          1920,
+          1960,
+          2000
+        ],
+        "labelExpr": "datum.value + 's'",
+        "grid": false
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#6baed6",
+        "strokeWidth": 2.5
+      },
+      "encoding": {
+        "y": {
+          "field": "share_digitised",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "axis": {
+            "title": "Items digitised",
+            "values": [
+              0,
+              25,
+              50,
+              75,
+              100
+            ],
+            "labelExpr": "datum.value + '%'"
+          }
+        },
+        "y2": {
+          "datum": 0
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "color": "#3182bd",
+        "size": 90,
+        "opacity": 1
+      },
+      "encoding": {
+        "y": {
+          "field": "share_digitised",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "decade",
+            "title": "Decade begins",
+            "format": "d"
+          },
+          {
+            "field": "collections",
+            "title": "Collections",
+            "format": ","
+          },
+          {
+            "field": "items",
+            "title": "Items",
+            "format": ","
+          },
+          {
+            "field": "digitised_items",
+            "title": "Items digitised",
+            "format": ","
+          },
+          {
+            "field": "share_digitised",
+            "title": "Share digitised (per cent)",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "decade": 1858,
+            "share": 92,
+            "text": "1760s to 1820s: between"
+          },
+          {
+            "decade": 1858,
+            "share": 86.5,
+            "text": "64% and 99% of items are online"
+          },
+          {
+            "decade": 1912,
+            "share": 38,
+            "text": "1930s to 1980s: between"
+          },
+          {
+            "decade": 1912,
+            "share": 32.5,
+            "text": "1% and 5.5% of items are online"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "fontSize": 13,
+        "fontWeight": 700
+      },
+      "encoding": {
+        "x": {
+          "field": "decade",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "share",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "text"
+        }
+      }
+    }
+  ]
+}

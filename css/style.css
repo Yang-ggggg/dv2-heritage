@@ -42,7 +42,7 @@ h2 { font-size: 32px; line-height: 1.2; }
 
 .subtitle { margin: 0 0 8px; font-size: 22px; color: var(--ink-secondary); }
 .byline { margin: 0; font-size: 14px; color: var(--ink-secondary); }
-.body-text { max-width: 60ch; }
+.body-text { max-width: 25em; }   /* about 8-10 words per line (DV1 feedback: at most 10 words) */
 
 .grid {
   display: grid;
@@ -79,7 +79,7 @@ h3 { font-size: 16px; margin: 0 0 8px; }
 .stat-label { margin: 6px 0 0; font-size: 14px; color: var(--ink-secondary); }
 .intro { font-size: 19px; }
 .text-column .body-text { margin-top: 0; }
-.note { font-size: 14px; color: var(--ink-secondary); max-width: 60ch; }
+.note { font-size: 14px; color: var(--ink-secondary); max-width: 28em; }
 .small { font-size: 15px; }
 .source-list { padding-left: 18px; font-size: 14px; line-height: 1.5; }
 .source-list li { margin-bottom: 8px; max-width: 60ch; }
@@ -101,3 +101,6 @@ h2 { margin-bottom: 20px; }
 .nla-text { color: var(--nla); }
 figure { margin-top: 0; }
 @media (max-width: 900px) { .span-5, .span-7 { grid-column: span 12; } }
+
+/* blocks inside one section are 32px apart (inner gap); sections are 72px apart */
+.section > .grid + .grid, .section > .note + .grid { margin-top: var(--inner-gap); }
