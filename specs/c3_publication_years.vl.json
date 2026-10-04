@@ -1,0 +1,245 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Australia's online newspapers almost stop at 1955",
+    "subtitle": [
+      "Digitised newspaper articles on Trove by year of publication (February 2025). Each bar is one year."
+    ]
+  },
+  "width": 1000,
+  "height": 320,
+  "data": {
+    "url": "data/trove_by_year.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "articles_2025": "number",
+        "articles_2011": "number"
+      }
+    }
+  },
+  "params": [
+    {
+      "name": "show_2011",
+      "value": false,
+      "bind": {
+        "input": "checkbox",
+        "name": "Compare with April 2011 (grey outline) "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "calculate": "datum.year + 1",
+      "as": "year_end"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          1800,
+          2025
+        ],
+        "nice": false
+      },
+      "axis": {
+        "format": "d",
+        "title": "Year the article was published",
+        "tickCount": 12,
+        "grid": false
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "color": "#3182bd",
+        "binSpacing": 0
+      },
+      "encoding": {
+        "x2": {
+          "field": "year_end"
+        },
+        "y": {
+          "field": "articles_2025",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              5200000
+            ]
+          },
+          "axis": {
+            "title": "Articles",
+            "labelExpr": "datum.value == 0 ? '0' : format(datum.value / 1000000, '.0f') + ' million'",
+            "tickCount": 5
+          }
+        },
+        "tooltip": [
+          {
+            "field": "year",
+            "title": "Year",
+            "format": "d"
+          },
+          {
+            "field": "articles_2025",
+            "title": "Articles (Feb 2025)",
+            "format": ","
+          },
+          {
+            "field": "articles_2011",
+            "title": "Articles (Apr 2011)",
+            "format": ","
+          }
+        ],
+        "y2": {
+          "datum": 0
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "show_2011"
+        },
+        {
+          "filter": "isValid(datum.articles_2011)"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "interpolate": "step-after",
+        "color": "#6E6E66",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "y": {
+          "field": "articles_2011",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "x": 1913,
+            "y": 4783530,
+            "text": "1915: 4.8 million articles, the peak year"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -2,
+        "baseline": "middle",
+        "fontSize": 13,
+        "fontWeight": 700
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "text"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "x": 1956,
+            "y": 3661437,
+            "text": "1954: 3.66 million articles"
+          },
+          {
+            "x": 1956,
+            "y": 3261437,
+            "text": "1955: only 0.44 million (88% fewer)"
+          },
+          {
+            "x": 1956,
+            "y": 2711437,
+            "text": "Copyright: Trove mostly includes papers"
+          },
+          {
+            "x": 1956,
+            "y": 2361437,
+            "text": "published before 1956."
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "baseline": "middle",
+        "fontSize": 13
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "text"
+        },
+        "fontWeight": {
+          "condition": {
+            "test": "datum.y > 3000000",
+            "value": 700
+          },
+          "value": 400
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "x": 1955,
+            "y": 0,
+            "y2": 3900000
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#1E1E1A",
+        "strokeDash": [
+          3,
+          3
+        ]
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "y2": {
+          "field": "y2"
+        }
+      }
+    }
+  ]
+}

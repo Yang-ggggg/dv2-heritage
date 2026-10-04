@@ -20,21 +20,88 @@
       <p class="eyebrow">Australian heritage collections</p>
       <h1>Who Decides What Goes Online?</h1>
       <p class="subtitle">Law, money and demand behind Australia's digital past</p>
-      <p class="byline">By Tan Jing Yang · October 2026 · Work in progress</p>
+      <p class="byline">By Tan Jing Yang · October 2026 · Draft for the Week 11 critique</p>
+      <div class="grid stat-row">
+        <div class="stat span-3 nla"><p class="stat-number">251.0 million</p><p class="stat-label">newspaper articles on Trove (National Library of Australia), February 2025</p></div>
+        <div class="stat span-3 naa"><p class="stat-number">1.49 million</p><p class="stat-label">archive files digitised by the National Archives of Australia, 2021 to 2026</p></div>
+        <div class="stat span-3 nma"><p class="stat-number">97,214</p><p class="stat-label">objects in the National Museum of Australia's online collection</p></div>
+        <div class="stat span-3 nla"><p class="stat-number">20,083</p><p class="stat-label">oral history recordings listed on Trove</p></div>
+      </div>
+      <p class="body-text intro">Every day, libraries, archives and museums put more of Australia's past online.
+        But they cannot put everything online at once. Something has to decide what goes first and what waits.
+        This page follows three forces through the data: the law, the money and the demand from people.</p>
     </header>
+
+    <section class="section" id="growth">
+      <p class="eyebrow">Section 1</p>
+      <h2>How much is online?</h2>
+      <div class="grid">
+        <div class="span-4 text-column">
+          <p class="body-text">Trove is the National Library's free website for old newspapers. In 2011 it held 48.5 million articles.
+            By February 2025 it held 251.0 million, about five times more.</p>
+          <p class="body-text">Most of the growth happened before 2017. Since then, Trove has added about 5 million articles a year.</p>
+        </div>
+        <figure class="span-8"><div id="c1_trove_growth"></div></figure>
+        <figure class="span-12"><div id="c2_naa_calendar"></div></figure>
+      </div>
+    </section>
+
+    <section class="section" id="law">
+      <p class="eyebrow">Section 2 · Law</p>
+      <h2>The copyright wall</h2>
+      <p class="body-text">Old newspapers are out of copyright, so the library can put them online.
+        Newer papers are still protected. Trove says its newspapers are "generally" from before 1956,
+        and later papers appear only when the publisher gives permission.</p>
+      <div class="grid">
+        <figure class="span-12"><div id="c3_publication_years"></div></figure>
+      </div>
+    </section>
 
     <section class="section" id="money">
       <p class="eyebrow">Section 3 · Money</p>
       <h2>Where you live matters</h2>
+      <p class="body-text">Digitising costs money, and each state library decides how much to spend.
+        New South Wales funded a large program, so its newspapers have grown nine times since 2011.
+        The Northern Territory barely grew. Per resident, Tasmania now has the most.</p>
       <div class="grid">
         <figure class="span-6"><div id="m1_proportional_symbols"></div></figure>
         <figure class="span-6"><div id="m2_choropleth"></div></figure>
       </div>
+      <p class="note">Note: the Queensland numbers are from February 2025. Trove released more Queensland newspapers in 2026.</p>
     </section>
 
-    <footer class="section">
+    <footer class="section" id="about">
       <h2>About the data</h2>
-      <p class="body-text">Draft. Full sources, access dates and the AI acknowledgement will be added here.</p>
+      <div class="grid">
+        <div class="span-6">
+          <h3>Sources</h3>
+          <ul class="source-list">
+            <li>Trove newspaper totals (weekly harvests to 16 February 2025), Tim Sherratt.
+              <a href="https://github.com/wragge/trove-newspaper-totals">github.com/wragge/trove-newspaper-totals</a>. Accessed 5 October 2026.</li>
+            <li>Trove newspaper totals (historical snapshots 2011 to 2022), Tim Sherratt.
+              <a href="https://github.com/wragge/trove-newspaper-totals-historical">github.com/wragge/trove-newspaper-totals-historical</a>. Accessed 5 October 2026.</li>
+            <li>National Archives of Australia, recently digitised files (weekly, to 13 September 2026), Tim Sherratt.
+              <a href="https://github.com/wragge/naa-recently-digitised">github.com/wragge/naa-recently-digitised</a>. Accessed 5 October 2026.</li>
+            <li>Australian Bureau of Statistics, National, state and territory population, March 2026.
+              <a href="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/latest-release">abs.gov.au</a>. Accessed 5 October 2026.</li>
+            <li>Australian Bureau of Statistics, Australian Statistical Geography Standard Edition 4, state and territory boundaries 2026.
+              <a href="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-4-july-2026-june-2031/access-and-downloads/digital-boundary-files">abs.gov.au</a>. Accessed 5 October 2026.</li>
+            <li>Trove, "Welcome to the Public Domain" (15 December 2025).
+              <a href="https://trove.nla.gov.au/announcement/2025/12/15/welcome-public-domain">trove.nla.gov.au</a>. Accessed 5 October 2026.</li>
+            <li>Tim Sherratt, Trove Data Guide, "Understanding the digitised newspapers".
+              <a href="https://tdg.glam-workbench.net/newspapers-and-gazettes/newspaper-corpus.html">tdg.glam-workbench.net</a>. Accessed 5 October 2026.</li>
+          </ul>
+        </div>
+        <div class="span-6">
+          <h3>Method</h3>
+          <p class="body-text small">All numbers were computed in Python from the sources listed here. Missing weeks are shown as missing, never as zero.
+            The maps use an Albers equal-area conic projection. The map of articles per resident divides all digitised articles by today's population.</p>
+          <h3>Use of AI</h3>
+          <p class="body-text small">I used Claude (Anthropic) to help find and check data, write Python and Vega-Lite code, plan the layout and check grammar.
+            All design decisions and final text were reviewed by me.</p>
+          <p class="body-text small">Author: Tan Jing Yang, FIT3179 Data Visualisation, Monash University, October 2026.</p>
+        </div>
+      </div>
     </footer>
 
   </main>

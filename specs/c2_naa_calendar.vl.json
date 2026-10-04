@@ -1,0 +1,231 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "One record week: 62,555 files in seven days",
+    "subtitle": [
+      "Archive files digitised by the National Archives of Australia each week, March 2021 to September 2026.",
+      "Each square is one week. Grey weeks were not recorded by the data harvest, so they are not counted as zero."
+    ]
+  },
+  "width": 1000,
+  "height": 150,
+  "padding": {
+    "top": 30,
+    "right": 10,
+    "left": 5,
+    "bottom": 5
+  },
+  "data": {
+    "url": "data/naa_weekly.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "files": "number",
+        "iso_year": "number",
+        "iso_week": "number",
+        "series_files": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "datum.status == 'not recorded' ? 'Not recorded' : datum.files < 1000 ? 'Under 1,000' : datum.files < 5000 ? '1,000 to 4,999' : datum.files < 10000 ? '5,000 to 9,999' : datum.files < 25000 ? '10,000 to 24,999' : '25,000 or more'",
+      "as": "weekly_class"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "iso_week",
+          "type": "ordinal",
+          "scale": {
+            "domain": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53
+            ]
+          },
+          "title": null,
+          "axis": {
+            "labelExpr": "datum.value == 1 ? 'January' : datum.value == 14 ? 'April' : datum.value == 27 ? 'July' : datum.value == 40 ? 'October' : ''",
+            "ticks": false,
+            "domain": false,
+            "labelAngle": 0,
+            "labelAlign": "left",
+            "labelOverlap": false
+          }
+        },
+        "y": {
+          "field": "iso_year",
+          "type": "ordinal",
+          "title": null,
+          "axis": {
+            "ticks": false,
+            "domain": false
+          }
+        },
+        "color": {
+          "field": "weekly_class",
+          "type": "ordinal",
+          "title": "Files digitised in the week",
+          "scale": {
+            "domain": [
+              "Not recorded",
+              "Under 1,000",
+              "1,000 to 4,999",
+              "5,000 to 9,999",
+              "10,000 to 24,999",
+              "25,000 or more"
+            ],
+            "range": [
+              "#D9D9D3",
+              "#fee6ce",
+              "#fdae6b",
+              "#fd8d3c",
+              "#e6550d",
+              "#a63603"
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "columns": 6,
+            "symbolType": "square",
+            "symbolSize": 160,
+            "titleLimit": 300
+          }
+        },
+        "tooltip": [
+          {
+            "field": "week_ending",
+            "title": "Week ending",
+            "type": "temporal",
+            "format": "%d %B %Y"
+          },
+          {
+            "field": "files",
+            "title": "Files digitised",
+            "format": ","
+          },
+          {
+            "field": "top_series_title",
+            "title": "Largest series that week"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "iso_week": 26,
+            "iso_year": 2022,
+            "text": "Record week (outlined): ending 3 July 2022, 62,555 files, mostly Bonegilla migrant cards"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "dx": 0,
+        "dy": -22,
+        "fontSize": 13,
+        "fontWeight": 700
+      },
+      "encoding": {
+        "x": {
+          "field": "iso_week",
+          "type": "ordinal"
+        },
+        "y": {
+          "value": 0
+        },
+        "text": {
+          "field": "text"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "iso_week": 26,
+            "iso_year": 2022
+          }
+        ]
+      },
+      "mark": {
+        "type": "rect",
+        "fill": null,
+        "stroke": "#1E1E1A",
+        "strokeWidth": 2.5
+      },
+      "encoding": {
+        "x": {
+          "field": "iso_week",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "iso_year",
+          "type": "ordinal"
+        }
+      }
+    }
+  ]
+}

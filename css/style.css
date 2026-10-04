@@ -61,3 +61,27 @@ figure { margin: 0; min-width: 0; }
 @media (max-width: 900px) {
   .span-4, .span-6, .span-8 { grid-column: span 12; }
 }
+
+/* --- added: header cards, notes, sources --- */
+:root {
+  --nla: #08519c;   /* National Library / Trove: blue  (text-safe shade, 7.9:1) */
+  --naa: #a63603;   /* National Archives: amber        (6.7:1) */
+  --nma: #006d2c;   /* National Museum: green          (6.5:1) */
+}
+h3 { font-size: 16px; margin: 0 0 8px; }
+.span-3 { grid-column: span 3; }
+.stat-row { margin: 32px 0; }
+.stat { border-top: 5px solid; padding-top: 12px; }
+.stat.nla { border-color: var(--nla); }
+.stat.naa { border-color: var(--naa); }
+.stat.nma { border-color: var(--nma); }
+.stat-number { margin: 0; font-size: 32px; font-weight: 700; line-height: 1.1; }
+.stat-label { margin: 6px 0 0; font-size: 14px; color: var(--ink-secondary); }
+.intro { font-size: 19px; }
+.text-column .body-text { margin-top: 0; }
+.note { font-size: 14px; color: var(--ink-secondary); max-width: 60ch; }
+.small { font-size: 15px; }
+.source-list { padding-left: 18px; font-size: 14px; line-height: 1.5; }
+.source-list li { margin-bottom: 8px; max-width: 60ch; }
+a { color: var(--nla); }
+@media (max-width: 900px) { .span-3 { grid-column: span 6; } }

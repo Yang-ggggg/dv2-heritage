@@ -1,14 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "New South Wales grew nine times, the Northern Territory not at all",
+    "text": "New South Wales grew nine times since 2011",
     "subtitle": [
-      "Digitised newspaper articles on Trove by state.",
-      "Outline circle = April 2011, filled circle = February 2025."
-    ],
-    "anchor": "start"
+      "Digitised newspaper articles on Trove by state or territory.",
+      "Outline circle = April 2011. Filled circle = February 2025."
+    ]
   },
-  "width": 500,
+  "width": 400,
   "height": 400,
   "projection": {
     "type": "conicEqualArea",
@@ -185,18 +184,81 @@
           }
         ]
       }
-    }
-  ],
-  "config": {
-    "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
-    "title": {
-      "font": "'Libre Caslon Text', Georgia, serif",
-      "fontSize": 18,
-      "subtitleFontSize": 13,
-      "subtitleColor": "#55554D"
     },
-    "view": {
-      "stroke": null
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 151.9,
+            "lat": -31.0,
+            "t1": "New South Wales",
+            "t2": "9.2 times bigger"
+          },
+          {
+            "lon": 133.4,
+            "lat": -17.6,
+            "t1": "Northern Territory",
+            "t2": "no growth (1.0 times)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "dy": -7
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t1"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 151.9,
+            "lat": -31.0,
+            "t1": "New South Wales",
+            "t2": "9.2 times bigger"
+          },
+          {
+            "lon": 133.4,
+            "lat": -17.6,
+            "t1": "Northern Territory",
+            "t2": "no growth (1.0 times)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 12,
+        "dy": 8
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t2"
+        }
+      }
     }
-  }
+  ]
 }

@@ -5,10 +5,9 @@
     "subtitle": [
       "Digitised newspaper articles on Trove (all years, February 2025)",
       "divided by residents (March 2026)."
-    ],
-    "anchor": "start"
+    ]
   },
-  "width": 500,
+  "width": 400,
   "height": 400,
   "projection": {
     "type": "conicEqualArea",
@@ -21,134 +20,367 @@
       0
     ]
   },
-  "data": {
-    "url": "data/australia_states.topojson",
-    "format": {
-      "type": "topojson",
-      "feature": "australia_states"
-    }
-  },
-  "transform": [
+  "layer": [
     {
-      "lookup": "properties.state",
-      "from": {
-        "data": {
-          "url": "data/trove_states.csv",
-          "format": {
-            "type": "csv",
-            "parse": {
-              "articles_2025": "number",
-              "population_mar2026": "number",
-              "articles_per_resident": "number"
-            }
+      "data": {
+        "url": "data/australia_states.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "australia_states"
+        }
+      },
+      "transform": [
+        {
+          "lookup": "properties.state",
+          "from": {
+            "data": {
+              "url": "data/trove_states.csv",
+              "format": {
+                "type": "csv",
+                "parse": {
+                  "articles_2025": "number",
+                  "population_mar2026": "number",
+                  "articles_per_resident": "number"
+                }
+              }
+            },
+            "key": "state",
+            "fields": [
+              "articles_2025",
+              "population_mar2026",
+              "articles_per_resident"
+            ]
+          }
+        }
+      ],
+      "params": [
+        {
+          "name": "hovered_state",
+          "select": {
+            "type": "point",
+            "on": "pointerover",
+            "clear": "pointerout",
+            "fields": [
+              "properties.state"
+            ]
+          }
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "color": {
+          "field": "articles_per_resident",
+          "type": "quantitative",
+          "title": "Articles per resident",
+          "scale": {
+            "type": "threshold",
+            "domain": [
+              5,
+              10,
+              20
+            ],
+            "range": [
+              "#bdd7e7",
+              "#6baed6",
+              "#3182bd",
+              "#08519c"
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "title": "Articles per resident",
+            "titleOrient": "left",
+            "labelExpr": "datum.label"
           }
         },
-        "key": "state",
-        "fields": [
-          "articles_2025",
-          "population_mar2026",
-          "articles_per_resident"
+        "strokeWidth": {
+          "condition": {
+            "param": "hovered_state",
+            "empty": false,
+            "value": 2.5
+          },
+          "value": 1
+        },
+        "stroke": {
+          "condition": {
+            "param": "hovered_state",
+            "empty": false,
+            "value": "#1E1E1A"
+          },
+          "value": "#FFFFFF"
+        },
+        "tooltip": [
+          {
+            "field": "properties.state",
+            "type": "nominal",
+            "title": "State or territory"
+          },
+          {
+            "field": "articles_per_resident",
+            "type": "quantitative",
+            "title": "Articles per resident",
+            "format": ".1f"
+          },
+          {
+            "field": "articles_2025",
+            "type": "quantitative",
+            "title": "Digitised articles",
+            "format": ","
+          },
+          {
+            "field": "population_mar2026",
+            "type": "quantitative",
+            "title": "Residents (Mar 2026)",
+            "format": ","
+          }
         ]
       }
-    }
-  ],
-  "params": [
+    },
     {
-      "name": "hovered_state",
-      "select": {
-        "type": "point",
-        "on": "pointerover",
-        "clear": "pointerout",
-        "fields": [
-          "properties.state"
-        ]
-      }
-    }
-  ],
-  "mark": {
-    "type": "geoshape",
-    "stroke": "#FFFFFF",
-    "strokeWidth": 1
-  },
-  "encoding": {
-    "color": {
-      "field": "articles_per_resident",
-      "type": "quantitative",
-      "title": "Articles per resident",
-      "scale": {
-        "type": "threshold",
-        "domain": [
-          5,
-          10,
-          20
-        ],
-        "range": [
-          "#bdd7e7",
-          "#6baed6",
-          "#3182bd",
-          "#08519c"
+      "data": {
+        "values": [
+          {
+            "lon": 149.1,
+            "lat": -35.4,
+            "lon2": 153.0,
+            "lat2": -37.6
+          }
         ]
       },
-      "legend": {
-        "orient": "bottom",
-        "direction": "horizontal",
-        "title": "Articles per resident",
-        "titleOrient": "left",
-        "labelExpr": "datum.label"
+      "mark": {
+        "type": "rule",
+        "color": "#1E1E1A",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude2": {
+          "field": "lon2"
+        },
+        "latitude2": {
+          "field": "lat2"
+        }
       }
     },
-    "strokeWidth": {
-      "condition": {
-        "param": "hovered_state",
-        "empty": false,
-        "value": 2.5
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 153.2,
+            "lat": -37.9,
+            "t1": "Australian Capital",
+            "t2": "Territory: 6.7",
+            "a": "left"
+          },
+          {
+            "lon": 148.9,
+            "lat": -42.4,
+            "t1": "Tasmania: 27.3",
+            "t2": "the highest",
+            "a": "left"
+          },
+          {
+            "lon": 133.4,
+            "lat": -15.8,
+            "t1": "Northern Territory",
+            "t2": "1.5, the lowest",
+            "a": "center"
+          }
+        ]
       },
-      "value": 1
-    },
-    "stroke": {
-      "condition": {
-        "param": "hovered_state",
-        "empty": false,
-        "value": "#1E1E1A"
+      "transform": [
+        {
+          "filter": "datum.a=='left'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "dy": -7
       },
-      "value": "#FFFFFF"
-    },
-    "tooltip": [
-      {
-        "field": "properties.state",
-        "type": "nominal",
-        "title": "State or territory"
-      },
-      {
-        "field": "articles_per_resident",
-        "type": "quantitative",
-        "title": "Articles per resident",
-        "format": ".1f"
-      },
-      {
-        "field": "articles_2025",
-        "type": "quantitative",
-        "title": "Digitised articles",
-        "format": ","
-      },
-      {
-        "field": "population_mar2026",
-        "type": "quantitative",
-        "title": "Residents (Mar 2026)",
-        "format": ","
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t1"
+        }
       }
-    ]
-  },
-  "config": {
-    "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
-    "title": {
-      "font": "'Libre Caslon Text', Georgia, serif",
-      "fontSize": 18,
-      "subtitleFontSize": 13,
-      "subtitleColor": "#55554D"
     },
-    "view": {
-      "stroke": null
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 153.2,
+            "lat": -37.9,
+            "t1": "Australian Capital",
+            "t2": "Territory: 6.7",
+            "a": "left"
+          },
+          {
+            "lon": 148.9,
+            "lat": -42.4,
+            "t1": "Tasmania: 27.3",
+            "t2": "the highest",
+            "a": "left"
+          },
+          {
+            "lon": 133.4,
+            "lat": -15.8,
+            "t1": "Northern Territory",
+            "t2": "1.5, the lowest",
+            "a": "center"
+          }
+        ]
+      },
+      "transform": [
+        {
+          "filter": "datum.a=='left'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "dy": 8
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t2"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 153.2,
+            "lat": -37.9,
+            "t1": "Australian Capital",
+            "t2": "Territory: 6.7",
+            "a": "left"
+          },
+          {
+            "lon": 148.9,
+            "lat": -42.4,
+            "t1": "Tasmania: 27.3",
+            "t2": "the highest",
+            "a": "left"
+          },
+          {
+            "lon": 133.4,
+            "lat": -15.8,
+            "t1": "Northern Territory",
+            "t2": "1.5, the lowest",
+            "a": "center"
+          }
+        ]
+      },
+      "transform": [
+        {
+          "filter": "datum.a=='center'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "dy": -7
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t1"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 153.2,
+            "lat": -37.9,
+            "t1": "Australian Capital",
+            "t2": "Territory: 6.7",
+            "a": "left"
+          },
+          {
+            "lon": 148.9,
+            "lat": -42.4,
+            "t1": "Tasmania: 27.3",
+            "t2": "the highest",
+            "a": "left"
+          },
+          {
+            "lon": 133.4,
+            "lat": -15.8,
+            "t1": "Northern Territory",
+            "t2": "1.5, the lowest",
+            "a": "center"
+          }
+        ]
+      },
+      "transform": [
+        {
+          "filter": "datum.a=='center'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "dy": 8
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t2"
+        }
+      }
     }
-  }
+  ]
 }

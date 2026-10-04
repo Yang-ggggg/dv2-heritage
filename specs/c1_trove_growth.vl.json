@@ -1,0 +1,233 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Trove's newspapers grew five times in 14 years",
+    "subtitle": [
+      "Total digitised newspaper articles on Trove at each data harvest, April 2011 to February 2025.",
+      "Dots: 9 early snapshots. Line: weekly harvests from April 2022."
+    ]
+  },
+  "width": 640,
+  "height": 300,
+  "data": {
+    "url": "data/trove_growth.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "harvest_date": "date",
+        "total_articles": "number"
+      }
+    }
+  },
+  "encoding": {
+    "x": {
+      "field": "harvest_date",
+      "type": "temporal",
+      "title": null,
+      "scale": {
+        "domain": [
+          "2010-06-01",
+          "2026-03-01"
+        ]
+      },
+      "axis": {
+        "format": "%Y",
+        "tickCount": 8,
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "total_articles",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          280000000
+        ]
+      },
+      "axis": {
+        "title": "Articles",
+        "labelExpr": "datum.value == 0 ? '0' : format(datum.value / 1000000, '.0f') + ' million'",
+        "tickCount": 7
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "color": "#3182bd",
+        "strokeWidth": 2.5
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.harvest_type == 'snapshot'"
+        }
+      ],
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "color": "#3182bd",
+        "size": 55
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "opacity": 0,
+        "size": 120
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "harvest_date",
+            "type": "temporal",
+            "title": "Harvest date",
+            "format": "%d %B %Y"
+          },
+          {
+            "field": "total_articles",
+            "title": "Articles",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "d": "2011-04-12",
+            "v": 48481646,
+            "t": "48.5 million (April 2011)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 10,
+        "dy": 4,
+        "fontWeight": 700,
+        "fontSize": 13
+      },
+      "encoding": {
+        "x": {
+          "field": "d",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "v",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "d": "2025-02-16",
+            "v": 251022068,
+            "t": "251.0 million (February 2025)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -4,
+        "dy": -16,
+        "fontWeight": 700,
+        "fontSize": 13
+      },
+      "encoding": {
+        "x": {
+          "field": "d",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "v",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "d": "2025-02-21"
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#1E1E1A",
+        "strokeDash": [
+          3,
+          3
+        ]
+      },
+      "encoding": {
+        "x": {
+          "field": "d",
+          "type": "temporal"
+        },
+        "y": {
+          "datum": 0
+        },
+        "y2": {
+          "datum": 265000000
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "d": "2025-02-21",
+            "v": 120000000,
+            "t": "Harvest stopped:"
+          },
+          {
+            "d": "2025-02-21",
+            "v": 104000000,
+            "t": "Trove cancelled the API keys"
+          },
+          {
+            "d": "2025-02-21",
+            "v": 88000000,
+            "t": "on 21 February 2025"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -6,
+        "fontSize": 12,
+        "color": "#55554D"
+      },
+      "encoding": {
+        "x": {
+          "field": "d",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "v",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t"
+        }
+      }
+    }
+  ]
+}
