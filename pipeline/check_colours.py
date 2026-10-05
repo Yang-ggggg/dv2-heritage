@@ -6,6 +6,8 @@ palette = {
     "nla_blue":   {"ramp": ["#c6dbef", "#9ecae1", "#6baed6", "#3182bd", "#08519c"], "base": "#3182bd", "text": "#08519c"},
     "naa_amber":  {"ramp": ["#fee6ce", "#fdae6b", "#fd8d3c", "#e6550d", "#a63603"], "base": "#e6550d", "text": "#a63603"},
     "nma_green":  {"ramp": ["#ccece6", "#99d8c9", "#66c2a4", "#2ca25f", "#006d2c"], "base": "#2ca25f", "text": "#006d2c"},
+    # M3 hex bin map: BuGn 7 without its two lightest steps, so the lightest class stays visible on the basemap #F0F0EB
+    "nma_hexbin": {"ramp": ["#F0F0EB", "#99d8c9", "#66c2a4", "#2ca25f", "#006d2c", "#00441b"], "base": "#2ca25f", "text": "#006d2c"},
     "migration_purple": {"ramp": [], "base": "#6a51a3", "text": "#54278f"},
     "context_grey": {"ramp": [], "base": "#bdbdbd", "text": "#55554d"},
 }

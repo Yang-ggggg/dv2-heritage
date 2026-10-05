@@ -1,0 +1,201 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "In mid-2022, migration records briefly took over",
+    "subtitle": [
+      "Files digitised per week by the National Archives,",
+      "monthly average, April 2021 to April 2025.",
+      "Read the thickness: the band is only centred for layout."
+    ]
+  },
+  "width": 1000,
+  "height": 320,
+  "data": {
+    "url": "data/naa_theme_months.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "files": "number",
+        "files_per_week": "number",
+        "recorded_weeks": "number",
+        "weeks_in_month": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "datum.theme == 'Second World War service records' || datum.theme == 'Migration and citizenship records' ? datum.theme : 'All other files'",
+      "as": "theme_group"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "files_per_week",
+          "as": "files_per_week"
+        }
+      ],
+      "groupby": [
+        "month",
+        "theme_group",
+        "recorded_weeks",
+        "weeks_in_month"
+      ]
+    },
+    {
+      "calculate": "toDate(datum.month + '-15')",
+      "as": "month_date"
+    },
+    {
+      "calculate": "indexof(['Second World War service records','Migration and citizenship records','All other files'], datum.theme_group)",
+      "as": "layer_order"
+    }
+  ],
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "chosen_theme",
+          "select": {
+            "type": "point",
+            "fields": [
+              "theme_group"
+            ]
+          },
+          "bind": "legend"
+        }
+      ],
+      "mark": {
+        "type": "area",
+        "interpolate": "monotone",
+        "stroke": "#FFFFFF",
+        "strokeWidth": 0.75
+      },
+      "encoding": {
+        "x": {
+          "field": "month_date",
+          "type": "temporal",
+          "title": null,
+          "axis": {
+            "format": "%Y",
+            "tickCount": "year",
+            "grid": false
+          }
+        },
+        "y": {
+          "field": "files_per_week",
+          "type": "quantitative",
+          "stack": "center",
+          "axis": null
+        },
+        "order": {
+          "field": "layer_order",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "theme_group",
+          "type": "nominal",
+          "title": "Click a theme to highlight it",
+          "scale": {
+            "domain": [
+              "Second World War service records",
+              "Migration and citizenship records",
+              "All other files"
+            ],
+            "range": [
+              "#fd8d3c",
+              "#9e9ac8",
+              "#d9d9d9"
+            ]
+          },
+          "legend": {
+            "orient": "top",
+            "direction": "horizontal",
+            "titleOrient": "left",
+            "symbolType": "square",
+            "symbolSize": 150,
+            "titleLimit": 300,
+            "labelLimit": 300
+          }
+        },
+        "opacity": {
+          "condition": {
+            "param": "chosen_theme",
+            "value": 1
+          },
+          "value": 0.2
+        },
+        "tooltip": [
+          {
+            "field": "month_date",
+            "type": "temporal",
+            "title": "Month",
+            "format": "%B %Y"
+          },
+          {
+            "field": "theme_group",
+            "type": "nominal",
+            "title": "Theme"
+          },
+          {
+            "field": "files_per_week",
+            "type": "quantitative",
+            "title": "Files per week",
+            "format": ",.0f"
+          },
+          {
+            "field": "recorded_weeks",
+            "type": "quantitative",
+            "title": "Weeks with data"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "d": "2022-09-01",
+            "y": 30000,
+            "text": "June 2022: 72% of files"
+          },
+          {
+            "d": "2022-09-01",
+            "y": 27800,
+            "text": "were migration records"
+          },
+          {
+            "d": "2024-06-15",
+            "y": 10000,
+            "text": "July to October 2024:"
+          },
+          {
+            "d": "2024-06-15",
+            "y": 7800,
+            "text": "few service records (under 10%)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "fontSize": 13,
+        "fontWeight": 700
+      },
+      "encoding": {
+        "x": {
+          "field": "d",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "text"
+        }
+      }
+    }
+  ]
+}

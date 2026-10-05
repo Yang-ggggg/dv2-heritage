@@ -1,0 +1,7 @@
+Harvest date: 2026-10-04
+Objects reported by API: 97214
+Objects harvested (unique ids): 97214
+Objects with a geocoded place of production: 18962
+Distinct production places: 1141
+Objects made at places in Australia: 15794
+Objects made at places outside Australia: 3168

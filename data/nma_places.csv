@@ -1,0 +1,1142 @@
+place_id,place_title,lat,lon,objects,objects_with_image,in_australia
+47,"Sydney, New South Wales, Australia",-33.85,151.2,1602,359,True
+45,"Melbourne, Victoria, Australia",-37.8167,144.967,984,296,True
+1489,"Yirrkala, East Arnhem Land, Northern Territory, Australia",-12.2528,136.892,766,0,True
+693,"Ernabella, South Australia, Australia",-26.2642,132.176,642,0,True
+80015,"Canberra, Australian Capital Territory, Australia",-35.3,149.13,641,77,True
+20,"Darwin, Northern Territory, Australia",-12.45,130.83,635,1,True
+80110,Australia,-25.0,133.0,441,197,True
+29,"London, England",51.5072,-0.1278,405,132,False
+861,"Gunbalanya (Oenpelli), Western Arnhem Land, Northern Territory, Australia",-12.32,133.05,309,1,True
+1261,"Milingimbi, Central Arnhem Land, Northern Territory, Australia",-12.1,134.92,301,0,True
+689,"England, United Kingdom",52.435,-1.6772,289,40,False
+80109,"Adelaide, South Australia, Australia",-34.9167,138.6,270,36,True
+80124,England,52.435,-1.6772,256,74,False
+143,"Aurukun, Cape York Peninsula, Queensland, Australia",-13.6,141.8,252,0,True
+205,"Bathurst Island, Tiwi Islands, Northern Territory, Australia",-11.62,130.38,239,0,True
+4555,"St Francis Xavier School, Daly River, Northern Territory, Australia",-13.75,130.68,237,0,True
+80128,Germany,51.1656,10.4514,234,104,False
+817,"Goulburn, New South Wales, Australia",-34.73,149.73,210,20,True
+4466,"Yirara College, Alice Springs, Northern Territory, Australia",-23.7603,133.87,200,0,True
+124,"Milingimbi, Arnhem Land, Northern Territory, Australia",-12.8333,134.833,182,3,True
+4304,"Dhupuma College, Nhulunbuy, Northern Territory, Australia",-12.1825,136.782,165,0,True
+522,"Cooma, New South Wales, Australia",-36.22,149.12,163,2,True
+1194,"Maningrida, West Arnhem Land, Northern Territory, Australia",-12.05,134.217,163,0,True
+1302,"Mornington Island, Queensland, Australia",-16.55,139.4,152,0,True
+576,"Daly River, Northern Territory, Australia",-13.3,130.25,141,1,True
+80386,"Victoria, Australia",-37.4714,144.785,137,26,True
+80140,"New South Wales, Australia",-31.2531,146.921,128,8,True
+845,"Groote Eylandt, Northern Territory, Australia",-13.9333,136.6,127,0,True
+1551,"Old Parliament House, Parkes, Canberra, Australian Capital Territory, Australia",-35.3023,149.13,124,0,True
+80380,United States of America,39.7539,-101.573,121,33,False
+9,"London, England",51.5072,-0.1278,117,8,False
+553,"Minjilang, Croker Island, Northern Territory, Australia",-11.1492,132.56,115,0,True
+4681,"Mornington Island State School, Queensland, Australia",-16.6667,139.182,115,0,True
+4567,"Yirrkala School, Yirrkala, East Arnhem Land, Northern Territory, Australia",-12.2528,136.892,114,0,True
+64,"Hobart, Hobart, Tasmania, Australia",-42.8667,147.317,111,33,True
+1883,"Tasmania, Australia",-41.9253,146.497,108,15,True
+1438,"New York, United States of America",40.7164,-73.2936,107,18,False
+1786,"Milikapiti (Snake Bay), Melville Island, Tiwi Islands, Northern Territory, Australia",-11.4,130.67,100,0,True
+80019,"Central Australia, Northern Territory, Australia",-24.3617,133.735,98,0,True
+1240,"Melville Island, Tiwi Islands, Northern Territory, Australia",-11.55,130.93,98,0,True
+1485,"North Sydney, Sydney, New South Wales, Australia",-33.839,151.207,96,1,True
+1129,"Lockhart River, Queensland, Australia",-12.9,143.4,90,0,True
+2148,"Yarra Glen, Victoria, Australia",-37.65,145.37,85,56,True
+80330,"South Australia, Australia",-30.0003,136.209,85,13,True
+5,"Queanbeyan, New South Wales, Australia",-35.3549,149.232,84,1,True
+682,"Elwood, Melbourne, Victoria, Australia",-37.88,144.98,82,0,True
+80302,"Queensland, Australia",-20.9175,142.703,81,13,True
+80448,"Western Australia, Australia",-27.6728,121.628,80,9,True
+1582,"Papunya, Central Australia, Northern Territory, Australia",-23.22,131.9,77,0,True
+336,"Broome, Western Australia, Australia",-17.95,122.23,75,0,True
+1992,"Dandenong Ranges, Victoria, Australia",-37.8331,145.35,73,0,True
+80132,Great Britain,55.3781,-3.4358,63,35,False
+1011,"Kimberley, Western Australia, Australia",-17.9167,122.2,62,0,True
+80373,"Torres Strait Islands, Queensland, Australia",-10.5,142.25,61,0,True
+1639,"Port Keats (Wadeye), Northern Territory, Australia",-14.12,129.53,61,0,True
+1321,"Mowanjum, West Kimberley, Western Australia, Australia",-17.3561,123.701,58,0,True
+957,Italy,41.8719,12.5672,56,0,False
+93,"Alice Springs, Northern Territory, Australia",-23.7,133.87,53,1,True
+16,"Brisbane, Queensland, Australia",-27.4711,153.024,53,6,True
+1434,"New Norfolk, Tasmania, Australia",-42.77,147.05,52,4,True
+80178,"Northern Territory, Australia",-19.4914,132.551,51,1,True
+4573,"Aurukun State School, Aurukun, Cape York, QLD, Australia",-13.3536,141.729,51,0,True
+1771,"Sheffield, England",53.3811,-1.47,50,16,False
+80126,France,46.5592,2.2742,50,8,False
+1603,"Perth, Western Australia, Australia",-31.95,115.85,50,4,True
+1585,"Paris, France",48.8567,2.3522,49,6,False
+80119,China,35.8617,104.195,49,4,False
+80068,"Hermannsburg, Northern Territory, Australia",-23.95,132.77,46,2,True
+1911,"The Rocks, Sydney, New South Wales, Australia",-33.42,149.42,46,1,True
+80378,United Kingdom,54.91,-2.8783,44,7,False
+304,"Utopia, Northern Territory, Australia",-22.22,143.55,44,0,True
+1084,"Lake Tyers, East Gippsland, Victoria, Australia",-37.85,148.07,43,0,True
+3973,"Thursday Island Primary School, Thursday Island, Torres Strait, Australia",-10.5825,142.216,43,0,True
+1058,"La Perouse, Sydney, New South Wales, Australia",-33.97,151.23,41,0,True
+1205,"Mapoon, Queensland, Australia",-12.02,141.9,41,0,True
+4571,"Kormilda College, Berrimah, Darwin, Northern Territory, Australia",-12.4436,130.922,41,0,True
+392,"Cairns, Queensland, Australia",-22.62,148.25,40,2,True
+2489,"Canning Stock Route, Australia",-25.9775,120.324,40,0,True
+4658,"Walhallow Primary School, Caroona, New South Wales, Australia",-31.3955,150.419,39,0,True
+1479,"North Fitzroy, Melbourne, Victoria, Australia",-37.7886,144.979,38,4,True
+80295,"Papua New Guinea, Oceania",-6.6867,144.459,38,0,False
+790,"Glasgow, Scotland",55.8642,-4.2517,38,7,False
+4598,"Woodenbong Central School, Woodenbong, New South Wales, Australia",-28.389,152.611,38,0,True
+2182,"Yuendumu, Northern Territory, Australia",-22.254,131.795,36,0,True
+912,"Blackstone (Papulankutja Aboriginal community), Western Australia, Australia",-25.9926,128.285,36,0,True
+1752,"Saibai Island, Torres Strait, Queensland, Australia",-9.4,142.68,36,0,True
+2037,"Warakurna Community, Western Australia, Australia",-25.0086,128.29,36,0,True
+80135,Japan,36.2047,138.253,36,5,False
+1520,"North Western Australia, Western Australia, Australia",-17.8172,125.537,35,0,True
+1545,"Ltyentye Apurte (Santa Teresa), Northern Territory, Australia",-24.1307,134.373,34,0,True
+1886,"Tabulam, New South Wales, Australia",-28.85,152.52,34,0,True
+1918,"Thursday (Waiben) Island, Torres Strait, Queensland, Australia",-10.57,142.22,34,0,True
+80020,"Charlotte Waters, Northern Territory, Australia",-25.93,134.92,34,0,True
+1369,"Murray (Mer) Island, Torres Strait, Queensland, Australia",-9.9,144.05,33,0,True
+530,"Coranderrk, Victoria, Australia",-37.68,145.5,32,0,True
+4656,"St Michael's Catholic Primary School, Palm Island, Queensland, Australia",-18.7379,146.578,32,0,True
+105,"Angurugu, Groote Eylandt, Northern Territory, Australia",-13.97,136.45,31,0,True
+320,"Armadale, Melbourne, Victoria, Australia",-37.85,145.02,31,13,True
+1481,"North Melbourne, Melbourne, Victoria, Australia",-37.8029,144.948,31,0,True
+98,"Amata, South Australia, Australia",-26.15,131.13,31,0,True
+1577,"Terrey Hills, Sydney, New South Wales, Australia",-33.6831,151.223,31,0,True
+411,"Cape Leveque, Western Australia, Australia",-16.3997,122.933,31,0,True
+4245,"Sydney, New South Wales, Australia",-33.8689,151.209,31,14,True
+168,"Ballarat, Victoria, Australia",-37.55,143.85,30,5,True
+242,"Beswick, Northern Territory, Australia",-14.55,133.1,30,0,True
+1123,"Liverpool River, Arnhem Land, Northern Territory, Australia",-12.03,134.2,30,1,True
+2143,"Yalata, South Australia, Australia",-31.3827,131.622,30,0,True
+695,"Darnley (Erub) Island, Torres Strait, Queensland, Australia",-9.58,143.77,29,0,True
+1098,"Launceston, Tasmania, Australia",-41.43,147.13,29,10,True
+4743,"Wanarn Community, Western Australia, Australia",-25.2886,127.536,29,0,True
+4246,"Sydney, New South Wales, Australia",-33.8689,151.209,29,17,True
+663,"Eden, New South Wales, Australia",-37.05,149.9,28,5,True
+690,"England, Great Britain",52.435,-1.6772,28,15,False
+2064,"Weipa, Queensland, Australia",-12.62,141.87,28,0,True
+3120,"Saxony, England",53.0,-2.0,27,12,False
+2623,"Wetzlar, Germany",50.5589,8.5081,26,1,False
+256,"Birmingham, West Midlands, England",52.4861,-1.8903,26,14,False
+420,"Cape York Peninsula, Queensland, Australia",-15.0,143.0,25,0,True
+1958,"Tweed Heads, New South Wales, Australia",-28.17,153.53,25,0,True
+963,"Jamieson Range, Western Australia, Australia",-25.85,127.7,25,0,True
+3159,"London, England",51.4942,-0.1739,25,3,False
+2007,"Vienna, Austria",48.2081,16.3739,23,2,False
+723,"Forrest River, Western Australia, Australia",-15.3,128.07,23,0,True
+4652,"Alice Springs High School, Alice Springs, Northern Territory, Australia",-23.7089,133.867,23,0,True
+1867,Switzerland,46.7972,8.0931,23,4,False
+4597,"Cape Barren Island Special School, Cape Barren Island, Tasmania, Australia",-40.3734,148.019,23,0,True
+68,"Solomon Islands, Oceania",-9.6456,160.156,23,0,False
+277,"Bogan River, New South Wales, Australia",-33.0,148.03,22,0,True
+1173,"Maitland, New South Wales, Australia",-32.72,151.55,21,2,True
+4602,"Murrupurtiyanuwu Catholic Primary School, Wurrumiyanga, Bathurst Island, Northern Territory, Australia",-11.7565,130.637,21,0,True
+80133,Hong Kong,22.3964,114.109,20,3,False
+1128,"Liverpool, Merseyside, England",53.4084,-2.99157,20,7,False
+744,"Cremorne, Melbourne, Victoria, Australia",-37.83,144.993,20,1,True
+213,"Bavaria, Germany",48.7906,11.4978,20,8,False
+2085,"Western Arnhem Land, Northern Territory, Australia",-27.6728,121.628,20,0,True
+4600,"Canbbage Tree Island Public School, Cabbage Tree Island, New South Wales, Australia",-28.9842,153.457,20,0,True
+1578,"Pambula, New South Wales, Australia",-36.92,149.88,20,0,True
+2496,"Cardwell, Queensland, Australia",-18.25,146.02,19,0,True
+2295,"Gympie, Queensland, Australia",-26.18,152.65,19,5,True
+4137,"Tunstall, England",54.3575,-1.6694,19,0,False
+1815,"South-west Western Australia, Western Australia, Australia",-32.0475,117.612,19,0,True
+1836,"Dudley, Staffordshire, England",52.5123,-2.08111,19,6,False
+113,"Archer River, Queensland, Australia",-13.35,142.6,19,0,True
+740,"Fregon, South Australia, Australia",-26.75,132.02,18,0,True
+2666,"Orroroo, South Australia, Australia",-32.7344,138.613,18,17,True
+1150,"Macdonnell Ranges, Northern Territory, Australia",-23.7,132.5,18,1,True
+2024,"Walsall, West Midlands, England",52.5861,-1.9828,18,0,False
+2904,"Sunshine, Melbourne, Victoria, Australia",-37.7833,144.833,18,2,True
+25,"Lake Eyre, South Australia, Australia",-28.67,137.17,18,0,True
+2376,"Cherbourg Mission, Cherbourg, Queensland, Australia",-26.2919,151.954,18,0,True
+1547,"Engawala, Northern Territory, Australia",-22.8053,134.458,18,0,True
+1532,"Numbulwar, East Arnhem Land, Northern Territory, Australia",-14.27,135.73,17,0,True
+2358,"Central Australia, Australia",-23.8989,133.822,17,1,True
+1413,"Narrandera, New South Wales, Australia",-34.73,146.55,17,0,True
+1383,"Mutitjulu, Northern Territory, Australia",-25.33,131.07,17,0,True
+2015,"Wagga Wagga, New South Wales, Australia",-35.2,147.583,17,6,True
+3226,Scotland,56.4906,-4.2025,17,7,False
+1548,"Titjikala, Northern Territory, Australia",-24.6803,134.075,16,0,True
+2382,"Megisti, Greece",36.1494,29.5933,16,8,False
+873,"Guthega, Snowy Mountains, New South Wales, Australia",-36.37,148.37,16,2,True
+927,"Horsham, Victoria, Australia",-36.7,142.2,16,3,True
+667,"Edinburgh, Scotland",55.9533,-3.1883,16,0,False
+150,"Beaconsfield, Melbourne, Victoria, Australia",-38.0507,145.366,16,1,True
+2560,"Sydney, New South Wales, Australia",-35.6089,149.341,15,1,True
+3949,"Owarika AKA Santa Catalina Island, Solomon Islands",-10.89,162.446,15,0,False
+1366,"Murchison, Western Australia, Australia",-26.88,115.95,15,0,True
+293,"Bolkdjam, Central Arnhem Land, Northern Territory, Australia",-12.4,134.42,15,0,True
+4595,"Nollamara Primary School, Nollamara, Perth, Western Australia, Australia",-31.8852,115.84,15,0,True
+1835,"Moa Island, St Paul’s, Torres Strait, Queensland, Australia",-10.1831,142.265,15,0,True
+35,"Newcastle, New South Wales, Australia",-32.92,151.78,15,2,True
+66,Fiji,-17.7133,178.065,15,0,False
+4677,"Mawson station, Mac.Roberston Land, Antarctica",-67.6028,62.8731,14,13,False
+2620,"Fitzroy Crossing, Western Australia, Australia",-18.1906,125.567,14,0,True
+2271,"Redfern, Sydney, New South Wales, Australia",-33.88,151.2,14,1,True
+719,"Flinders Ranges, South Australia, Australia",-31.3775,138.599,14,0,True
+3112,"Devon, England",50.7333,-3.81667,14,13,False
+4596,"Jervis Bay School, Jervis Bay Village, Australian Capital Territory, Australia",-35.1315,150.706,14,0,True
+1144,"Avalon, Sydney, New South Wales, Australia",-33.33,148.48,13,0,True
+813,"Goulburn Islands, Northern Territory, Australia",-11.55,133.45,13,0,True
+3977,"Bidyadanga (La Grange), Western Australia, Australia",-18.68,121.77,13,0,True
+483,"Cleveland, Ohio, United States of America",41.4992,-81.6944,13,1,False
+649,"East Gippsland, Victoria, Australia",-37.38,148.35,13,0,True
+1832,"Saint Kilda, Melbourne, Victoria, Australia",-37.85,144.97,13,0,True
+1876,"University of Sydney, Sydney, New South Wales, Australia",-33.9,151.183,13,5,True
+675,"Galiwin'ku (Elcho Island), Northern Territory, Australia",-11.95,135.73,13,0,True
+781,"Geelong, Victoria, Australia",-38.15,144.35,12,4,True
+354,"Buderim, Queensland, Australia",-26.68,153.07,12,0,True
+1717,"Rochester, New York, United States of America",43.1611,-77.6108,12,3,False
+57,"Sydney, New South Wales, Australia",-33.7333,150.683,12,0,True
+1119,"Lithgow, New South Wales, Australia",-33.47,150.15,12,3,True
+80175,New Zealand,-40.9006,174.886,12,3,False
+393,"California, United States of America",36.7783,-119.418,12,2,False
+1820,"London, England",51.5072,-0.1278,12,2,False
+1964,"Uluru, Northern Territory, Australia",-25.33,131.02,12,0,True
+604,"Derby, Western Australia, Australia",-17.38,123.67,12,2,True
+2162,"Yass, New South Wales, Australia",-34.82,148.9,12,6,True
+1288,"Montreal, Canada",45.5017,-73.5672,12,1,False
+235,"Berlin, Germany",52.52,13.405,11,1,False
+1154,"Mackay, Queensland, Australia",-21.13,149.18,11,1,True
+1461,"Nicholson Homestead, Western Australia, Australia",-18.0324,128.896,11,0,True
+528,"Cootamundra, New South Wales, Australia",-34.63,148.03,11,0,True
+1859,"Surry Hills, Sydney, New South Wales, Australia",-33.88,151.22,11,0,True
+147,Austria,47.5161,14.55,11,2,False
+2661,"Quorn, Flinders Ranges, South Australia, Australia",-32.3481,138.042,11,11,True
+2299,"Tongala, Victoria, Australia",-36.25,144.95,10,0,True
+1432,"New Jersey, United States of America",39.6914,-74.6556,10,0,False
+990,"Katherine, Northern Territory, Australia",-14.47,132.27,10,0,True
+2111,"Irrunytju (Wingellina), Western Australia, Australia",-26.0653,128.935,10,0,True
+294,"Borroloola, Northern Territory, Australia",-16.07,136.3,10,0,True
+653,"East Kimberley, Western Australia, Australia",-15.7727,128.74,10,0,True
+80127,"Fremantle, Perth, Western Australia, Australia",-32.0569,115.744,10,0,True
+586,"Narridy, South Australia, Australia",-33.4256,138.305,10,0,True
+4601,"Ceduna Area School, Ceduna, South Australia, Australia",-32.1372,133.669,10,0,True
+4189,"Euramo, Tully, Queensland, Australia",-18.0,145.9,10,0,True
+1938,"Townsville, Queensland, Australia",-19.25,146.82,10,0,True
+166,Lithuania,55.1694,23.8811,10,0,False
+1530,"St Marys, Sydney, New South Wales, Australia",-33.7833,150.783,10,0,True
+80088,"Port George IV, Western Australia, Australia",-15.37,124.65,9,0,True
+2619,"Jena, Germany",50.9269,11.5892,9,3,False
+580,"Darling River, New South Wales, Australia",-29.95,146.3,9,0,True
+1936,"Towamba, New South Wales, Australia",-37.07,149.68,9,1,True
+525,"Cooper Creek, South Australia, Australia",-28.3833,137.683,9,0,True
+1694,"Ramingining, Central Arnhem Land, Northern Territory, Australia",-12.32,134.92,9,0,True
+462,"Chicago, Illinois, United States of America",41.8781,-87.6297,9,0,False
+622,"Badu Island, Torres Strait, Queensland, Australia",-10.1164,142.127,9,0,True
+4648,"Taperoo Primary School, Taperoo, South Australia, Australia",-34.8064,138.501,9,0,True
+1647,"Port Lincoln, Eyre Peninsula, South Australia, Australia",-34.72,135.85,9,0,True
+981,"Kalka, South Australia, Australia",-33.085,134.335,9,0,True
+129,"Ashfield, Sydney, New South Wales, Australia",-33.87,151.12,9,8,True
+2667,"Enfield, Adelaide, South Australia, Australia",-34.8493,138.601,9,9,True
+2643,"Delta Downs Station, Normanton, Queensland, Australia",-16.9924,141.315,9,1,True
+804,"Gongolgon, New South Wales, Australia",-30.35,146.92,9,0,True
+2662,"Clare, South Australia, Australia",-33.8397,138.613,8,8,True
+275,"Blyth River, Northern Territory, Australia",-12.05,135.58,8,0,True
+223,Belgium,50.5039,4.47,8,4,False
+1482,"North Queensland, Queensland, Australia",-17.0278,142.405,8,0,True
+400,Canada,56.1303,-106.347,8,5,False
+3986,"Ngumpan, Western Australia, Australia",-18.7686,126.036,8,0,True
+307,"Bourke, New South Wales, Australia",-30.07,145.95,8,0,True
+2025,"Wangaratta, Victoria, Australia",-36.35,146.3,8,2,True
+380,"Byrock, New South Wales, Australia",-30.48,146.4,8,0,True
+1361,"Mungeranie, South Australia, Australia",-28.02,138.65,8,0,True
+2123,"Woolgoolga, New South Wales, Australia",-30.1,153.2,8,0,True
+2348,Czech Republic,49.8175,15.4731,8,0,False
+4645,"Kirton Point Primary School, Port Lincoln, SA, Australia",-34.7312,135.87,8,0,True
+4240,"Torres Strait, Australia",-10.4167,142.167,8,0,True
+1968,"Pyramul, New South Wales, Australia",-32.8833,149.617,8,5,True
+1642,Samoa,-13.645,-172.352,8,0,False
+515,"Connecticut, United States of America",41.6031,-73.0878,8,2,False
+1567,"Oslo, Norway",59.9139,10.7522,8,1,False
+1217,"New York, New York, United States of America",40.7128,-74.0058,8,0,False
+979,"Ravenshoe, Queensland, Australia",-17.609,145.484,7,1,True
+1040,"Kununurra, Kimberley, Western Australia, Australia",-15.77,128.73,7,0,True
+991,"Fyshwick, Canberra, Australian Capital Territory, Australia",-35.3289,149.174,7,0,True
+109,Antarctica,-75.2508,-0.0714,7,5,False
+2090,"Western NSW, New South Wales, Australia",-31.9481,142.617,7,0,True
+842,"Griffith, New South Wales, Australia",-34.27,146.03,7,0,True
+1200,"Manmoyih, Arnhem Land, Northern Territory, Australia",-12.5444,134.114,7,0,True
+2635,Palestine,31.9522,35.2331,7,0,False
+3674,"Marysville, Victoria, Australia",-37.5083,145.748,7,0,True
+1513,"Northern Queensland, Queensland, Australia",-18.3928,142.804,7,0,True
+488,"Cloncurry, Queensland, Australia",-20.5,140.4,7,0,True
+122,"St Albans, Hertfordshire, England",51.7528,-0.3394,7,2,False
+191,"Barron River, Queensland, Australia",-16.87,145.77,7,0,True
+2665,"Hawker, South Australia, Australia",-31.8881,138.425,7,7,True
+267,Singapore,1.3519,103.82,7,2,False
+1112,"Leura, Blue Mountains, New South Wales, Australia",-33.7,150.33,7,3,True
+489,"Gammon Ranges, South Australia, Australia",-30.4358,139.105,7,0,True
+1704,"Richmond River, New South Wales, Australia",-28.48,152.97,7,0,True
+425,"Casino, New South Wales, Australia",-28.83,153.05,7,0,True
+2014,"Barmera, South Australia, Australia",-34.25,140.47,7,0,True
+1396,"Kingston, Canberra, Australian Capital Territory, Australia",-35.3,149.13,7,0,True
+676,"London, Cricklewood, England",51.5556,-0.2139,7,0,False
+423,"Carlton, Melbourne, Victoria, Australia",-37.8001,144.967,7,1,True
+1819,"Southern central, Australia",-26.3947,133.956,7,0,True
+1311,"Moss Vale, New South Wales, Australia",-34.53,150.37,7,1,True
+1452,"Wurrumiyanga (Nguiu), Bathurst Island, Tiwi Islands, Northern Territory, Australia",-11.75,130.63,7,0,True
+176,"Barunga, Northern Territory, Australia",-14.52,132.87,7,0,True
+511,"Condobolin, New South Wales, Australia",-33.05,147.15,7,2,True
+1159,"Macquarie Island, Tasmania, Australia, Oceania",-54.61,158.86,7,5,True
+940,Japan,35.7089,139.732,7,0,False
+1554,"Oodnadatta, South Australia, Australia",-27.5514,135.449,6,1,True
+4305,"Mainoru, Northern Territory, Australia",-14.3,134.08,6,0,True
+668,"Egypt, Africa",26.74,29.7803,6,1,False
+1454,"Mount Denison, Northern Territory, Australia",-22.13,132.07,6,0,True
+3513,"Goulburn, New South Wales, Australia",-37.0343,145.129,6,5,True
+2325,"Grong Grong, New South Wales, Australia",-34.7367,146.782,6,1,True
+2301,"Adelaide, Adelaide, South Australia, Australia",-35.27,138.48,6,0,True
+1571,Pakistan,29.8878,69.5289,6,0,False
+1276,"Mitchell River, Queensland, Australia",-15.18,141.58,6,0,True
+197,"Wollongong, New South Wales, Australia",-34.424,150.893,6,1,True
+1487,"North-Eastern Queensland, Queensland, Australia",-17.9844,145.305,6,0,True
+1495,"North-west NSW, Australia",-30.0969,142.079,6,0,True
+1812,"South-eastern South Australia, South Australia, Australia",-32.305,138.882,6,0,True
+4163,Coventry,52.4067,-1.5197,6,0,False
+1791,"Snowy Mountains, New South Wales, Australia",-36.32,148.25,6,1,True
+1176,Malta,35.9375,14.3753,6,2,False
+1198,"Manly, Sydney, New South Wales, Australia",-33.78,151.28,6,4,True
+1186,"Manchester, England",53.4808,-2.2425,6,3,False
+1458,"Nhulunbuy, Gove Peninsula, Northern Territory, Australia",-12.18,136.77,6,0,True
+1539,"Nyapari Homeland, South Australia, Australia",-26.17,130.22,6,0,True
+735,"Frankston, Victoria, Australia",-38.15,145.13,6,0,True
+1996,"Vaucluse, Sydney, New South Wales, Australia",-33.85,151.27,6,0,True
+1354,"Mulka, South Australia, Australia",-28.33,138.65,6,0,True
+1607,"Philadelphia, United States of America",39.9525,-75.1653,6,1,False
+497,"Cobar, New South Wales, Australia",-31.48,145.83,6,1,True
+146,"Drill Hall, Australian National University, Acton, Canberra, Australian Capital Territory, Australia",-35.2761,149.124,6,0,True
+999,"Australian War Memorial, Campbell, Canberra, Australian Capital Territory, Australia",-35.281,149.148,6,0,True
+1044,"Kurnell, Sydney, New South Wales, Australia",-34.0,151.2,6,0,True
+80134,India,20.5936,78.9628,6,1,False
+1216,"Marrickville, Sydney, New South Wales, Australia",-33.9,151.15,6,0,True
+2400,"Halifax, West Yorkshire, England",53.727,-1.85754,6,6,False
+2270,"Lajamanu (Hooker Creek), Northern Territory, Australia",-18.33,130.63,6,0,True
+1106,"Leicester, England",52.6369,-1.13976,6,0,False
+2286,Middle East,33.1391,35.8587,6,0,False
+1145,"Lower Murray River, South Australia, Australia",-34.0594,140.825,6,1,True
+1683,"Pyrmont, Sydney, New South Wales, Australia",-33.85,151.18,6,0,True
+1969,"Umbakumba, Groote Eylandt, Northern Territory, Australia",-13.85,136.8,6,0,True
+4079,"Parnngurr, Western Australia, Australia",-22.8173,122.597,6,0,True
+2291,"Shanghai, China",31.2303,121.474,6,0,False
+3971,"National Museum of Australia, Canberra, Australian Capital Territory, Australia",-35.2928,149.121,6,0,True
+3990,"Wiluna, Western Australia, Australia",-26.5921,120.224,6,0,True
+1363,"Prince of Wales (Muralung) Island, Torres Strait, Queensland, Australia",-10.6842,142.185,5,0,True
+1223,"Massachusetts, United States of America",42.4072,-71.3825,5,2,False
+80066,"Musgrave Ranges, South Australia, Australia",-26.3,131.87,5,2,True
+519,"Staffordshire, England",52.8792,-2.0569,5,0,False
+4479,"Hopevale Arts and Cultural Centre, Queensland, Australia",-15.2917,145.11,5,0,True
+1774,"Shepparton, Goulburn Valley, Victoria, Australia",-36.37,145.4,5,0,True
+1201,"Mansfield Park, Adelaide, South Australia, Australia",-34.85,138.55,5,0,True
+222,"Belfast, Northern Ireland",54.5972,-5.93,5,1,False
+80372,Torres Strait,-10.4167,142.167,5,0,False
+983,"Kalumburu, Western Australia, Australia",-14.28,126.63,5,0,True
+945,Indonesia,-0.7892,113.921,5,1,False
+1061,"Lachlan River, New South Wales, Australia",-34.08,149.02,5,0,True
+302,"Botgardi Outstation, Central Arnhem Land, Northern Territory, Australia",-12.2833,134.429,5,0,True
+1248,Mexico,23.6344,-102.553,5,2,False
+333,"Broken Hill, New South Wales, Australia",-31.95,141.45,5,2,True
+426,"Gawler, South Australia, Australia",-34.5972,138.745,5,1,True
+80091,"Ngukurr (Roper River), East Arnhem Land, Northern Territory, Australia",-14.73,135.38,5,0,True
+80024,"Deception Creek, Flinders Ranges, South Australia, Australia",-30.8167,138.183,5,1,True
+3781,"Subiaco, Perth, Western Australia, Australia",-31.93,115.82,5,0,True
+3183,"Middlesex, England, United Kingdom",51.5208,-0.4158,5,0,False
+713,"Finke River, Northern Territory, Australia",-25.98,135.33,5,0,True
+1562,"Orara River, New South Wales, Australia",-29.98,152.98,5,0,True
+80018,"Cape Stewart, North Arnhem Land, Northern Territory, Australia",-11.95,134.75,5,0,True
+3125,"Fitzroy, Melbourne, Victoria, Australia",-37.8,144.967,5,0,True
+2150,"Yarrabah, Cairns, Queensland, Australia",-17.02,145.87,5,0,True
+1991,"Utopia, South Australia, Australia",-22.2258,134.554,5,0,True
+1308,"Mosman, Sydney, New South Wales, Australia",-33.82,151.23,5,0,True
+772,"Gascoyne, Western Australia, Australia",-24.82,114.42,5,0,True
+453,"Chatswood, Sydney, New South Wales, Australia",-33.77,151.17,5,2,True
+1625,Poland,52.7686,18.7206,5,3,False
+1440,"Newark, New Jersey, United States of America",40.7356,-74.1722,5,1,False
+44,Cook Islands,-21.2367,-159.778,5,0,False
+1724,"Roebourne, Western Australia, Australia",-20.77,117.13,5,0,True
+1754,"Salem, Ohio, United States of America",40.9008,-80.8567,5,1,False
+1855,"Sunday Island, Western Australia, Australia",-21.406,116.944,5,0,True
+3985,"Mulan, Western Australia, Australia",-20.1006,127.592,5,0,True
+4242,"Cairns, Queensland, Australia",-16.9217,145.776,5,0,True
+659,Greece,39.0742,21.8242,5,0,False
+1499,"North-western New South Wales, New South Wales, Australia",-30.4919,142.544,5,0,True
+1420,Australia,-21.6897,148.691,5,0,True
+139,"Auckland, North Island, New Zealand",-36.8486,174.763,5,2,False
+609,"Diamantina River, Queensland, Australia",-26.9164,139.17,5,0,True
+1453,"Victory Downs, Northern Territory, Australia",-25.9852,132.976,5,0,True
+2194,"Albany, Western Australia, Australia",-35.0167,117.883,5,0,True
+1138,"Los Angeles, California, United States of America",34.0522,-118.244,5,2,False
+2664,"Jamestown, South Australia, Australia",-33.2053,138.605,5,5,True
+2203,"Exeter, Devon, England, United Kingdom",50.72,-3.52,5,3,False
+2528,"Alexandria, Sydney, New South Wales, Australia",-33.9,151.18,5,1,True
+638,"Dublin, County Dublin, Ireland",53.3497,-6.2603,5,0,False
+4657,"Prospect High School, Launceston, Tasmania, Australia",-41.4763,147.131,5,0,True
+2298,Latvia,56.8797,24.6031,5,1,False
+2451,"Nullarbor Plain, Western Australia, Australia",-31.1308,128.474,5,0,True
+938,"Hyde Park, Sydney, Sydney, New South Wales, Australia",-33.87,151.2,4,0,True
+170,"Balmain, Sydney, New South Wales, Australia",-33.83,151.17,4,2,True
+1575,"Palm Island, Queensland, Australia",-18.7,146.55,4,0,True
+4735,"Worcester, Worcestershire, United Kingdom, Europe",52.2,-2.2,4,0,False
+554,"Collingwood, Melbourne, Victoria, Australia",-37.8019,144.988,4,0,True
+2663,"Cradock, South Australia, Australia",-32.0725,138.496,4,4,True
+268,"Blue Mountains, New South Wales, Australia",-33.48,150.33,4,0,True
+1576,"Palmer River, Queensland, Australia",-16.07,142.72,4,0,True
+2142,"Riga, Latvia",56.9494,24.105,4,4,False
+4297,"Pormpuraaw, Cape York, Queensland, Australia",-14.9,141.62,4,0,True
+1744,Russia,61.9881,98.8619,4,1,False
+141,Tonga,-21.1789,-175.198,4,0,False
+431,"Castlereagh River, New South Wales, Australia",-31.28,149.07,4,0,True
+3960,"Southern Highlands Province, Papua New Guinea, Oceania",-6.5156,143.046,4,0,False
+1492,"North-eastern South Australia, South Australia, Australia",-27.9933,138.977,4,0,True
+708,"Eyre Peninsula, South Australia, Australia",-33.233,136.242,4,0,True
+3950,"Owaraha AKA Santa Ana Island, Solomon Islands",-10.8344,162.467,4,0,False
+2030,"Warburton, Western Australia, Australia",-26.22,126.65,4,0,True
+1902,"Ottawa, Ontario, Canada",45.4214,-75.6972,4,3,False
+3908,"Winkie, South Australia, Australia",-34.3,140.52,4,0,True
+2013,"Griffith, Canberra, Australian Capital Territory, Australia",-35.3253,149.137,4,0,True
+615,"Cape Shield, Djarrakpi, north east Arnhem Land, Northern Territory, Australia",-13.28,136.35,4,0,True
+417,"Cape York, Queensland, Australia",-10.68,142.52,4,0,True
+182,"Baniyala, North-east Arnhem Land, Northern Territory, Australia",-13.2,136.22,4,0,True
+4214,"Marrkolidjban, Arnhem Land, Northern Territory, Australia",-12.55,134.27,4,0,True
+2572,"Berri, South Australia, Australia",-34.27,140.58,4,0,True
+1156,"Macleay River, New South Wales, Australia",-30.73,152.25,4,0,True
+230,"Bendigo, Victoria, Australia",-36.75,144.27,4,1,True
+2520,"Noosaville, Queensland, Australia",-26.4,153.067,4,0,True
+2901,"The Crystal Palace, London, England",51.4197,-0.0767,4,4,False
+2080,"West Kimberley, Western Australia, Australia",-17.5,125.27,4,0,True
+2220,"Hobart, Tasmania, Australia",-42.8167,147.317,4,1,True
+2258,"Detroit, Michigan, United States of America",42.3314,-83.0458,4,3,False
+1007,Iraq,33.2231,43.6792,4,0,False
+1050,"Cairo, Egypt",30.0444,31.2356,4,0,False
+890,"Hawthorn, Melbourne, Victoria, Australia",-37.82,145.03,4,2,True
+1064,"Lake Alexandrina, South Australia, Australia",-35.42,139.12,4,0,True
+1051,"Kyogle, New South Wales, Australia",-28.62,153.0,4,1,True
+91,"Albury, New South Wales, Australia",-36.05,146.9,4,1,True
+1286,"Antwerp, Belgium",51.2194,4.4025,4,2,False
+869,"Gurkawuy, North-east Arnhem Land, Northern Territory, Australia",-12.97,136.5,4,0,True
+1281,"Moa Island, Torres Strait, Queensland, Australia",-10.18,142.27,4,0,True
+875,"Buffalo River, Victoria, Australia",-36.8565,146.682,4,1,True
+850,"Gulf of Carpentaria, Queensland, Australia",-13.98,139.0,4,0,True
+2658,"Copenhagen, Denmark",55.6761,12.5683,4,0,False
+1034,Korea,38.1344,126.947,4,0,False
+539,"Dursley, Gloucestershire, England",51.6786,-2.3506,4,2,False
+1633,"Port Essington, Coburg Peninsula, Northern Territory, Australia",-11.2667,132.15,4,0,True
+1772,"Gainsborough, Lincolnshire, England",53.4006,-0.7744,4,0,False
+1657,"Port Pirie, South Australia, Australia",-33.18,137.98,4,1,True
+782,"Parnngurr, Great Sandy Desert, Western Australia, Australia",-22.8173,122.597,4,0,True
+699,"Eucla, Western Australia, Australia",-31.67,128.88,4,1,True
+342,"Browns Bore, Northern Territory, Australia",-23.6103,131.239,4,0,True
+1753,"Sale, Victoria, Australia",-38.1,147.07,4,0,True
+1873,"Sydney Island, Queensland, Australia",-16.6897,139.459,4,0,True
+1436,"Lucy Creek, Northern Territory, Australia",-22.43,136.28,4,0,True
+1727,"Roebuck Bay, Western Australia, Australia",-18.08,122.28,4,0,True
+2018,"Walla Walla, New South Wales, Australia",-35.75,146.9,4,0,True
+2016,"Walcott Inlet, Western Australia, Australia",-16.37,124.58,4,0,True
+2146,"Yaamba, Rockhampton, Queensland, Australia",-23.1333,150.375,4,0,True
+2002,"Victoria River, Northern Territory, Australia",-15.0,129.58,4,0,True
+80014,"Cambridge Gulf, Western Australia, Australia",-15.67,128.75,4,1,True
+476,"Claremont, Hobart, Tasmania, Australia",-42.78,147.25,4,1,True
+3087,"Brunswick, Melbourne, Victoria, Australia",-37.7667,144.95,4,0,True
+322,"Brewarrina, New South Wales, Australia",-29.93,146.87,4,0,True
+1801,"South Coast, New South Wales, Australia",-36.1783,150.081,4,0,True
+1808,"South West Queensland, Queensland, Australia",-27.8086,141.665,4,0,True
+637,"Dubbo, New South Wales, Australia",-32.23,148.6,4,1,True
+1304,"Morobe Province, Papua New Guinea, Oceania",-6.8014,146.562,3,0,False
+266,"Bloomfield River, Queensland, Australia",-15.92,145.35,3,0,True
+2670,"Saddleworth, South Australia, Australia",-34.0826,138.781,3,3,True
+265,"Blinman, South Australia, Australia",-31.08,138.67,3,0,True
+806,"Goondiwindi, Queensland, Australia",-28.53,150.3,3,0,True
+480,"Cleland Conservation Park, Mount Lofty Ranges, South Australia, Australia",-34.9667,138.697,3,0,True
+95,"Alligator River, Northern Territory, Australia",-12.25,132.4,3,0,True
+466,"Christchurch, New Zealand",-43.5319,172.636,3,2,False
+1682,"Prospect, Adelaide, South Australia, Australia",-34.88,138.58,3,1,True
+2566,"Warraber Island, Torres Strait, Queensland, Australia",-10.4167,142.167,3,0,True
+2414,Turkey,38.9636,35.2431,3,2,False
+2441,"Darlington, Sydney, New South Wales, Australia",-33.9,151.2,3,0,True
+4702,"Aurukun State School, Aurukun, Queensland, Australia",-13.3532,141.727,3,0,True
+2296,"Leeds, England",53.8008,-1.5492,3,0,False
+1153,"Toowoomba, Queensland, Australia",-27.5592,151.953,3,2,True
+13,"Parkes, New South Wales, Australia",-33.1372,148.176,3,1,True
+130,"Java, Indonesia, Asia",-7.6144,110.712,3,1,False
+4698,"Mount Dandenong, Melbourne, Victoria, Australia",-31.51,119.72,3,0,True
+485,"Clifton Hill, Melbourne, Victoria, Australia",-37.78,144.98,3,0,True
+1249,"Michigan, United States of America",44.3147,-85.6022,3,0,False
+470,"Chungking, China",29.5631,106.552,3,0,False
+3920,"Papunya - West Camp, Northern Territory, Australia",-23.2045,131.912,3,0,True
+39,"Mangaia Island, Cook Islands",-21.9353,-157.916,3,0,False
+422,"Cairo, Egypt",30.0444,31.2356,3,1,False
+1079,"Lake Pedder, Tasmania, Australia",-43.0,146.13,3,3,True
+1449,"Newtown, Sydney, New South Wales, Australia",-33.88,151.18,3,0,True
+1537,"Schweinfurt, Germany",50.0492,10.2194,3,0,False
+1476,"Nutwood Downs, Northern Territory, Australia",-15.8,134.13,3,0,True
+591,"de Grey River, Western Australia, Australia",-20.18,119.18,3,0,True
+1522,Norway,61.8853,9.4703,3,1,False
+409,"Geneva, Switzerland",46.2042,6.1431,3,2,False
+4132,"Jigalong, Western Australia, Australia",-23.3583,120.78,3,0,True
+155,"Babinda, Queensland, Australia",-17.33,145.92,3,0,True
+1755,"San Francisco, California, United States of America",37.775,-122.419,3,2,False
+4284,France,44.5569,4.7494,3,0,False
+80077,"Nullarbor Plain, Australia",-30.8631,130.362,3,1,True
+396,"Camden, New Jersey, United States of America",39.9258,-75.1197,3,0,False
+40,"West Sepik Province, Papua New Guinea, Oceania",-3.7125,141.683,3,0,False
+1866,Sweden,64.2839,17.1825,3,0,False
+1318,Holland,52.1325,5.2911,3,3,False
+4259,"Richmond, New South Wales, Australia",-33.5996,150.751,3,3,True
+3951,"Santa Cruz Islands, Temotu Province, Solomon Islands, Oceania",-10.7244,165.923,3,0,False
+717,"Fitzroy River, Western Australia, Australia",-17.42,123.57,3,0,True
+751,"Galeri, Northern Territory, Australia",-16.1497,131.867,3,0,True
+1955,"Tumut, New South Wales, Australia",-35.3,148.22,3,1,True
+2332,"Yikarrakkal, Arnhem Land, Northern Territory, Australia",-12.5036,134.111,3,0,True
+2565,"Bentley, Perth, Western Australia, Australia",-32.0,115.92,3,0,True
+2578,"Government House, Sydney, Sydney, New South Wales, Australia",-33.8597,151.215,3,0,True
+758,"Galuru, North-east Arnhem Land, Northern Territory, Australia",-12.15,136.75,3,0,True
+1501,"North-west Western Australia, Western Australia, Australia",-21.755,117.795,3,0,True
+1398,"Nambour, Queensland, Australia",-26.62,152.95,3,1,True
+655,"East Melbourne, Melbourne, Victoria, Australia",-37.8,144.98,3,1,True
+1465,"Singleton, Northern Territory, Australia",-20.7161,134.284,3,0,True
+2027,"Warburton Range, Western Australia, Australia",-26.1,126.65,3,0,True
+204,"Torino, Italy",45.1333,7.36667,3,0,False
+3874,"Beswick Creek, Northern Territory, Australia",-14.83,132.97,3,0,True
+3907,"Moorook, South Australia, Australia",-34.27,140.35,3,0,True
+4606,"Wave Hill Station School, Wave Hill, Northern Territory, Australia",-17.38,131.1,3,0,True
+1669,"Prahran, Melbourne, Victoria, Australia",-37.85,144.98,3,0,True
+165,"Balgo, Western Australia, Australia",-20.1328,127.987,3,0,True
+1803,"South Melbourne, Melbourne, Victoria, Australia",-37.835,144.96,3,0,True
+1506,"Northern Australia, Australia",-16.5333,133.469,3,0,True
+540,"Cowarie, South Australia, Australia",-27.7,138.33,3,0,True
+526,"Gatton, Queensland, Australia",-27.5653,152.273,3,2,True
+552,"Milikapiti (Snake Bay), Melville Island, Tiwi Islands, Northern Territory, Australia",-11.4164,130.659,3,0,True
+500,"Coen River, Queensland, Australia",-13.62,142.15,3,0,True
+1616,"Pilbara, Western Australia, Australia",-21.25,118.3,3,0,True
+80447,West Germany,51.2561,7.1508,3,0,False
+1234,"Melville Bay, Gulf of Carpentaria, Northern Territory, Australia",-12.12,136.65,3,0,True
+138,"Auburn, Sydney, New South Wales, Australia",-33.83,151.03,3,3,True
+1236,"Sydney, New South Wales, Australia",-35.4678,146.615,3,2,True
+475,"Circular Quay, Sydney Cove, Sydney, New South Wales, Australia",-33.8614,151.211,3,3,True
+636,"Staffordshire, England",52.8792,-2.0569,3,1,False
+2154,"Çanakkale, Turkey",40.1467,26.4086,3,2,False
+2656,"Lambeth, London, England",51.4936,-0.1178,3,3,False
+2636,"Bethlehem, West Bank, Israel",31.7053,35.2025,3,0,False
+2108,"Thomastown, Melbourne, Victoria, Australia",-37.6832,145.011,3,0,True
+2657,"Stoke-on-Trent, Staffordshire, England",53.0028,-2.1883,3,2,False
+269,"Blue Mud Bay, North-east Arnhem Land, Northern Territory, Australia",-13.42,136.03,3,0,True
+220,"Bega, New South Wales, Australia",-36.67,149.9,3,1,True
+2202,"Camden Park, New South Wales, Australia",-34.0833,150.717,3,1,True
+80115,"Idracowra, Central Australia, Northern Territory, Australia",-24.98,133.78,3,0,True
+80097,"Todmorden Station, South Australia, Australia",-27.3622,135.428,3,0,True
+80084,"Petermann Ranges, Northern Territory, Australia",-24.9,129.25,3,2,True
+4296,"St Helens, Tasmania, Australia",-41.32,148.24,3,0,True
+3250,"Wellington, North Island, New Zealand",-41.2865,174.776,3,1,False
+263,"Blayney, New South Wales, Australia",-33.52,149.25,3,1,True
+992,"Katoomba, Blue Mountains, New South Wales, Australia",-33.7,150.32,3,0,True
+997,"Kempsey, New South Wales, Australia",-31.07,152.82,3,0,True
+419,"Camperdown, Sydney, New South Wales, Australia",-33.8902,151.185,2,1,True
+4212,"Coolangatta, Queensland, Australia",-28.1667,153.533,2,1,True
+1838,"Starcke River, Queensland, Australia",-14.8167,145.017,2,0,True
+1816,"Southampton, Southampton, England",50.9097,-1.4044,2,0,False
+196,"Barwon River, New South Wales, Australia",-29.48,146.33,2,0,True
+4082,"Patjarr, Western Australia, Australia",-24.6167,126.314,2,0,True
+4456,"Cape Denison, George V Land, Antarctica",-67.0086,142.667,2,2,False
+4329,"Mount Hagen, Western Highlands Province, Papua New Guinea, Oceania",-5.8581,144.243,2,0,False
+1735,"Rosewood Station, Northern Territory, Australia",-16.45,129.0,2,0,True
+1857,"Stuttgart, Baden-Wurttemberg, Germany",48.7758,9.1828,2,0,False
+1860,"Sussex, England",50.9281,-0.4617,2,1,False
+1862,"Swan Hill, Victoria, Australia",-35.33,143.55,2,0,True
+4280,"Palermo, Sicily, Italy",38.1156,13.3611,2,0,False
+2629,"Bruxelles, Belgium",50.8503,4.3517,2,0,False
+4558,"Piccadilly, London, England",52.435,-1.6772,2,0,False
+1671,"Hamilton, Victoria, Australia",-37.73,142.02,2,1,True
+1751,"Preston, Lancashire, England",53.7632,-2.70309,2,0,False
+449,"Cessnock, New South Wales, Australia",-32.82,151.35,2,0,True
+487,"Merrylands, Sydney, New South Wales, Australia",-33.8375,150.992,2,2,True
+477,"Clarence River, New South Wales, Australia",-29.48,152.67,2,0,True
+159,"Bairnsdale, Victoria, Australia",-37.82,147.6,2,1,True
+1565,"Orbost, East Gippsland, Victoria, Australia",-37.7,148.45,2,0,True
+1570,"Paddington, Sydney, New South Wales, Australia",-33.88,151.23,2,0,True
+1702,"Renmark, South Australia, Australia",-34.17,140.73,2,0,True
+1706,"West Bromwich, West Midlands, England",52.5175,-1.995,2,0,False
+1708,"Richmond, Melbourne, Victoria, Australia",-37.82,144.98,2,1,True
+1713,"Risdon Jail, Risdon, Hobart, Tasmania, Australia",-42.82,147.31,2,0,True
+1714,"Risdon, Hobart, Tasmania, Australia",-42.48,147.32,2,2,True
+4643,"Weipa North State High School, Weipa, QLD, Australia",-12.6275,141.88,2,0,True
+2631,"Guadalcanal, Guadalcanal Province, Solomon Islands, Oceania",-9.5772,160.146,2,0,False
+305,"Bothwell, Tasmania, Australia",-42.38,147.0,2,0,True
+2862,"Harz mountain range, Ilfeld, Thuringia, Germany",51.5772,10.7875,2,0,False
+278,"Boigu Island, Torres Strait, Queensland, Australia",-9.27,142.22,2,0,True
+211,"Bathurst, New South Wales, Australia",-33.42,149.57,2,1,True
+2088,"Western Desert, Australia",-26.1492,127.5,2,0,True
+225,"Beltana, South Australia, Australia",-30.8,138.4,2,0,True
+3287,"Sydney, New South Wales, Australia",-33.7485,151.143,2,1,True
+313,"Braidwood, New South Wales, Australia",-35.4333,149.8,2,1,True
+3155,Ireland,53.4128,-8.2439,2,1,False
+318,"Port Bradshaw, North-east Arnhem Land, Northern Territory, Australia",-12.4528,136.765,2,0,True
+3083,"Brighton, England",50.8333,-0.166667,2,1,False
+3085,"Bristol, England",51.45,-2.58333,2,1,False
+384,"Concord, New Hampshire, United States of America",43.2081,-71.5375,2,1,False
+4232,"Oberkochen, Ostalbkreis, Baden-Württemberg, Germany, Europe",48.7853,10.1047,2,0,False
+355,"Luton, Bedfordshire, England",51.8786,-0.42,2,1,False
+2020,"Wallaga Lake, New South Wales, Australia",-36.37,150.07,2,0,True
+2126,"Woombye, Queensland, Australia",-26.65,152.97,2,0,True
+2144,"Yallock, New South Wales, Australia",-32.42,144.82,2,0,True
+345,"Point Macleay Mission Station, Point Macleay (Raukkan), South Australia, Australia",-35.5333,139.1,2,0,True
+192,"Jindabyne, New South Wales, Australia",-36.4186,148.62,2,2,True
+1928,"Toronto, Canada",43.6533,-79.3831,2,0,False
+1892,"Taree, New South Wales, Australia",-31.9,152.45,2,1,True
+1903,"Tennant Creek, Northern Territory, Australia",-19.65,134.18,2,0,True
+2053,"Wattie Creek, Northern Territory, Australia",-17.4,130.87,2,0,True
+2066,"Wellington, New South Wales, Australia",-32.53,148.93,2,0,True
+2041,"Warrnambool, Victoria, Australia",-38.38,142.48,2,0,True
+2044,"Warwickshire, England",52.2672,-1.4675,2,2,False
+3883,"Caledon Bay, North-east Arnhem Land, Northern Territory, Australia",-12.83,136.55,2,0,True
+372,"Burra, South Australia, Australia",-33.67,138.93,2,0,True
+1429,"New Britain, Hartford County, Connecticut, United States of America",41.6611,-72.7794,2,2,False
+746,"Cooper Creek, West Arnhem Land, Northern Territory, Australia",-12.0794,132.686,2,0,True
+718,"Flemington, Melbourne, Victoria, Australia",-37.78,144.93,2,1,True
+720,"Southington, Connecticut, United States of America",41.5964,-72.8775,2,2,False
+80102,"Wilcannia, New South Wales, Australia",-31.55,143.37,2,0,True
+80079,"Ooldea, South Australia, Australia",-30.4556,131.837,2,0,True
+1257,"Milan, Italy",45.4653,9.1858,2,1,False
+1233,"Melrose, South Australia, Australia",-32.82,138.18,2,2,True
+1362,"Munich, Germany",48.135,11.5819,2,1,False
+1371,"Alcoota, Northern Territory, Australia",-22.82,134.45,2,0,True
+1333,New Zealand,-39.2967,174.063,2,0,False
+134,"Atherton Tableland, Queensland, Australia",-17.25,145.47,2,0,True
+824,"Grand Rapids, Michigan, United States of America",42.9633,-85.6681,2,0,False
+169,"Ballina, New South Wales, Australia",-28.82,153.53,2,0,True
+84,"Alberga River, South Australia, Australia",-27.1,135.53,2,0,True
+1161,"Macquarie River, New South Wales, Australia",-32.98,149.25,2,0,True
+1278,"Havana, Cuba",23.1136,-82.3664,2,0,False
+876,"Gwydir River, New South Wales, Australia",-29.98,151.0,2,0,True
+111,Malaysia,4.2106,101.976,2,0,False
+849,"Gulf country, Queensland, Australia",-17.4881,140.837,2,0,True
+1208,"Mareeba, Queensland, Australia",-17.03,145.5,2,0,True
+1218,"Maryborough, New South Wales, Australia",-31.07,149.53,2,0,True
+988,"Katherine River, Northern Territory, Australia",-14.65,131.7,2,0,True
+995,"Braddon, Canberra, Australian Capital Territory, Australia",-35.27,149.13,2,0,True
+1053,"Versailles, France",48.8014,2.13,2,1,False
+1001,"Government House, Yarralumla, Canberra, Australian Capital Territory, Australia",-35.3014,149.077,2,0,True
+10,"Point Puer, Carnarvon Bay, Tasmania, Australia",-43.15,147.86,2,1,True
+1,"Yogjakarta, Java, Indonesia",-7.7956,110.369,2,0,False
+101,"Amsterdam, The Netherlands",52.3703,4.8953,2,0,False
+1699,"Randwick, Sydney, New South Wales, Australia",-33.9,151.23,2,2,True
+1665,"Mukden, Liaoning, China",41.8056,123.431,2,1,False
+1668,"Wuhan, China",30.5931,114.305,2,1,False
+4676,"Macquarie Island Research Station, Macquarie Island, Tasmania, Australia, Oceania",-54.6199,158.861,2,2,True
+572,"Fitzmaurice River, Northern Territory, Australia",-14.805,129.974,2,0,True
+1517,"Moa Island, Kubin, Torres Strait, Queensland, Australia",-10.1883,142.264,2,0,True
+1620,"Pipalytjara, South Australia, Australia",-26.166,129.172,2,0,True
+1600,"Penrith, Sydney, New South Wales, Australia",-33.73,150.75,2,1,True
+625,"Teryawynia Homestead, New South Wales, Australia",-32.1313,143.259,2,0,True
+630,"Dresden, Germany",51.0504,13.7373,2,0,False
+1480,"Yambah, Northern Territory, Australia",-23.1267,133.834,2,0,True
+1456,"Supplejack Downs, Northern Territory, Australia",-19.28,129.941,2,0,True
+1559,"Orange, New South Wales, Australia",-33.27,149.1,2,0,True
+1523,"Norwood, Adelaide, South Australia, Australia",-34.92,138.63,2,1,True
+1305,"Moruya, New South Wales, Australia",-35.9,150.08,2,0,True
+578,"Darling Harbour, Sydney, New South Wales, Australia",-33.83,151.18,2,0,True
+697,"Essendon, Melbourne, Victoria, Australia",-37.75,144.9,2,1,True
+698,"Essex, England",51.7342,0.4692,2,1,False
+1426,The Netherlands,52.1325,5.2911,2,0,False
+1390,"Kilburn, Adelaide, South Australia, Australia",-34.8683,138.581,2,0,True
+1503,"Northam, Western Australia, Australia",-31.63,116.67,2,2,True
+1505,"Northampton, Northamptonshire, England",52.2406,-0.9025,2,0,False
+1468,"Marqua, Northern Territory, Australia",-22.8019,137.296,2,0,True
+652,"East Hawthorn, Melbourne, Victoria, Australia",-37.831,145.05,2,0,True
+777,"Goteborg, Sweden",57.7089,11.9744,2,0,False
+794,"Glenelg River, Western Australia, Australia",-15.82,124.73,2,1,True
+760,"Gamardi Outstation, Northern Territory, Australia",-12.2742,134.684,2,0,True
+767,"Garema Place, Civic, Canberra City, Canberra, Australian Capital Territory, Australia",-35.2783,149.132,2,0,True
+1351,"Mudgee, New South Wales, Australia",-32.57,149.58,2,0,True
+574,"Des Moines, Iowa, United States of America",41.6006,-93.6092,2,0,False
+2350,"Beijing, China",39.9042,116.407,2,0,False
+2161,"Shanghai, China",31.2303,121.474,2,0,False
+2294,"Glenrowan, Victoria, Australia",-36.45,146.22,2,0,True
+2308,"Basel, Switzerland",47.5594,7.5886,2,2,False
+118,"Areyonga, Northern Territory, Australia",-24.07,132.25,2,0,True
+2328,"Dandenong, Victoria, Australia",-37.9856,145.214,2,2,True
+2278,"Fishermens Bend, Port Melbourne, Melbourne, Victoria, Australia",-37.82,144.9,2,1,True
+918,"Holroyd River, Queensland, Australia",-14.2,141.633,2,0,True
+930,Hungary,47.1622,19.5031,2,1,False
+1031,"Walungurru (Kintore), Western Desert, Northern Territory, Australia",-23.27,129.38,2,0,True
+262,"Blacktown, New South Wales, Australia",-33.77,150.9,2,1,True
+2283,"Kunmunya Mission (aka Port George IV mission), West Kimberley, Western Australia, Australia",-15.44,124.71,2,0,True
+2570,"Mabuiag (Jervis) Island, Torres Strait, Queensland, Australia",-9.955,142.182,2,0,True
+2288,"Holborn, London, England",51.5175,-0.12,2,1,False
+949,"Inverway, Northern Territory, Australia",-17.85,129.63,2,0,True
+867,"Gunning, New South Wales, Australia",-34.77,149.27,2,0,True
+255,Thailand,15.87,100.993,2,1,False
+2571,"Flinders Island, Tasmania, Australia",-39.9836,148.053,2,0,True
+2533,"Warangesda Mission Station, Darlington Point, New South Wales, Australia",-34.5964,146.015,2,0,True
+865,"Gungahlin, Canberra, Australian Capital Territory, Australia",-35.1831,149.133,2,1,True
+2210,"Kalgoorlie, Western Australia, Australia",-30.75,121.45,2,0,True
+1109,"Leichhardt, Sydney, New South Wales, Australia",-33.88,151.15,2,0,True
+2368,Ukraine,48.3794,31.1656,2,0,False
+1869,"Sydney Cricket Ground, Moore Park, Sydney, New South Wales, Australia",-33.8915,151.225,2,1,True
+1014,"King Sound, Western Australia, Australia",-16.82,123.47,2,0,True
+2597,"Peakhurst, Sydney, New South Wales, Australia",-33.9629,151.052,2,0,True
+2178,"Young, New South Wales, Australia",-34.3,148.3,2,0,True
+2406,"Lismore, New South Wales, Australia",-28.8,153.27,2,0,True
+2648,"Dickson, Canberra, Australian Capital Territory, Australia",-35.2525,149.14,2,0,True
+2349,"Arafura Swamp, Central Arnhem Land, Northern Territory, Australia",-12.575,135.036,2,0,True
+2659,"Wilmington, Flinders Ranges, South Australia, Australia",-32.6487,138.1,2,2,True
+238,"Berrima, New South Wales, Australia",-34.47,150.33,2,0,True
+907,"Hertfordshire, England",51.8097,-0.2378,2,0,False
+2175,"Eurelia, South Australia, Australia",-32.5528,138.563,2,0,True
+1023,"Kirton Point, South Australia, Australia",-34.72,135.87,2,0,True
+579,"Darling Point, Sydney, New South Wales, Australia",-33.87,151.23,1,0,True
+2285,"Hampshire, England",50.7947,-1.1175,1,1,False
+612,"Wyndham, Western Australia, Australia",-15.4869,128.124,1,0,True
+590,"Dayton, Ohio, United States of America",39.7589,-84.1914,1,0,False
+603,"Darmstadt, Germany",49.8728,8.6512,1,0,False
+600,"Denver, Colorado, United States of America",39.7392,-104.99,1,0,False
+1528,"Cooranbong, New South Wales, Australia",-33.0739,151.451,1,0,True
+1467,"Nealarra (Rocky Point), Northern Territory, Australia",-15.6634,136.828,1,0,True
+1550,"Chambers Pillar, Central Desert, Northern Territory, Australia",-24.87,133.82,1,0,True
+1538,"Nurrungar, South Australia, Australia",-31.3235,136.778,1,1,True
+1563,"Lyndhurst, South Australia, Australia",-30.28,138.33,1,0,True
+1111,"Letchworth, England",51.9792,-0.2267,1,0,False
+1561,"Orange, New Jersey, United States of America",40.7706,-74.2325,1,0,False
+2466,"Horn (Ngurupai) Island, Torres Strait, Queensland, Australia",-10.6069,142.29,1,0,True
+1558,"Barossa Range, South Australia, Australia",-34.53,139.03,1,0,True
+1556,"Cape Dombey, Northern Territory, Australia",-13.8947,129.717,1,0,True
+583,"Darlinghurst, Sydney, New South Wales, Australia",-33.87,151.22,1,1,True
+1500,"North-western Queensland, Queensland, Australia",-19.1128,139.548,1,0,True
+1502,"Baghdad, Iraq",33.3128,44.3614,1,0,False
+1498,"North-western Macdonnell Ranges, Northern Territory, Australia",-23.9601,132.776,1,0,True
+1402,"Namugardabu, Arnhem Land, Northern Territory, Australia",-12.15,134.02,1,0,True
+1401,"Namoi River, New South Wales, Australia",-30.32,149.67,1,0,True
+14,"Murray River, Australia",-35.3939,143.732,1,0,True
+1394,"Naas Valley, Australian Capital Territory, Australia",-35.63,149.07,1,0,True
+1077,"Lake Nash, Northern Territory, Australia",-20.95,137.92,1,0,True
+1073,"Lake Frome, South Australia, Australia",-34.083,140.017,1,0,True
+1067,"Lake Darlot, Western Australia, Australia",-27.78,121.57,1,0,True
+1424,"Nepabunna, South Australia, Australia",-30.57,138.97,1,0,True
+683,"Emily Gap, Macdonnell Ranges, Northern Territory, Australia",-23.73,133.93,1,1,True
+1416,"Narromine, New South Wales, Australia",-32.22,148.23,1,1,True
+1463,"Nijmegan, Holland",17.3375,9.2211,1,0,False
+2274,"Portland, Oregon, United States of America",45.5231,-122.676,1,0,False
+688,"Enfield, Sydney, New South Wales, Australia",-33.88,151.08,1,0,True
+687,"Conway, New Hampshire, United States of America",43.9792,-71.1203,1,0,False
+71,"Kabara Island, Lau Eastern group, Fiji",-18.9592,-178.951,1,0,False
+704,"Evandale, Tasmania, Australia",-41.57,147.23,1,1,True
+1494,"Jerusalem, Israel",31.7683,35.2136,1,0,False
+703,Europe,48.691,9.14062,1,1,False
+702,"Euroa, Victoria, Australia",-36.75,145.57,1,0,True
+70,"Calcutta, India",22.5725,88.3639,1,1,False
+1491,"Toorak, Melbourne, Victoria, Australia",-37.8411,145.018,1,0,True
+2455,"Rawlinson Ranges, Western Australia, Australia",-24.85,127.9,1,0,True
+1521,"Keppel Sands, Queensland, Australia",-23.3364,150.778,1,0,True
+2462,"Johannesburg, Gauteng, South Africa",-26.2042,28.0472,1,0,False
+1515,"Northern Rivers, New South Wales, Australia",-28.6512,153.094,1,0,True
+1511,"Northern New England, New South Wales, Australia",-30.5167,151.65,1,0,True
+1509,"Northern Flinders Ranges, South Australia, Australia",-30.4167,139.167,1,0,True
+1534,"Rathmines, New South Wales, Australia",-33.0386,151.581,1,0,True
+153,"Benalla, Victoria, Australia",-36.55,146.02,1,0,True
+1529,"Nowra, New South Wales, Australia",-34.85,150.6,1,0,True
+551,"Crewe, Cheshire, England",53.1003,-2.4439,1,1,False
+550,"Narara, New South Wales, Australia",-33.3919,151.333,1,0,True
+55,"Tor Rock, Northern Territory, Australia",-11.9333,133.083,1,0,True
+545,"Old Adaminaby, New South Wales, Australia",-36.0267,148.714,1,0,True
+538,"Cowangie, Melbourne, Victoria, Australia",-35.23,141.37,1,1,True
+678,"Elizabeth Bay, Sydney, New South Wales, Australia",-33.85,151.22,1,0,True
+573,"Moonacullah, New South Wales, Australia",-35.3817,144.635,1,0,True
+2463,"Salisbury, Queensland, Australia",-27.551,153.034,1,0,True
+568,"Framlingham, Victoria, Australia",-38.2664,142.687,1,0,True
+561,"Cummeragunja, New South Wales, Australia",-36.0279,144.957,1,0,True
+2465,"Oxford, Oxfordshire, England",51.7519,-1.2575,1,1,False
+4675,"Casey Research Station, Wilkes Land, Antarctica",-66.2822,110.527,1,1,False
+4674,"Davis Research Station, Princess Elizabeth Land, Antarctica",-68.5764,77.9689,1,0,False
+4745,"Yalata School, Australia",-31.4822,131.842,1,0,True
+472,"Toledo, Spain",39.8628,-4.0272,1,0,False
+2386,"Chilla Well, Northern Territory, Australia",-21.5428,130.999,1,0,True
+239,"Parliament House, Canberra, Australian Capital Territory, Australia",-35.3081,149.124,1,0,True
+1701,"Remscheid, Germany",51.1786,7.1897,1,0,False
+2396,"Manly Beach, Manly, Sydney, New South Wales, Australia",-33.7964,151.289,1,0,True
+1690,"Mount Gillen, Alice Springs, Central Desert, Northern Territory, Australia",-23.7,133.8,1,0,True
+536,"Corrigin, Western Australia, Australia",-32.32,117.87,1,1,True
+1460,"Nicholson River, Northern Territory, Australia",-17.98,137.98,1,0,True
+1457,"Nhill, Victoria, Australia",-36.33,141.65,1,1,True
+2474,"Canley Vale, Sydney, New South Wales, Australia",-33.8817,150.943,1,0,True
+1455,"Ngukurr, Northern Territory, Australia",-14.73,134.72,1,0,True
+2482,"Middle Park, Melbourne, Victoria, Australia",-37.8519,144.963,1,0,True
+593,"Delegate, New South Wales, Australia",-37.03,148.93,1,0,True
+592,"Giles West Camp, South Australia, Australia",-26.1736,132.379,1,0,True
+2487,"Port Moresby, National Capital District, Papua New Guinea",-9.4439,147.18,1,0,False
+63,"Buka Island, Bougainville, Papua New Guinea, Oceania",-5.2383,154.645,1,0,False
+626,"The Domain, Sydney, Sydney, New South Wales, Australia",-33.85,151.22,1,1,True
+2503,"Long Nose Point, Sydney, New South Wales, Australia",-33.8467,151.187,1,0,True
+623,"Kikingura (Docker River), Northern Territory, Australia",-24.98,129.23,1,0,True
+613,"Dirranbandi, Queensland, Australia",-28.62,148.08,1,0,True
+647,"Club Terrace, East Gippsland, Victoria, Australia",-37.5186,148.93,1,0,True
+1627,"Port Adelaide, Adelaide, South Australia, Australia",-34.83,138.5,1,0,True
+635,"Willaura, Victoria, Australia",-37.5454,142.74,1,0,True
+514,"Coniston, Northern Territory, Australia",-22.05,132.5,1,0,True
+505,"Colombo, Western Province, Sri Lanka",6.9269,79.8611,1,1,False
+501,"Coleman River, Queensland, Australia",-15.1103,141.72,1,0,True
+535,"Berkhamsted, Hertfordshire, England",51.7597,-0.5678,1,0,False
+533,"Coronga Peak, New South Wales, Australia",-30.92,146.27,1,0,True
+531,"Cordillo Downs Station, South Australia, Australia",-26.7,140.62,1,0,True
+1580,"Canterbury, Sydney, New South Wales, Australia",-33.92,151.12,1,0,True
+1615,"Pigeon House Mountain, New South Wales, Australia",-35.3485,150.268,1,0,True
+1605,"Petersham, Sydney, New South Wales, Australia",-33.88,151.15,1,1,True
+2443,"Amberley, Queensland, Australia",-27.63,152.7,1,0,True
+160,"Eureka Hill, Ballarat, Victoria, Australia",38.9078,-123.546,1,0,True
+1637,"Port Hedland, Western Australia, Australia",-20.3,118.6,1,0,True
+1632,"Port Douglas, Queensland, Australia",-16.48,145.45,1,0,True
+1629,"Port Augusta, South Australia, Australia",-32.5,137.75,1,1,True
+642,"Dunwich, Queensland, Australia",-27.5,153.4,1,0,True
+880,"Hamburg, Germany",53.5511,9.9936,1,0,False
+88,Brazil,-14.235,-51.9253,1,0,False
+1254,"Middletown, England",54.4642,-3.5569,1,0,False
+1285,"Monaro, New South Wales, Australia",-36.13,149.07,1,0,True
+1277,"Mitchell River Mission, Queensland, Australia",-15.47,141.73,1,0,True
+1271,"Mirboo North, Victoria, Australia",-38.4,146.15,1,1,True
+1269,"Minjilang, Croker Island, Northern Territory, Australia",-11.13,132.57,1,0,True
+1290,"Moonee Ponds, Melbourne, Victoria, Australia",-37.75,144.92,1,0,True
+1289,"Moolooloo, South Australia, Australia",-30.98,138.57,1,0,True
+1139,"Louth, New South Wales, Australia",-37.95,141.88,1,0,True
+1137,"Lorne, Victoria, Australia",-38.53,143.97,1,0,True
+1165,Madamada,3.5842,98.6589,1,0,False
+1163,"Macumba station, South Australia, Australia",-27.03,135.4,1,0,True
+1105,"Leeton, New South Wales, Australia",-34.53,146.4,1,0,True
+811,"Gochan Jiny-jirra Outstation, Arnhem Land, Northern Territory, Australia",-12.2111,134.429,1,0,True
+805,"Goodooga, New South Wales, Australia",-29.08,147.47,1,0,True
+80445,Vietnam,14.4344,108.116,1,0,False
+884,"Hastings, New Zealand",-39.6394,176.839,1,1,False
+830,"Holroyd River, Queensland, Australia",-14.2,141.633,1,0,True
+83,"Malakula Island, Malampa Province, Vanuatu, Oceania",-16.3031,167.516,1,0,False
+892,"Hay, New South Wales, Australia",-34.48,144.83,1,1,True
+893,"Healesville, Victoria, Australia",-37.6539,145.52,1,0,True
+82,Tahiti,-17.6797,-149.407,1,0,False
+816,"Montallegro, Sicily, Agrigento province, Italy",37.3911,13.3503,1,0,False
+80017,"Cape Otway, Victoria, Australia",-38.85,143.5,1,0,True
+80010,"Balmaningarra, Western Australia, Australia",-17.3919,124.357,1,0,True
+799,"Gogo, Western Australia, Australia",-18.28,125.58,1,0,True
+80064,"Mount McCulloch, Petermann Ranges, Northern Territory, Australia",-25.25,129.93,1,0,True
+919,"Carnarvon, Wales",53.1394,-4.2739,1,1,False
+902,"Herefordshire, England",52.0764,-2.6544,1,1,False
+1066,"Lake Condah, Victoria, Australia",-38.05,141.83,1,0,True
+106,"Angus Downs Station, Northern Territory, Australia",-25.03,132.27,1,0,True
+1016,"Kingaroy, Queensland, Australia",-26.53,151.83,1,0,True
+1057,"Maidstone, Kent, England",51.2703,0.5225,1,0,False
+1022,"Kirribilli, Sydney, New South Wales, Australia",-33.83,151.22,1,0,True
+1052,"Marseilles, France",43.2964,5.3697,1,0,False
+1091,"Lane Cove, Sydney, New South Wales, Australia",-33.8,151.17,1,0,True
+1003,"Kerang, Victoria, Australia",-35.72,143.92,1,1,True
+1005,"Kew, Melbourne, Victoria, Australia",-37.8,145.03,1,0,True
+108,"Annandale, Sydney, New South Wales, Australia",-29.2,151.817,1,0,True
+1008,"Kiandra, New South Wales, Australia",-35.87,148.48,1,1,True
+948,"Inverell, New South Wales, Australia",-29.77,151.12,1,0,True
+947,"Esperance Bay, Western Australia, Australia",-33.853,121.93,1,0,True
+841,"Grey's Pocket, Barron Falls, Queensland, Australia",-16.83,145.643,1,0,True
+968,"Iwupataka, Northern Territory, Australia",-23.75,133.52,1,0,True
+96,"Woomera, South Australia, Australia",-31.2,136.82,1,0,True
+958,"Ivanhoe, Melbourne, Victoria, Australia",-37.77,145.03,1,0,True
+1158,"Charleville, Queensland, Australia",-26.4,146.23,1,0,True
+1155,"Macksville, New South Wales, Australia",-30.72,152.92,1,0,True
+1189,"Arncliffe, Sydney, New South Wales, Australia",-33.93,151.15,1,0,True
+827,"Gravesend, Kent, England",51.4419,0.3708,1,0,False
+1045,"Thirroul, New South Wales, Australia",-34.3153,150.918,1,0,True
+1215,"Maroubra, Sydney, New South Wales, Australia",-33.93,151.23,1,0,True
+1210,"Maribyrnong, Melbourne, Victoria, Australia",-37.77,144.88,1,1,True
+121,"Murik Lakes, Sepik River, Papua New Guinea",-3.81279,144.208,1,0,False
+90,"Atiu Island, Cook Islands",-19.9978,-158.107,1,0,False
+864,"Gundaroo, New South Wales, Australia",-35.02,149.32,1,0,True
+901,"Herberton, Queensland, Australia",-17.38,145.38,1,0,True
+97,"Aitape, West Sepik, Papua New Guinea",-3.1539,142.364,1,0,False
+749,"Gadji, Arnhem Land, Northern Territory, Australia",-12.27,134.82,1,0,True
+929,"Hull, East Riding of Yorkshire, England",53.7456,-0.3367,1,0,False
+1412,"Narran River, New South Wales, Australia",-29.15,148.03,1,0,True
+1403,"Dunoon, New South Wales, Australia",-28.6831,153.317,1,1,True
+1428,"Neutral Bay, Sydney, New South Wales, Australia",-33.82,151.22,1,1,True
+1451,"Ngilipitji, East Arnhem Land, Northern Territory, Australia",-13.5462,135.528,1,0,True
+1450,"Northern South Australia, South Australia, Australia",-27.8931,134.399,1,0,True
+1443,"Richmond, Surrey, England",51.4614,-0.3036,1,0,False
+1441,"Anningie, Northern Territory, Australia",-21.83,133.15,1,0,True
+1329,"Campbell Town, Tasmania, Australia",-41.9289,147.493,1,1,True
+1313,"Mossman River, Queensland, Australia",-16.43,145.4,1,0,True
+1306,"Moscow, Russia",55.7558,37.6172,1,1,False
+1117,"Lightning Ridge, New South Wales, Australia",-29.43,147.97,1,0,True
+1127,"Liverpool, Sydney, New South Wales, Australia",-33.92,150.92,1,0,True
+80062,"Mount Currie, Northern Territory, Australia",-25.02,130.55,1,0,True
+1341,"Mount Isa, Queensland, Australia",-20.53,139.47,1,0,True
+739,"Underbool, Victoria, Australia",-35.1398,141.821,1,0,True
+775,"Springwood, Blue Mountains, New South Wales, Australia",-33.7,150.55,1,0,True
+773,"Gascoyne River, Western Australia, Australia",-25.3411,116.259,1,0,True
+77,"Adelong, New South Wales, Australia",-35.28,148.05,1,1,True
+1135,"Longreach, Queensland, Australia",-23.4,144.22,1,0,True
+761,"Gan Gan, North-east Arnhem Land, Northern Territory, Australia",-13.03,135.93,1,0,True
+2399,"Oenpelli Hill, Western Arnhem Land, Northern Territory, Australia",-12.3339,133.065,1,0,True
+788,"Gisborne, Victoria, Australia",-37.48,144.58,1,0,True
+787,"Gippsland, Victoria, Australia",-37.7075,147.081,1,0,True
+776,"Gatji, Arnhem Land, Northern Territory, Australia",-12.27,134.82,1,0,True
+664,"Brinkworth, South Australia, Australia",-33.68,138.4,1,0,True
+1110,"Leonora, Western Australia, Australia",-28.6,121.37,1,0,True
+651,"Hampden, South Australia, Australia",-34.15,139.05,1,0,True
+1342,"Mount Kosciusko, Snowy Mountains, New South Wales, Australia",-36.45,148.25,1,0,True
+80060,"Mount Davies, South Australia, Australia",-26.15,129.17,1,0,True
+896,"Heidelberg, Melbourne, Victoria, Australia",-37.75,145.07,1,1,True
+897,"Henley Beach, Adelaide, South Australia, Australia",-34.9203,138.48,1,0,True
+1332,"Mount Ebenezer, Northern Territory, Australia",-25.1,132.57,1,0,True
+1372,"Murray and Darling area, New South Wales, Australia",-35.5833,138.883,1,0,True
+899,"Herbert River, Queensland, Australia",-18.53,146.28,1,0,True
+137,"Atlas Cove, Heard Island, Heard Island and McDonald Islands, Australia, Southern Ocean",-53.0231,73.3861,1,1,True
+1368,"Murray Bridge, South Australia, Australia",-35.12,139.27,1,0,True
+1389,"Cox Peninsula, Northern Territory, Australia",-12.4469,130.741,1,0,True
+1385,"Myrtleford, Victoria, Australia",-36.55,146.72,1,0,True
+1384,"Muttama, New South Wales, Australia",-34.78,148.12,1,0,True
+1380,"Musgrave, Queensland, Australia",-14.7761,143.505,1,0,True
+1377,"Murwillumbah, New South Wales, Australia",-28.32,153.38,1,0,True
+1376,"Murrumbidgee River, New South Wales, Australia",-35.65,149.13,1,0,True
+755,"Galiwin'ku, Elcho Island, Northern Territory, Australia",-12.02,135.55,1,0,True
+1266,"Millicent, South Australia, Australia",-37.58,140.35,1,1,True
+1265,"Grenoble, France",45.1886,5.7244,1,0,False
+1259,"Mildura, Victoria, Australia",-34.18,142.15,1,1,True
+80044,"Innamincka, South Australia, Australia",-27.73,140.73,1,0,True
+80032,"George Water, Western Australia, Australia",-15.8481,124.635,1,0,True
+80098,"Tomkinson Ranges, Western Australia, Australia",-26.1833,129.083,1,0,True
+80083,"Opparinna Creek, South Australia, Australia",-25.8833,131.117,1,0,True
+953,"Irvington-on-Hudson, New York, United States of America",41.025,-73.8703,1,0,False
+956,Israel,31.0461,34.8517,1,0,False
+733,"Franklin-Lower Gordon Wild Rivers National Park, Tasmania, Australia",-42.4719,145.964,1,0,True
+721,"Forbes, New South Wales, Australia",-33.37,148.0,1,1,True
+924,"Hopevale Mission, Queensland, Australia",-15.2961,145.115,1,0,True
+925,"Hornsby, Sydney, New South Wales, Australia",-33.7,151.08,1,0,True
+715,"Finniss Springs, South Australia, Australia",-29.7454,137.511,1,0,True
+1243,"Merigal, New South Wales, Australia",-31.5025,148.262,1,0,True
+2116,"Coleraine, Victoria, Australia",-37.6,141.7,1,1,True
+216,"Beechworth, Victoria, Australia",-36.35,146.68,1,1,True
+2158,"Yarram, Victoria, Australia",-38.55,146.67,1,1,True
+2151,"Kensington, Sydney, New South Wales, Australia",-33.9067,151.226,1,0,True
+2145,"Maffra, Victoria, Australia",-37.9619,146.989,1,1,True
+2005,"Mount King William, Tasmania, Australia",-42.2283,146.138,1,0,True
+1989,"Uralla, New South Wales, Australia",-30.63,151.48,1,1,True
+3593,"Carlsruhe, Victoria, Australia",-37.2844,144.507,1,0,True
+3568,"Barwon Heads, Victoria, Australia",-38.28,144.5,1,0,True
+2562,"Moreton Bay, Brisbane, Queensland, Australia",-27.4831,153.007,1,0,True
+375,"Burrumbuttock, New South Wales, Australia",-35.82,146.8,1,0,True
+3742,"Woodend North, Victoria, Australia",-37.3238,144.525,1,0,True
+3741,"Woodend, Victoria, Australia",-37.3547,144.529,1,0,True
+1590,"Parramatta, Sydney, New South Wales, Australia",-34.0333,137.617,1,1,True
+3705,"Seaspray, Victoria, Australia",-38.3761,147.191,1,0,True
+3694,"Ovens River, Victoria, Australia",-36.0371,146.177,1,0,True
+368,"Burketown, Queensland, Australia",-17.85,139.62,1,0,True
+3841,"Fleurieu Peninsula, South Australia, Australia",-35.5,138.5,1,0,True
+2507,"Brookvale, Sydney, New South Wales, Australia",-33.75,151.27,1,0,True
+382,"Byron Bay, New South Wales, Australia",-28.63,153.62,1,0,True
+38,"Rockhampton, Queensland, Australia",-23.3803,150.506,1,1,True
+377,"Busselton, Western Australia, Australia",-33.63,115.33,1,1,True
+376,"Burwood, Sydney, New South Wales, Australia",-33.87,151.1,1,1,True
+3115,"Dorset, England",50.7833,-2.31667,1,1,False
+310,"Bowral, New South Wales, Australia",-34.47,150.42,1,1,True
+2516,"Leigh Creek, Flinder Ranges, South Australia, Australia",-30.5933,138.4,1,0,True
+2517,"Port Melbourne, Melbourne, Victoria, Australia",-37.8396,144.942,1,1,True
+3074,"Bath, England",51.3833,-2.36667,1,0,False
+2504,"Ardeer, Melbourne, Victoria, Australia",-37.78,144.8,1,0,True
+2059,"Weemol, Arnhem Land, Northern Territory, Australia",-13.63,134.3,1,0,True
+2051,"Watsonia, Melbourne, Victoria, Australia",-37.7,145.08,1,0,True
+2304,"Cann River, Gippsland, Victoria, Australia",-37.13,148.87,1,0,True
+1901,"Temora, New South Wales, Australia",-34.43,147.53,1,0,True
+1900,"Tea Tree Well, Northern Territory, Australia",-22.13,133.42,1,0,True
+1898,"Taylors Creek, Northern Territory, Australia",-17.08,130.72,1,0,True
+2307,"Eden Hills, Adelaide, South Australia, Australia",-35.0269,138.601,1,1,True
+1891,"Taperoo, Adelaide, South Australia, Australia",-34.8,138.48,1,0,True
+1887,Taiwan,23.6978,120.961,1,0,False
+1921,"Tilba Tilba, New South Wales, Australia",-36.32,150.07,1,0,True
+1913,"The White House, Washington DC, United States of America",38.8978,-77.0364,1,0,False
+3974,"Armadale, Melbourne, Victoria, Australia",-37.85,145.02,1,1,True
+3964,"East Sepik Province, Papua New Guinea, Oceania",-4.3206,143.762,1,0,False
+3992,"Yiyili, Western Australia, Australia",-18.72,126.755,1,0,True
+2117,"Wollstonecraft, Sydney, New South Wales, Australia",-33.82,151.18,1,0,True
+3987,"Punmu, Western Australia, Australia",-22.0442,123.121,1,0,True
+353,"Andamooka, South Australia, Australia",-30.45,137.17,1,0,True
+233,Portugal,39.3997,-8.2244,1,0,False
+3372,"Jugiong, New South Wales, Australia",-34.83,148.33,1,0,True
+3660,"Lake Hindmarsh, Victoria, Australia",-36.0887,141.839,1,0,True
+366,"Ipswich, Queensland, Australia",-27.6117,152.768,1,0,True
+362,"Bundaberg, Queensland, Australia",-24.87,152.35,1,0,True
+361,"Bulman, South-central Arnhem Land, Northern Territory, Australia",-13.65,134.33,1,0,True
+360,"Bulloo River, Queensland, Australia",-28.67,142.53,1,0,True
+2102,Denmark,56.2639,9.5017,1,1,False
+2099,"Wickham Hill, New South Wales, Australia",-34.2818,146.051,1,0,True
+2092,"Western Victoria, Victoria, Australia",-36.6158,142.097,1,0,True
+2290,"Tocumwal, New South Wales, Australia",-35.8,145.57,1,0,True
+2292,"Natimuk, Victoria, Australia",-36.73,141.93,1,0,True
+3988,"Wangkatjungka, Western Australia, Australia",-18.8775,125.921,1,0,True
+2223,"Meekatharra, Western Australia, Australia",-26.5936,118.495,1,1,True
+2264,"Leipzig, Germany",51.3397,12.3731,1,0,False
+2263,"Kuta, Bali, Indonesia",-8.7239,115.175,1,1,False
+2261,"Waverley, Sydney, New South Wales, Australia",-33.8977,151.25,1,1,True
+2257,"Yorke (Masig) Islands, Torres Strait, Queensland, Australia",-9.75,143.4,1,0,True
+2256,"Camden Town, England",51.5389,-0.1425,1,0,False
+2679,"Kinglake, Victoria, Australia",-37.5328,145.339,1,0,True
+2246,"Lake Cargelligo, New South Wales, Australia",-33.2667,146.4,1,0,True
+2680,"Meltham, West Yorkshire, England",53.5922,-1.8514,1,0,False
+2082,"West Wyalong, New South Wales, Australia",-33.9236,147.205,1,1,True
+2076,"Taralga, New South Wales, Australia",-34.4016,149.819,1,0,True
+2072,"Wentworth, New South Wales, Australia",-34.08,141.9,1,1,True
+2071,"Wentworth Falls, Blue Mountains, New South Wales, Australia",-33.7,150.37,1,1,True
+2519,"Mount Liebig, Northern Territory, Australia",-23.2656,131.272,1,0,True
+2107,"Wimmera, Victoria, Australia",-36.67,142.25,1,0,True
+2105,"Williamstown, Melbourne, Victoria, Australia",-37.85,144.88,1,0,True
+2660,"Gladstone, South Australia, Australia",-33.2697,138.352,1,1,True
+2758,"Snails Bay, Balmain, Sydney, New South Wales, Australia",-33.8486,151.185,1,0,True
+2920,"Kapunda, South Australia, Australia",-34.3386,138.916,1,0,True
+2882,"Herkimer, New York, United States of America",43.0256,-74.9858,1,0,False
+2876,"Kenmore, Goulburn, New South Wales, Australia",-34.72,149.75,1,0,True
+306,"Parliament House, Sydney, Sydney, New South Wales, Australia",-33.873,151.207,1,0,True
+2651,"Wallerawang, New South Wales, Australia",-33.4083,150.067,1,0,True
+303,"Berridale, New South Wales, Australia",-36.2,148.82,1,1,True
+3,"Cooper Creek, Queensland, Australia",-28.4,137.7,1,0,True
+296,"Boston, Massachusetts, United States of America",42.36,-71.0589,1,0,False
+2634,Lebanon,33.8547,35.8622,1,0,False
+2630,"Lahr, Baden-Wurttemberg, Germany",48.3392,7.8781,1,1,False
+2687,Ghana,7.9464,-1.0231,1,0,False
+252,"Binghamton, New York, United States of America",42.0986,-75.9178,1,0,False
+3136,"Whyalla, Eyre Peninsula, South Australia, Australia",-33.0328,137.565,1,0,True
+2523,"Laura, South Australia, Australia",-33.1831,138.3,1,0,True
+3233,"Sunderland, England",54.9069,-1.3839,1,1,False
+3227,"Somerset, England",51.105,-2.9261,1,1,False
+3223,"Richmond, Hawkesbury, New South Wales, Australia",-33.5833,150.75,1,1,True
+3213,"Plymouth, England",50.3833,-4.16667,1,1,False
+3200,"Maryborough, Queensland, Australia",-25.5233,152.697,1,0,True
+329,"Broadwater, New South Wales, Australia",-36.97,149.88,1,0,True
+2668,"Crystal Brook, South Australia, Australia",-33.3481,138.211,1,1,True
+3270,"Millers Point, Sydney, New South Wales, Australia",-33.8608,151.203,1,0,True
+3258,"Yorkshire, England",54.2167,-1.41667,1,0,False
+324,"An-Hoa, Kien Gaing, Vietnam",9.9806,105.104,1,1,False
+3234,"Surrey, England",51.2,-0.05,1,1,False
+2224,"Nullagine, Western Australia, Australia",-21.8897,120.111,1,0,True
+2699,"Diez, Germany",50.3706,8.0161,1,0,False
+2697,"Newcastle upon Tyne, England",54.9783,-1.6178,1,0,False
+2696,"Thames Ditton, Surrey, England",51.3897,-0.3392,1,0,False
+2694,"Lidcombe, Sydney, New South Wales, Australia",-33.85,151.03,1,1,True
+2693,"Genoa, Italy",44.4056,8.9461,1,0,False
+2830,"Royal Botanic Gardens, Sydney, Sydney, New South Wales, Australia",-33.8639,151.217,1,0,True
+283,"Bombala, New South Wales, Australia",-36.9,149.23,1,0,True
+2799,"Saxony, Germany",51.1044,13.2017,1,1,False
+279,"Bolara, New South Wales, Australia",-36.3,149.47,1,0,True
+2781,"Bombay, India",19.0758,72.8775,1,0,False
+2195,"Hanging Rock, Victoria, Australia",-37.3306,144.595,1,0,True
+2241,"Morley, Perth, Western Australia, Australia",-31.8872,115.907,1,1,True
+2237,"Tenterfield, New South Wales, Australia",-29.03,152.02,1,1,True
+2229,"Grenfell, New South Wales, Australia",-33.9,148.183,1,0,True
+2714,"Manuka Shopping Centre, Griffith, Canberra, Australian Capital Territory, Australia",-35.32,149.13,1,0,True
+1800,"South Caulfield, Melbourne, Victoria, Australia",-37.8956,145.026,1,1,True
+1795,"Central Mount Stuart, Northern Territory, Australia",-21.9,133.45,1,1,True
+1652,"Port Macquarie, New South Wales, Australia",-31.42,152.92,1,0,True
+1650,"Port Mackay, Queensland, Australia",-21.2,149.217,1,0,True
+1643,"Rewa Province, Fiji",-18.065,178.382,1,0,False
+1640,"Napier Range, Western Australia, Australia",-17.32,124.8,1,1,True
+1676,"Anson Bay, Northern Territory, Australia",-13.32,130.12,1,0,True
+1670,"Shantou, China",23.3542,116.682,1,0,False
+2568,"Mount Ernest (Nagir/Naghir) Island, Torres Strait, Queensland, Australia",-10.25,142.47,1,0,True
+455,"Chelmsford, Essex, England",51.7356,0.4681,1,0,False
+46,"Ainslie, Canberra, Australian Capital Territory, Australia",-35.27,149.17,1,0,True
+2569,"Hammond (Keiri) Island, Torres Strait, Queensland, Australia",-10.5543,142.219,1,0,True
+463,"North Island, New Zealand",-39.0,176.0,1,0,False
+2065,"Aramac, Queensland, Australia",-22.98,145.23,1,0,True
+4276,"Varanasi, Uttar Pradesh, India",25.3175,82.9739,1,1,False
+4272,"Cook, South Australia, Australia",-30.6125,130.416,1,0,True
+4251,"Oenpelli Hill, Western Arnhem Land, Northern Territory, Australia",-12.3339,133.065,1,0,True
+4250,"Oenpelli Hill, Western Arnhem Land, Northern Territory, Australia",-12.3339,133.065,1,0,True
+4295,"Warakurna, Karrku, NPY Lands, Western Australia, Australia",-24.7066,127.933,1,0,True
+4294,"Earls Court, London, England",51.4903,-0.1958,1,0,False
+4291,"Castleford, West Yorkshire, England",53.7233,-1.3458,1,1,False
+4289,"Wolverhampton, West Midlands, United Kingdom",52.5869,-2.1289,1,1,False
+1833,"St Mary's Cray, Kent, England",51.392,0.108,1,0,False
+1828,"St Georges Basin, New South Wales, Australia",-35.12,150.62,1,0,True
+2589,"Zagreb, Croatia",45.815,15.9817,1,0,False
+2526,"Woollahra, Sydney, New South Wales, Australia",-33.8858,151.242,1,0,True
+1849,"Streaky Bay, South Australia, Australia",-32.58,134.12,1,0,True
+1847,"Dagenham, England",51.5389,0.1475,1,0,False
+4279,"Monte Carlo, Monaco",43.74,7.4267,1,0,False
+240,"Berrimah, Darwin, Northern Territory, Australia",-12.42,130.92,1,0,True
+1710,"Rindal, Norway",63.0564,9.2114,1,0,False
+2356,"Horseshoe Bend, Northern Territory, Australia",-25.2175,134.252,1,1,True
+2362,"Banks, Canberra, Australian Capital Territory, Australia",-35.47,149.1,1,0,True
+2374,"Woolwich Dock, Woolwich, Sydney, New South Wales, Australia",-33.8318,151.168,1,1,True
+1564,"Charles Point, Northern Territory, Australia",-12.4425,130.703,1,0,True
+259,"Blackheath, Blue Mountains, New South Wales, Australia",-33.62,150.28,1,1,True
+1588,"Paroo River, Queensland, Australia",-29.0,144.38,1,0,True
+1587,"Paroo River, New South Wales, Australia",-30.45,143.97,1,0,True
+4775,"Malwon, Western Arnhem Land, Northern Territory, Australia",-12.1345,133.863,1,0,True
+4748,"Queen Mary Land, Antarctica",-67.0,96.0,1,1,False
+499,"Coen, Queensland, Australia",-13.8,143.2,1,0,True
+496,"Sarawak, Malaysia",1.5533,110.359,1,1,False
+492,"Clovelly, Sydney, New South Wales, Australia",-33.9,151.25,1,1,True
+1809,"South West Tasmania, Tasmania, Australia",-42.9872,145.983,1,0,True
+486,"Clifton, New Jersey, United States of America",40.8583,-74.1636,1,0,False
+2615,"Tatura, Victoria, Australia",-36.4396,145.23,1,0,True
+4481,"Manyallaluk, Northern Territory, Australia",-14.27,132.83,1,0,True
+448,"Northlake, Illinois, United States of America",41.9172,-87.8956,1,0,False
+446,"Central Desert, South Australia, Australia",-27.0931,131.512,1,0,True
+4580,"Yapeen, Victoria, Australia",-37.12,144.17,1,1,True
+457,"Cheltenham, Gloucestershire, England",51.8994,-2.0783,1,0,False
+2617,"Coopers Creek, Queensland, Australia",-20.7028,147.143,1,0,True
+175,"Bamu River district, Western Province, Papua New Guinea",-8.02032,143.529,1,0,False
+1783,"Smiggins Holes, Snowy Mountains, New South Wales, Australia",-32.3833,148.4,1,0,True
+178,"Cudgen, New South Wales, Australia",-28.2818,153.551,1,1,True
+1778,"Siberia, Russia",61.0136,99.1967,1,1,False
+1768,"Sepik River, Papua New Guinea, Oceania",-4.0289,144.053,1,0,False
+1763,"Santa Barbara, California, United States of America",34.4208,-119.698,1,0,False
+2602,"Bolton, Greater Manchester, England",53.5769,-2.4281,1,0,False
+1981,"Unley, Adelaide, South Australia, Australia",-34.95,138.6,1,0,True
+1977,"Mongarlowe River, New South Wales, Australia",-35.32,149.97,1,0,True
+1963,"Ulladulla, New South Wales, Australia",-35.35,150.45,1,0,True
+1962,USSR,60.0,98.0,1,1,False
+1817,"Southern South Australia, Australia",-33.5647,135.813,1,0,True
+181,Bangladesh,23.685,90.3564,1,0,False
+1844,"Strahan, Tasmania, Australia",-42.15,145.32,1,0,True
+1843,"Stradbroke Island, Queensland, Australia",-27.864,153.423,1,0,True
+2174,"Lima, Peru",-12.0464,-77.0428,1,0,False
+4154,"Lourdes, France",43.0914,-0.0458,1,0,False
+4139,"Mirlirrtjarra (Warburton), Western Australia, Australia",-26.1325,126.571,1,0,True
+4213,"Mankorlod, Arnhem Land, Northern Territory, Australia",-12.57,134.27,1,0,True
+4209,"Wolverton, United Kingdom",52.0625,-0.8161,1,1,False
+1885,"Niagara Falls, Ontario, Canada",43.0894,-79.0847,1,0,False
+219,"Beenleigh, Queensland, Australia",-27.7,153.18,1,1,True
+4224,"Jingdezhen, China",29.2689,117.178,1,0,False
+3887,"Jim Jim Creek, Arnhem Land, Northern Territory, Australia",-12.92,132.52,1,0,True
+3886,"Goomadeer River, Arnhem Land, Northern Territory, Australia",-12.1061,133.69,1,0,True
+3885,"Crown Point, Northern Territory, Australia",-25.5,134.38,1,1,True
+2331,"Daylesford, Victoria, Australia",-37.3482,144.152,1,1,True
+388,"Cadell River, Northern Territory, Australia",-12.17,134.58,1,0,True
+3875,"Birany Birany, North-east Arnhem Land, Northern Territory, Australia",-12.82,136.47,1,0,True
+395,"Camden, New South Wales, Australia",-34.0333,150.683,1,0,True
+2047,"Waterloo, New South Wales, Australia",-33.9,151.2,1,1,True
+2334,"Rome, Italy",41.9019,12.5014,1,0,False
+234,"Bentinck Island, Queensland, Australia",-17.07,139.5,1,0,True
+2040,"Warren, New South Wales, Australia",-31.68,147.83,1,0,True
+2070,"Wenlock River, Queensland, Australia",-12.05,141.92,1,0,True
+42,"Sepik River, Angoram, Papua New Guinea",-4.0292,144.053,1,0,False
+1878,"Virginia, United States of America",37.4317,-78.6569,1,0,False
+847,"Gudjekbin, Arnhem Land, Northern Territory, Australia",-12.25,133.8,1,0,True
+174,"Bamaga, Queensland, Australia",-10.8921,142.387,1,0,True
+1739,"Rotterdam, Holland",51.9244,4.4778,1,0,False
+1721,"Rocklea, Queensland, Australia",-27.53,153.0,1,1,True
+1719,"Rockdale, Sydney, New South Wales, Australia",-33.95,151.13,1,0,True
+1757,"North-west Arnhem Land, Northern Territory, Australia",-14.17,129.55,1,0,True
+4287,"Coxley, Somerset, England",51.1892,-2.6747,1,1,False
+4285,"Basra, Iraq",30.5081,47.7833,1,0,False
+433,"Ceduna, South Australia, Australia",-32.12,133.67,1,0,True
+2204,"Coolgardie, Western Australia, Australia",-30.95,121.15,1,0,True
+432,"Cedar Point, Richmond River, New South Wales, Australia",-28.68,153.0,1,0,True
+430,"Castlemaine, Victoria, Australia",-37.05,144.22,1,0,True
+2205,"Poole, England",50.715,-1.9872,1,1,False
+1940,"Traralgon, Victoria, Australia",-38.18,146.53,1,0,True
+4413,"Paroo River District, New South Wales, Australia",-31.5583,143.452,1,0,True
+441,"Central Coast, Western Australia, Australia",-27.1494,114.096,1,0,True
+439,"Camden, South Australia, Australia",-34.055,150.696,1,1,True
+438,"Paisley, Scotland",55.8472,-4.44,1,0,False
+436,"Rochester, Kent, England",51.3881,0.5067,1,0,False
+4135,"Hill End, New South Wales, Australia",-33.03,149.42,1,0,True
+412,"Bangkok, Thailand",13.7564,100.502,1,0,False
+405,"Canobolas, New South Wales, Australia",-33.35,149.0,1,0,True
+4188,"Northern Western Australia, Western Australia, Australia",-18.7319,124.021,1,0,True
+4182,"Wongalara Lake, New South Wales, Australia",-31.31,144.0,1,0,True
+1909,"The Oval Cricket Ground, London, England",51.4837,-0.115,1,0,False
+2216,"Oregon, United States of America",43.8039,-120.554,1,1,False
+1957,"Warmun (Turkey Creek), Western Australia, Australia",-17.0294,128.211,1,0,True
+1946,"Tronbridge, England",51.195,0.2756,1,0,False
+4419,"Fenton, Stoke-on-Trent, Staffordshire, United Kingdom",52.9977,-2.1578,1,0,False

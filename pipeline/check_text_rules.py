@@ -31,12 +31,32 @@ def strings_in(node):
 
 print("1) Short forms in chart specs (titles, subtitles, labels, tooltips)")
 found = 0
-for spec_path in sorted(glob.glob(f"{site_folder}/specs/*.vl.json")):
+for spec_path in sorted(glob.glob(f"{site_folder}/specs/*.v[lg].json")):
     for text in strings_in(json.load(open(spec_path))):
         if SHORT_FORMS.search(text) and not text.startswith("data/"):
             print(f"   {spec_path.split('/')[-1]}: {text!r}")
             found += 1
 print(f"   {found} found")
+
+print("1b) Capital-letter short forms in tooltip text that comes from data files")
+import pandas as pd
+CAPITALS = re.compile(r"\b(?!(?:II|III|IV|VI|VII|VIII|IX|XI|XII)\b)[A-Z]{2,}s?\b")
+tooltip_fields = [("data/naa_treemap.csv", "name"), ("data/naa_weekly.csv", "top_series_title"),
+                  ("data/decade_shares.csv", "panel_title"), ("data/decade_shares.csv", "year_measured"),
+                  ("data/oral_history_icons.csv", "status")]
+found_in_data = 0
+for data_file, column in tooltip_fields:
+    for text in pd.read_csv(f"{site_folder}/{data_file}")[column].dropna().unique():
+        if CAPITALS.search(str(text)) or SHORT_FORMS.search(str(text)):
+            print(f"   {data_file} {column}: {text!r}")
+            found_in_data += 1
+hexagons = json.load(open(f"{site_folder}/data/nma_hexbins.geojson"))["features"]
+for feature in hexagons:
+    place = feature["properties"]["largest_place"]
+    if CAPITALS.search(place) or SHORT_FORMS.search(place):
+        print(f"   data/nma_hexbins.geojson largest_place: {place!r}")
+        found_in_data += 1
+print(f"   {found_in_data} found")
 
 
 async def main():
@@ -47,7 +67,7 @@ async def main():
         await page.wait_for_timeout(4000)
         lines = await page.evaluate("""() => {
           const result = [];
-          const elements = document.querySelectorAll('.body-text, .note, .callout-label, .stat-label, .force-list li, .subtitle');
+          const elements = document.querySelectorAll('.body-text, .note, .callout-label, .stat-label, .force-list li, .subtitle, .takeaway-text, .source-list li');
           for (const element of elements) {
             const range = document.createRange(); const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
             const byTop = new Map();

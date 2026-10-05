@@ -104,3 +104,22 @@ figure { margin-top: 0; }
 
 /* blocks inside one section are 32px apart (inner gap); sections are 72px apart */
 .section > .grid + .grid, .section > .note + .grid { margin-top: var(--inner-gap); }
+.nma-text { color: var(--nma); }
+.side-notes h3 { margin-top: 24px; }
+.side-notes h3:first-child { margin-top: 0; }
+.side-notes .note { margin: 0; }
+.naa-text { color: var(--naa); }
+.text-column .callout { margin-top: 24px; }
+.callout-label { max-width: 26em; }
+
+/* takeaways and Malaysia panel: same 3 columns, so each lesson sits under its force */
+.takeaway { border-top: 5px solid; padding-top: 12px; }
+.takeaway.nla { border-color: var(--nla); }
+.takeaway.naa { border-color: var(--naa); }
+.takeaway h3 { margin: 0 0 4px; font-size: 16px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ink-secondary); }
+.takeaway-text { margin: 8px 0 0; font-size: 16px; line-height: 1.5; max-width: 22em; }
+.malaysia-panel { margin-top: var(--inner-gap); border-top: 1px solid #DCDCD3; padding-top: 24px; }
+.malaysia-panel h3 { margin: 0 0 4px; font-family: 'Libre Caslon Text', Georgia, serif; font-size: 22px; }
+.malaysia-panel .body-text { margin: 0 0 16px; }
+.body-text.small { max-width: 23em; }
+.source-list li { max-width: 26em; }

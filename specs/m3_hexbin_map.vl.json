@@ -1,0 +1,241 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": [
+      "One in three mapped objects was",
+      "made in the Northern Territory"
+    ],
+    "subtitle": [
+      "National Museum of Australia objects by place made,",
+      "counted in hexagons of equal area (October 2026).",
+      "Each hexagon covers about 26,000 square kilometres."
+    ]
+  },
+  "width": 575,
+  "height": 520,
+  "projection": {
+    "type": "conicEqualArea",
+    "parallels": [
+      -18,
+      -36
+    ],
+    "rotate": [
+      -132,
+      0
+    ]
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/australia_states.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "australia_states"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#F0F0EB",
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1.5
+      }
+    },
+    {
+      "data": {
+        "url": "data/nma_hexbins.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#FFFFFF",
+        "strokeWidth": 0.75
+      },
+      "encoding": {
+        "color": {
+          "field": "object_class",
+          "type": "ordinal",
+          "title": "Objects made in the hexagon",
+          "scale": {
+            "domain": [
+              "1 to 9",
+              "10 to 49",
+              "50 to 199",
+              "200 to 999",
+              "1,000 or more"
+            ],
+            "range": [
+              "#99d8c9",
+              "#66c2a4",
+              "#2ca25f",
+              "#006d2c",
+              "#00441b"
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "titleOrient": "top",
+            "titleLimit": 400,
+            "symbolType": "square",
+            "symbolSize": 150,
+            "symbolStrokeWidth": 0
+          }
+        },
+        "tooltip": [
+          {
+            "field": "properties.objects",
+            "type": "quantitative",
+            "title": "Objects",
+            "format": ","
+          },
+          {
+            "field": "properties.places",
+            "type": "quantitative",
+            "title": "Places in this hexagon"
+          },
+          {
+            "field": "properties.largest_place",
+            "type": "nominal",
+            "title": "Place with the most objects"
+          },
+          {
+            "field": "properties.largest_place_objects",
+            "type": "quantitative",
+            "title": "Objects from that place",
+            "format": ","
+          }
+        ]
+      },
+      "transform": [
+        {
+          "calculate": "datum.properties.objects < 10 ? '1 to 9' : datum.properties.objects < 50 ? '10 to 49' : datum.properties.objects < 200 ? '50 to 199' : datum.properties.objects < 1000 ? '200 to 999' : '1,000 or more'",
+          "as": "object_class"
+        }
+      ]
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 136.9,
+            "lat": -12.25,
+            "lon2": 137.9,
+            "lat2": -8.7
+          },
+          {
+            "lon": 151.2,
+            "lat": -33.85,
+            "lon2": 154.4,
+            "lat2": -31.6
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#1E1E1A",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude2": {
+          "field": "lon2"
+        },
+        "latitude2": {
+          "field": "lat2"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 135.4,
+            "lat": -5.9,
+            "text": "Around Yirrkala, Arnhem Land:"
+          },
+          {
+            "lon": 135.4,
+            "lat": -7.0,
+            "text": "1,056 objects, in the same"
+          },
+          {
+            "lon": 135.4,
+            "lat": -8.1,
+            "text": "class as Sydney and Melbourne"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "fontSize": 13,
+        "fontWeight": 700
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "text"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 154.6,
+            "lat": -30.4,
+            "text": "Around Sydney:"
+          },
+          {
+            "lon": 154.6,
+            "lat": -31.6,
+            "text": "2,048 objects,"
+          },
+          {
+            "lon": 154.6,
+            "lat": -32.8,
+            "text": "the most of any hexagon"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "fontSize": 13,
+        "fontWeight": 700
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "text"
+        }
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 week_ending,files,series,top_series_title,series_files,status,iso_year,iso_week
 2021-03-28,2841.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",1674.0,recorded,2021,12
 2021-04-04,12244.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",11647.0,recorded,2021,13
-2021-04-11,1275.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",395.0,recorded,2021,14
+2021-04-11,1275.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",395.0,recorded,2021,14
 2021-04-18,9801.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",9005.0,recorded,2021,15
 2021-04-25,7443.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",5293.0,recorded,2021,16
 2021-05-02,3738.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",3243.0,recorded,2021,17
@@ -11,29 +11,29 @@ week_ending,files,series,top_series_title,series_files,status,iso_year,iso_week
 2021-05-30,9524.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",7079.0,recorded,2021,21
 2021-06-06,6588.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",5983.0,recorded,2021,22
 2021-06-13,12718.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",10713.0,recorded,2021,23
-2021-06-20,1758.0,A9300,"RAAF Officers Personnel files, 1921-1948",647.0,recorded,2021,24
+2021-06-20,1758.0,A9300,"Royal Australian Air Force officers' personnel files, 1921–1948",647.0,recorded,2021,24
 2021-06-27,1469.0,C4384,,445.0,recorded,2021,25
 2021-07-04,10882.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",10435.0,recorded,2021,26
 2021-07-11,6106.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",4856.0,recorded,2021,27
 2021-07-18,8629.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",7034.0,recorded,2021,28
 2021-07-25,1099.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",699.0,recorded,2021,29
 2021-08-01,102.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",27.0,recorded,2021,30
-2021-08-08,238.0,A9300,"RAAF Officers Personnel files, 1921-1948",97.0,recorded,2021,31
+2021-08-08,238.0,A9300,"Royal Australian Air Force officers' personnel files, 1921–1948",97.0,recorded,2021,31
 2021-08-15,9409.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",7811.0,recorded,2021,32
 2021-08-22,44.0,D4881,"Alien registration cards, alphabetical series",23.0,recorded,2021,33
 2021-08-29,216.0,K1145,"Certificates of Exemption from Dictation Test, annual certificate number order",19.0,recorded,2021,34
 2021-09-05,404.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",115.0,recorded,2021,35
 2021-09-12,62.0,BP4/3,"Alien registration forms, alphabetical series by nationality",5.0,recorded,2021,36
 2021-09-19,112.0,K1145,"Certificates of Exemption from Dictation Test, annual certificate number order",22.0,recorded,2021,37
-2021-09-26,177.0,J56,"Property correspondence files, single number series with or without 'QL' prefix",18.0,recorded,2021,38
+2021-09-26,177.0,J56,"Property correspondence files, single number series",18.0,recorded,2021,38
 2021-10-03,184.0,J3111,"Queensland post office history files, alphabetical series",13.0,recorded,2021,39
 2021-10-10,87.0,AP52/2,Declarations under the Beer Duty Act of 1894,14.0,recorded,2021,40
 2021-10-17,155.0,K1145,"Certificates of Exemption from Dictation Test, annual certificate number order",12.0,recorded,2021,41
 2021-10-24,161.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",34.0,recorded,2021,42
 2021-10-31,331.0,D4881,"Alien registration cards, alphabetical series",87.0,recorded,2021,43
 2021-11-07,353.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",108.0,recorded,2021,44
-2021-11-14,422.0,A9300,"RAAF Officers Personnel files, 1921-1948",104.0,recorded,2021,45
-2021-11-21,707.0,A9300,"RAAF Officers Personnel files, 1921-1948",127.0,recorded,2021,46
+2021-11-14,422.0,A9300,"Royal Australian Air Force officers' personnel files, 1921–1948",104.0,recorded,2021,45
+2021-11-21,707.0,A9300,"Royal Australian Air Force officers' personnel files, 1921–1948",127.0,recorded,2021,46
 2021-11-28,376.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",78.0,recorded,2021,47
 2021-12-05,427.0,A14487,"Royal Australian Air Force Air Board and Air Council Agendas, Submissions and Determinations - Master Copy",102.0,recorded,2021,48
 2021-12-12,416.0,D4450,"Telegraph Department correspondence files, annual single number series",58.0,recorded,2021,49
@@ -42,13 +42,13 @@ week_ending,files,series,top_series_title,series_files,status,iso_year,iso_week
 2022-01-02,,,,,not recorded,2021,52
 2022-01-09,343.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",100.0,recorded,2022,1
 2022-01-16,263.0,B3712,"Folders of construction drawings, numerical series",25.0,recorded,2022,2
-2022-01-23,422.0,A9300,"RAAF Officers Personnel files, 1921-1948",103.0,recorded,2022,3
-2022-01-30,521.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",87.0,recorded,2022,4
+2022-01-23,422.0,A9300,"Royal Australian Air Force officers' personnel files, 1921–1948",103.0,recorded,2022,3
+2022-01-30,521.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",87.0,recorded,2022,4
 2022-02-06,860.0,A14487,"Royal Australian Air Force Air Board and Air Council Agendas, Submissions and Determinations - Master Copy",204.0,recorded,2022,5
-2022-02-13,2544.0,A9300,"RAAF Officers Personnel files, 1921-1948",1132.0,recorded,2022,6
+2022-02-13,2544.0,A9300,"Royal Australian Air Force officers' personnel files, 1921–1948",1132.0,recorded,2022,6
 2022-02-20,2588.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",1207.0,recorded,2022,7
 2022-02-27,727.0,AP476/1,Petitions for South Australian Colonial patents with specifications.,130.0,recorded,2022,8
-2022-03-06,2097.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",576.0,recorded,2022,9
+2022-03-06,2097.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",576.0,recorded,2022,9
 2022-03-13,4081.0,MT1486/1,Applications to enlist in the Australian Imperial Force,1691.0,recorded,2022,10
 2022-03-20,7151.0,MT1486/1,Applications to enlist in the Australian Imperial Force,3371.0,recorded,2022,11
 2022-03-27,10976.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",5373.0,recorded,2022,12
@@ -89,26 +89,26 @@ week_ending,files,series,top_series_title,series_files,status,iso_year,iso_week
 2022-11-27,8765.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",5148.0,recorded,2022,47
 2022-12-04,7416.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",3851.0,recorded,2022,48
 2022-12-11,4260.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",1533.0,recorded,2022,49
-2022-12-18,4980.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",1677.0,recorded,2022,50
+2022-12-18,4980.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",1677.0,recorded,2022,50
 2022-12-25,2884.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",2027.0,recorded,2022,51
 2023-01-01,,,,,not recorded,2022,52
 2023-01-08,,,,,not recorded,2023,1
 2023-01-15,,,,,not recorded,2023,2
 2023-01-22,5601.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",1529.0,recorded,2023,3
-2023-01-29,10865.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",3521.0,recorded,2023,4
+2023-01-29,10865.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",3521.0,recorded,2023,4
 2023-02-05,4845.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",3679.0,recorded,2023,5
 2023-02-12,15361.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",6912.0,recorded,2023,6
-2023-02-19,15300.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",7630.0,recorded,2023,7
+2023-02-19,15300.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",7630.0,recorded,2023,7
 2023-02-26,13181.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",7438.0,recorded,2023,8
 2023-03-05,21157.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",11644.0,recorded,2023,9
-2023-03-12,18712.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",12457.0,recorded,2023,10
-2023-03-19,16582.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",9160.0,recorded,2023,11
-2023-03-26,8812.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",4395.0,recorded,2023,12
+2023-03-12,18712.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",12457.0,recorded,2023,10
+2023-03-19,16582.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",9160.0,recorded,2023,11
+2023-03-26,8812.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",4395.0,recorded,2023,12
 2023-04-02,16843.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",10433.0,recorded,2023,13
 2023-04-09,5105.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",3745.0,recorded,2023,14
 2023-04-16,2033.0,A1,"Correspondence files, annual single number series [Main correspondence files series of the agency]",585.0,recorded,2023,15
 2023-04-23,9001.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",5515.0,recorded,2023,16
-2023-04-30,9937.0,A14435,"Stanley Fowler photographs showing the Australian fishing industry and coastline, numerical series with ‘LA’prefix",4194.0,recorded,2023,17
+2023-04-30,9937.0,A14435,Stanley Fowler photographs of the Australian fishing industry and coastline,4194.0,recorded,2023,17
 2023-05-07,16325.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",13436.0,recorded,2023,18
 2023-05-14,9121.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",6872.0,recorded,2023,19
 2023-05-21,13600.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",10595.0,recorded,2023,20
@@ -117,8 +117,8 @@ week_ending,files,series,top_series_title,series_files,status,iso_year,iso_week
 2023-06-11,13160.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",9099.0,recorded,2023,23
 2023-06-18,10349.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",5314.0,recorded,2023,24
 2023-06-25,14821.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",12158.0,recorded,2023,25
-2023-07-02,3016.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",1099.0,recorded,2023,26
-2023-07-09,722.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",330.0,recorded,2023,27
+2023-07-02,3016.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",1099.0,recorded,2023,26
+2023-07-09,722.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",330.0,recorded,2023,27
 2023-07-16,455.0,AP67/1,Personal documents of British migrants (including ex-service) in receipt of free and assisted passages,76.0,recorded,2023,28
 2023-07-23,938.0,F1,"Correspondence files, annual single number series [Main correspondence files series of the agency]",217.0,recorded,2023,29
 2023-07-30,4247.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",2224.0,recorded,2023,30
@@ -128,40 +128,40 @@ week_ending,files,series,top_series_title,series_files,status,iso_year,iso_week
 2023-08-27,7783.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",6646.0,recorded,2023,34
 2023-09-03,4829.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",3882.0,recorded,2023,35
 2023-09-10,6566.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",5189.0,recorded,2023,36
-2023-09-17,5440.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",4269.0,recorded,2023,37
-2023-09-24,2730.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",2091.0,recorded,2023,38
-2023-10-01,6352.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",5432.0,recorded,2023,39
-2023-10-08,3520.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",2911.0,recorded,2023,40
-2023-10-15,6423.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",3850.0,recorded,2023,41
+2023-09-17,5440.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",4269.0,recorded,2023,37
+2023-09-24,2730.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",2091.0,recorded,2023,38
+2023-10-01,6352.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",5432.0,recorded,2023,39
+2023-10-08,3520.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",2911.0,recorded,2023,40
+2023-10-15,6423.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",3850.0,recorded,2023,41
 2023-10-22,10240.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",4747.0,recorded,2023,42
 2023-10-29,3525.0,A13150,"Specifications, examiners reports and correspondence relating to the Registration of Victorian Patents - Second system",1384.0,recorded,2023,43
 2023-11-05,7114.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",3616.0,recorded,2023,44
 2023-11-12,10785.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",5548.0,recorded,2023,45
 2023-11-19,3127.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",2282.0,recorded,2023,46
-2023-11-26,9818.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",6410.0,recorded,2023,47
+2023-11-26,9818.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",6410.0,recorded,2023,47
 2023-12-03,2225.0,B884,"Citizen Military Forces Personnel Dossiers, 1939-1947",1025.0,recorded,2023,48
-2023-12-10,9939.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",6262.0,recorded,2023,49
-2023-12-17,9476.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",7812.0,recorded,2023,50
+2023-12-10,9939.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",6262.0,recorded,2023,49
+2023-12-17,9476.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",7812.0,recorded,2023,50
 2023-12-24,6175.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",2373.0,recorded,2023,51
 2023-12-31,,,,,not recorded,2023,52
-2024-01-07,2991.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",1375.0,recorded,2024,1
-2024-01-14,3890.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",2876.0,recorded,2024,2
-2024-01-21,7215.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",4445.0,recorded,2024,3
-2024-01-28,9832.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",7707.0,recorded,2024,4
-2024-02-04,14412.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",7231.0,recorded,2024,5
-2024-02-11,3913.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",2131.0,recorded,2024,6
-2024-02-18,3330.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",1935.0,recorded,2024,7
+2024-01-07,2991.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",1375.0,recorded,2024,1
+2024-01-14,3890.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",2876.0,recorded,2024,2
+2024-01-21,7215.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",4445.0,recorded,2024,3
+2024-01-28,9832.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",7707.0,recorded,2024,4
+2024-02-04,14412.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",7231.0,recorded,2024,5
+2024-02-11,3913.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",2131.0,recorded,2024,6
+2024-02-18,3330.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",1935.0,recorded,2024,7
 2024-02-25,8579.0,A1500,"Photographic colour transparencies [positives], single number series with 'K' [Colour] prefix",5119.0,recorded,2024,8
-2024-03-03,16584.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",5824.0,recorded,2024,9
+2024-03-03,16584.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",5824.0,recorded,2024,9
 2024-03-10,11558.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",3264.0,recorded,2024,10
-2024-03-17,11299.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",6592.0,recorded,2024,11
+2024-03-17,11299.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",6592.0,recorded,2024,11
 2024-03-24,2808.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",1330.0,recorded,2024,12
-2024-03-31,5038.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",2784.0,recorded,2024,13
+2024-03-31,5038.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",2784.0,recorded,2024,13
 2024-04-07,5362.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",3478.0,recorded,2024,14
 2024-04-14,6386.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",2288.0,recorded,2024,15
 2024-04-21,9268.0,A6135,"Photographic colour transparencies positives, daily single number series with 'K' [Colour Transparencies] prefix",3010.0,recorded,2024,16
 2024-04-28,3108.0,A6135,"Photographic colour transparencies positives, daily single number series with 'K' [Colour Transparencies] prefix",1167.0,recorded,2024,17
-2024-05-05,3651.0,A9301,"RAAF Personnel files of Non-Commissioned Officers (NCOs) and other ranks, 1921-1948",1652.0,recorded,2024,18
+2024-05-05,3651.0,A9301,"Royal Australian Air Force personnel files of non-commissioned officers and other ranks, 1921–1948",1652.0,recorded,2024,18
 2024-05-12,4182.0,A1500,"Photographic colour transparencies [positives], single number series with 'K' [Colour] prefix",1492.0,recorded,2024,19
 2024-05-19,1804.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",726.0,recorded,2024,20
 2024-05-26,5679.0,A13150,"Specifications, examiners reports and correspondence relating to the Registration of Victorian Patents - Second system",2500.0,recorded,2024,21
@@ -177,7 +177,7 @@ week_ending,files,series,top_series_title,series_files,status,iso_year,iso_week
 2024-08-04,880.0,J853,"Architectural plans, annual single number series with alpha (denoting Papua New Guinea and discipline) prefix and/or alpha/numeric (denoting size and amendment) suffix",381.0,recorded,2024,31
 2024-08-11,2201.0,A13150,"Specifications, examiners reports and correspondence relating to the Registration of Victorian Patents - Second system",1044.0,recorded,2024,32
 2024-08-18,4909.0,A13149,Applications for Registration of Victorian Patents - Second system,3100.0,recorded,2024,33
-2024-08-25,3574.0,D3481,"Photographs (black and white, colour) of buildings, installations, sites, etc",1451.0,recorded,2024,34
+2024-08-25,3574.0,D3481,"Photographs (black and white, colour) of buildings, installations and sites",1451.0,recorded,2024,34
 2024-09-01,2787.0,A705,"Correspondence files, multiple number (Melbourne) series (Primary numbers 1-323)",1048.0,recorded,2024,35
 2024-09-08,3292.0,A11708,Applications for Registration of Queensland Trade Marks,1870.0,recorded,2024,36
 2024-09-15,2481.0,A714,Books of duplicate certificates of naturalization A(1)[Individual person] series,946.0,recorded,2024,37
@@ -205,7 +205,7 @@ week_ending,files,series,top_series_title,series_files,status,iso_year,iso_week
 2025-02-16,2023.0,BP308/1,"Wacol Migrant Centre accommodation history cards, alphabetical series",642.0,recorded,2025,7
 2025-02-23,2834.0,B6288,B6288,642.0,recorded,2025,8
 2025-03-02,2063.0,BP308/1,"Wacol Migrant Centre accommodation history cards, alphabetical series",547.0,recorded,2025,9
-2025-03-09,1886.0,SP300/1,ABC Talk Scripts - General,351.0,recorded,2025,10
+2025-03-09,1886.0,SP300/1,"Australian Broadcasting Commission radio talk scripts, general",351.0,recorded,2025,10
 2025-03-16,2313.0,BP308/1,"Wacol Migrant Centre accommodation history cards, alphabetical series",546.0,recorded,2025,11
 2025-03-23,2217.0,B6288,B6288,1043.0,recorded,2025,12
 2025-03-30,2872.0,BP308/1,"Wacol Migrant Centre accommodation history cards, alphabetical series",860.0,recorded,2025,13
@@ -214,7 +214,7 @@ week_ending,files,series,top_series_title,series_files,status,iso_year,iso_week
 2025-04-20,2061.0,A705,"Correspondence files, multiple number (Melbourne) series (Primary numbers 1-323)",1196.0,recorded,2025,16
 2025-04-27,12403.0,B883,"Second Australian Imperial Force Personnel Dossiers, 1939-1947",10515.0,recorded,2025,17
 2025-05-04,2979.0,B6288,B6288,961.0,recorded,2025,18
-2025-05-11,5012.0,A8746,"Photographic colour negatives, chronological series with 'KN' or 'RKN' prefix and a single number suffix",2211.0,recorded,2025,19
+2025-05-11,5012.0,A8746,"Photographic colour negatives, chronological series",2211.0,recorded,2025,19
 2025-05-18,,,,,not recorded,2025,20
 2025-05-25,,,,,not recorded,2025,21
 2025-06-01,,,,,not recorded,2025,22
@@ -267,8 +267,8 @@ week_ending,files,series,top_series_title,series_files,status,iso_year,iso_week
 2026-04-26,,,,,not recorded,2026,17
 2026-05-03,,,,,not recorded,2026,18
 2026-05-10,2287.0,D4878,"Alien registration documents, alphabetical series",1000.0,recorded,2026,19
-2026-05-17,1415.0,M5197,Colour photographic (kodachrome) slides illustrating the life and career of Sir Keith Charles Owen Shann CBE,387.0,recorded,2026,20
-2026-05-24,1024.0,M5197,Colour photographic (kodachrome) slides illustrating the life and career of Sir Keith Charles Owen Shann CBE,263.0,recorded,2026,21
+2026-05-17,1415.0,M5197,Colour slides of the life and career of Sir Keith Charles Owen Shann,387.0,recorded,2026,20
+2026-05-24,1024.0,M5197,Colour slides of the life and career of Sir Keith Charles Owen Shann,263.0,recorded,2026,21
 2026-05-31,,,,,not recorded,2026,22
 2026-06-07,2052.0,A907,Ships' Passenger Lists - Inwards (Form P2),870.0,recorded,2026,23
 2026-06-14,2412.0,A907,Ships' Passenger Lists - Inwards (Form P2),1219.0,recorded,2026,24
@@ -280,8 +280,8 @@ week_ending,files,series,top_series_title,series_files,status,iso_year,iso_week
 2026-07-26,4610.0,A907,Ships' Passenger Lists - Inwards (Form P2),4060.0,recorded,2026,30
 2026-08-02,1077.0,B3114,Photograph albums,385.0,recorded,2026,31
 2026-08-09,1073.0,A11841,Migrant Selection Documents for Displaced Persons who travelled to Australia per Svalbard departing Bremerhaven 21 May 1948,286.0,recorded,2026,32
-2026-08-16,817.0,A8746,"Photographic colour negatives, chronological series with 'KN' or 'RKN' prefix and a single number suffix",195.0,recorded,2026,33
-2026-08-23,670.0,A8746,"Photographic colour negatives, chronological series with 'KN' or 'RKN' prefix and a single number suffix",137.0,recorded,2026,34
+2026-08-16,817.0,A8746,"Photographic colour negatives, chronological series",195.0,recorded,2026,33
+2026-08-23,670.0,A8746,"Photographic colour negatives, chronological series",137.0,recorded,2026,34
 2026-08-30,862.0,MP551/1,"Ships' drawings and specifications, together with those for two floating docks",99.0,recorded,2026,35
 2026-09-06,628.0,A11836,Migrant Selection Documents for Displaced Persons who travelled to Australia per General Sturgis departing Venice 17 April 1948,65.0,recorded,2026,36
-2026-09-13,958.0,A8746,"Photographic colour negatives, chronological series with 'KN' or 'RKN' prefix and a single number suffix",271.0,recorded,2026,37
+2026-09-13,958.0,A8746,"Photographic colour negatives, chronological series",271.0,recorded,2026,37

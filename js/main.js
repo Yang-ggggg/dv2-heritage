@@ -7,8 +7,12 @@ const chartSpecs = {
   c4_manuscripts_waffle: "specs/c4_manuscripts_waffle.vl.json",
   c5_manuscripts_lollipop: "specs/c5_manuscripts_lollipop.vl.json",
   c6_small_multiples: "specs/c6_small_multiples.vl.json",
+  c7_naa_treemap: "specs/c7_naa_treemap.vg.json",
+  c8_naa_streamgraph: "specs/c8_naa_streamgraph.vl.json",
+  c9_oral_history_isotype: "specs/c9_oral_history_isotype.vl.json",
   m1_proportional_symbols: "specs/m1_proportional_symbols.vl.json",
-  m2_choropleth: "specs/m2_choropleth.vl.json"
+  m2_choropleth: "specs/m2_choropleth.vl.json",
+  m3_hexbin_map: "specs/m3_hexbin_map.vl.json"
 };
 
 fetch("specs/theme.json")

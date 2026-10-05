@@ -2,6 +2,8 @@
 import glob, re, sys
 import pandas as pd
 
+from display_titles import readable_series_title
+
 naa_repo = sys.argv[1] if len(sys.argv) > 1 else "naa-recently-digitised"
 output_file = sys.argv[2] if len(sys.argv) > 2 else "data/naa_weekly.csv"
 
@@ -20,7 +22,7 @@ series_titles = (pd.concat([pd.read_parquet(p) for p in glob.glob(f"{naa_repo}/y
 weekly = unique_files.groupby("week_ending").agg(files=("item_id", "size")).reset_index()
 top_series = (unique_files.groupby(["week_ending", "series"]).size().reset_index(name="series_files")
               .sort_values("series_files", ascending=False).drop_duplicates("week_ending"))
-top_series["top_series_title"] = top_series["series"].map(series_titles).fillna(top_series["series"])
+top_series["top_series_title"] = top_series["series"].map(series_titles).fillna(top_series["series"]).map(readable_series_title)
 weekly = weekly.merge(top_series[["week_ending", "series", "top_series_title", "series_files"]], on="week_ending")
 
 # every Sunday between the first and last harvest; weeks with no file are marked "not recorded" (never filled with 0)
