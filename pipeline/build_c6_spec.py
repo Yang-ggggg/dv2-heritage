@@ -60,7 +60,7 @@ def panel_spec(collection_type, panel_title, panel_subtitle, bar_colour, notes):
 
 
 key_lines = ["Each panel is one kind of collection.", "Each bar is one decade.",
-             "Bar height is the share of its items.", "Every panel uses the same scale."]
+             "Bar height is the share of that collection's items.", "All panels use the same scale."]
 key_cell = {
     "width": PANEL_WIDTH, "height": PANEL_HEIGHT,
     "data": {"values": [{"line": 0, "text": "How to read"}] +

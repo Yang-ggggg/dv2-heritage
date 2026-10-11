@@ -123,3 +123,11 @@ figure { margin-top: 0; }
 .malaysia-panel .body-text { margin: 0 0 16px; }
 .body-text.small { max-width: 23em; }
 .source-list li { max-width: 26em; }
+
+/* section separator (Course Notes 9: white space groups and separates).
+   A thin light rule starts each new section, like a new chapter.
+   Gap between sections = 72px above the rule + 48px below = 120px, far more than 2 x the 32px inner gap. */
+.page > .section + .section { border-top: 1px solid #DCDCD3; padding-top: 48px; }
+/* narrow screens and printing: charts shrink to fit their column instead of spilling off the page */
+figure svg { max-width: 100%; height: auto; }
+figure .vega-embed { max-width: 100%; }

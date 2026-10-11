@@ -769,11 +769,11 @@
               },
               {
                 "line": 3,
-                "text": "Bar height is the share of its items."
+                "text": "Bar height is the share of that collection's items."
               },
               {
                 "line": 4,
-                "text": "Every panel uses the same scale."
+                "text": "All panels use the same scale."
               }
             ]
           },
