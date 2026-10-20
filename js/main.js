@@ -1,4 +1,4 @@
-// Embed every chart: element id -> pretty-printed Vega-Lite spec in specs/
+// Embed every chart: element id -> pretty-printed Vega-Lite spec in specs/ (C7 treemap is a Vega spec)
 // specs/theme.json holds the shared fonts and greys so every chart matches the page.
 const chartSpecs = {
   c1_trove_growth: "specs/c1_trove_growth.vl.json",
@@ -24,4 +24,5 @@ fetch("specs/theme.json")
       vegaEmbed(`#${elementId}`, specPath, { actions: false, renderer: "svg", config: pageTheme })
         .catch((error) => console.error(`Chart ${elementId} failed to load`, error));
     }
-  });
+  })
+  .catch((error) => console.error("specs/theme.json failed to load, so no chart was drawn", error));

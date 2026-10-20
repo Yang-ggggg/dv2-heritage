@@ -60,7 +60,8 @@
             "type": "point",
             "fields": [
               "theme_group"
-            ]
+            ],
+            "toggle": "true"
           },
           "bind": "legend"
         }
@@ -95,7 +96,7 @@
         "color": {
           "field": "theme_group",
           "type": "nominal",
-          "title": "Click a theme to highlight it",
+          "title": "Click a theme to highlight it. Click again to undo.",
           "scale": {
             "domain": [
               "Second World War service records",
@@ -114,7 +115,7 @@
             "titleOrient": "left",
             "symbolType": "square",
             "symbolSize": 150,
-            "titleLimit": 300,
+            "titleLimit": 420,
             "labelLimit": 300
           }
         },

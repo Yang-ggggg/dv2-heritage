@@ -59,7 +59,9 @@ for theme_name, count in theme_counts.items():
     rows.append({"id": theme_name, "parent": "all", "name": theme_name, "files": None, "theme": theme_name, "series": None})
 for record in series_by_theme[large].itertuples():
     rows.append({"id": f"{record.theme}|{record.series}", "parent": record.theme,
-                 "name": readable_series_title(series_titles.get(record.series, record.series)), "files": record.files,
+                 # a few series have no title in the data: say so, instead of a blank or a bare code
+                 "name": (readable_series_title(series_titles.get(record.series, "") or "")
+                          or f"Series {record.series} (no title in the data)"), "files": record.files,
                  "theme": record.theme, "series": record.series})
 grouped = series_by_theme[~large].groupby("theme").agg(files=("files", "sum"), series_count=("series", "size"))
 for theme_name, record in grouped.iterrows():

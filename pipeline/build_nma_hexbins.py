@@ -107,7 +107,7 @@ hexagons = australian.sort_values("objects", ascending=False).groupby("hexagon")
 features = [{
     "type": "Feature",
     "properties": {"objects": int(row.objects), "places": int(row.places),
-                   "largest_place": readable_place_title(row.largest_place.replace(", Australia", "")),
+                   "largest_place": readable_place_title(row.largest_place.removesuffix(", Australia")),
                    "largest_place_objects": int(row.largest_place_objects)},
     "geometry": {"type": "Polygon", "coordinates": [hexagon_ring(*row.hexagon)]},
 } for row in hexagons.itertuples()]

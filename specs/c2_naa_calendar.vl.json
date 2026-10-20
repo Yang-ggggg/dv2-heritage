@@ -1,11 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "One record week: 62,555 files in seven days",
+    "text": "Archive digitising peaked in 2022, then slowed each year",
     "subtitle": [
       "Files digitised each week by the National Archives,",
-      "March 2021 to September 2026. Each square is one week.",
-      "Grey weeks were not recorded, so they are not zero."
+      "March 2021 to September 2026. Each box is one week.",
+      "Grey boxes were not recorded, so they are not zero."
     ]
   },
   "width": 1000,
@@ -13,7 +13,7 @@
   "padding": {
     "top": 30,
     "right": 10,
-    "left": 5,
+    "left": 0,
     "bottom": 5
   },
   "data": {
@@ -98,8 +98,7 @@
               49,
               50,
               51,
-              52,
-              53
+              52
             ]
           },
           "title": null,

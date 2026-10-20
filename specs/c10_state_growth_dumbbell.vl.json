@@ -7,7 +7,7 @@
     ],
     "subtitle": [
       "Digitised newspaper articles on Trove, April 2011 and",
-      "October 2026. States sorted by growth."
+      "October 2026. Line length shows how many times bigger."
     ]
   },
   "width": 560,
@@ -60,22 +60,27 @@
         "x": {
           "field": "millions_2011",
           "type": "quantitative",
-          "title": "Articles (millions)",
+          "title": "Articles (millions). Each grid step is about 2 times more.",
           "scale": {
+            "type": "log",
             "domain": [
-              0,
-              100
+              0.3,
+              120
             ]
           },
           "axis": {
             "values": [
-              0,
-              25,
+              0.5,
+              1,
+              2,
+              5,
+              10,
+              20,
               50,
-              75,
               100
             ],
-            "grid": true
+            "grid": true,
+            "labelExpr": "datum.value < 1 ? '0.5' : format(datum.value,'d')"
           }
         },
         "x2": {
