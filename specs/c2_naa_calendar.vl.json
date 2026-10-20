@@ -135,8 +135,8 @@
               "25,000 or more"
             ],
             "range": [
-              "#D9D9D3",
-              "#fee6ce",
+              "#E6E6E0",
+              "#fdd0a2",
               "#fdae6b",
               "#fd8d3c",
               "#e6550d",
@@ -225,6 +225,37 @@
         "y": {
           "field": "iso_year",
           "type": "ordinal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "iso_week": 36,
+            "iso_year": 2025,
+            "text": "Weekly lists missing from May 2025 to May 2026"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "fontSize": 13,
+        "color": "#55554D"
+      },
+      "encoding": {
+        "x": {
+          "field": "iso_week",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "iso_year",
+          "type": "ordinal"
+        },
+        "text": {
+          "field": "text"
         }
       }
     }

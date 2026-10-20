@@ -4,98 +4,98 @@ position,row,column,status,recordings_in_group,share_percent
 2,0,2,Online with a transcript,1781,8.9
 3,0,3,Online with a transcript,1781,8.9
 4,0,4,Online with a transcript,1781,8.9
-5,0,5,Online with a transcript,1781,8.9
-6,0,6,Online with a transcript,1781,8.9
-7,0,7,Online with a transcript,1781,8.9
-8,0,8,Online with a transcript,1781,8.9
-9,0,9,"Listen online, no transcript",4421,22.0
-10,1,0,"Listen online, no transcript",4421,22.0
-11,1,1,"Listen online, no transcript",4421,22.0
-12,1,2,"Listen online, no transcript",4421,22.0
-13,1,3,"Listen online, no transcript",4421,22.0
-14,1,4,"Listen online, no transcript",4421,22.0
-15,1,5,"Listen online, no transcript",4421,22.0
-16,1,6,"Listen online, no transcript",4421,22.0
-17,1,7,"Listen online, no transcript",4421,22.0
-18,1,8,"Listen online, no transcript",4421,22.0
-19,1,9,"Listen online, no transcript",4421,22.0
-20,2,0,"Listen online, no transcript",4421,22.0
-21,2,1,"Listen online, no transcript",4421,22.0
-22,2,2,"Listen online, no transcript",4421,22.0
-23,2,3,"Listen online, no transcript",4421,22.0
-24,2,4,"Listen online, no transcript",4421,22.0
-25,2,5,"Listen online, no transcript",4421,22.0
-26,2,6,"Listen online, no transcript",4421,22.0
-27,2,7,"Listen online, no transcript",4421,22.0
-28,2,8,"Listen online, no transcript",4421,22.0
-29,2,9,"Listen online, no transcript",4421,22.0
-30,3,0,"Listen online, no transcript",4421,22.0
-31,3,1,Not online,13881,69.1
-32,3,2,Not online,13881,69.1
-33,3,3,Not online,13881,69.1
-34,3,4,Not online,13881,69.1
-35,3,5,Not online,13881,69.1
-36,3,6,Not online,13881,69.1
-37,3,7,Not online,13881,69.1
-38,3,8,Not online,13881,69.1
-39,3,9,Not online,13881,69.1
-40,4,0,Not online,13881,69.1
-41,4,1,Not online,13881,69.1
-42,4,2,Not online,13881,69.1
-43,4,3,Not online,13881,69.1
-44,4,4,Not online,13881,69.1
+5,1,0,Online with a transcript,1781,8.9
+6,1,1,Online with a transcript,1781,8.9
+7,1,2,Online with a transcript,1781,8.9
+8,1,3,Online with a transcript,1781,8.9
+9,1,4,"Listen online, no transcript",4421,22.0
+10,2,0,"Listen online, no transcript",4421,22.0
+11,2,1,"Listen online, no transcript",4421,22.0
+12,2,2,"Listen online, no transcript",4421,22.0
+13,2,3,"Listen online, no transcript",4421,22.0
+14,2,4,"Listen online, no transcript",4421,22.0
+15,3,0,"Listen online, no transcript",4421,22.0
+16,3,1,"Listen online, no transcript",4421,22.0
+17,3,2,"Listen online, no transcript",4421,22.0
+18,3,3,"Listen online, no transcript",4421,22.0
+19,3,4,"Listen online, no transcript",4421,22.0
+20,4,0,"Listen online, no transcript",4421,22.0
+21,4,1,"Listen online, no transcript",4421,22.0
+22,4,2,"Listen online, no transcript",4421,22.0
+23,4,3,"Listen online, no transcript",4421,22.0
+24,4,4,"Listen online, no transcript",4421,22.0
+25,0,5,"Listen online, no transcript",4421,22.0
+26,0,6,"Listen online, no transcript",4421,22.0
+27,0,7,"Listen online, no transcript",4421,22.0
+28,0,8,"Listen online, no transcript",4421,22.0
+29,0,9,"Listen online, no transcript",4421,22.0
+30,1,5,"Listen online, no transcript",4421,22.0
+31,1,6,Not online,13881,69.1
+32,1,7,Not online,13881,69.1
+33,1,8,Not online,13881,69.1
+34,1,9,Not online,13881,69.1
+35,2,5,Not online,13881,69.1
+36,2,6,Not online,13881,69.1
+37,2,7,Not online,13881,69.1
+38,2,8,Not online,13881,69.1
+39,2,9,Not online,13881,69.1
+40,3,5,Not online,13881,69.1
+41,3,6,Not online,13881,69.1
+42,3,7,Not online,13881,69.1
+43,3,8,Not online,13881,69.1
+44,3,9,Not online,13881,69.1
 45,4,5,Not online,13881,69.1
 46,4,6,Not online,13881,69.1
 47,4,7,Not online,13881,69.1
 48,4,8,Not online,13881,69.1
 49,4,9,Not online,13881,69.1
-50,5,0,Not online,13881,69.1
-51,5,1,Not online,13881,69.1
-52,5,2,Not online,13881,69.1
-53,5,3,Not online,13881,69.1
-54,5,4,Not online,13881,69.1
-55,5,5,Not online,13881,69.1
-56,5,6,Not online,13881,69.1
-57,5,7,Not online,13881,69.1
-58,5,8,Not online,13881,69.1
-59,5,9,Not online,13881,69.1
-60,6,0,Not online,13881,69.1
-61,6,1,Not online,13881,69.1
-62,6,2,Not online,13881,69.1
-63,6,3,Not online,13881,69.1
-64,6,4,Not online,13881,69.1
-65,6,5,Not online,13881,69.1
-66,6,6,Not online,13881,69.1
-67,6,7,Not online,13881,69.1
-68,6,8,Not online,13881,69.1
-69,6,9,Not online,13881,69.1
-70,7,0,Not online,13881,69.1
-71,7,1,Not online,13881,69.1
-72,7,2,Not online,13881,69.1
-73,7,3,Not online,13881,69.1
-74,7,4,Not online,13881,69.1
-75,7,5,Not online,13881,69.1
-76,7,6,Not online,13881,69.1
-77,7,7,Not online,13881,69.1
-78,7,8,Not online,13881,69.1
-79,7,9,Not online,13881,69.1
-80,8,0,Not online,13881,69.1
-81,8,1,Not online,13881,69.1
-82,8,2,Not online,13881,69.1
-83,8,3,Not online,13881,69.1
-84,8,4,Not online,13881,69.1
-85,8,5,Not online,13881,69.1
-86,8,6,Not online,13881,69.1
-87,8,7,Not online,13881,69.1
-88,8,8,Not online,13881,69.1
-89,8,9,Not online,13881,69.1
-90,9,0,Not online,13881,69.1
-91,9,1,Not online,13881,69.1
-92,9,2,Not online,13881,69.1
-93,9,3,Not online,13881,69.1
-94,9,4,Not online,13881,69.1
-95,9,5,Not online,13881,69.1
-96,9,6,Not online,13881,69.1
-97,9,7,Not online,13881,69.1
-98,9,8,Not online,13881,69.1
-99,9,9,Not online,13881,69.1
+50,0,10,Not online,13881,69.1
+51,0,11,Not online,13881,69.1
+52,0,12,Not online,13881,69.1
+53,0,13,Not online,13881,69.1
+54,0,14,Not online,13881,69.1
+55,1,10,Not online,13881,69.1
+56,1,11,Not online,13881,69.1
+57,1,12,Not online,13881,69.1
+58,1,13,Not online,13881,69.1
+59,1,14,Not online,13881,69.1
+60,2,10,Not online,13881,69.1
+61,2,11,Not online,13881,69.1
+62,2,12,Not online,13881,69.1
+63,2,13,Not online,13881,69.1
+64,2,14,Not online,13881,69.1
+65,3,10,Not online,13881,69.1
+66,3,11,Not online,13881,69.1
+67,3,12,Not online,13881,69.1
+68,3,13,Not online,13881,69.1
+69,3,14,Not online,13881,69.1
+70,4,10,Not online,13881,69.1
+71,4,11,Not online,13881,69.1
+72,4,12,Not online,13881,69.1
+73,4,13,Not online,13881,69.1
+74,4,14,Not online,13881,69.1
+75,0,15,Not online,13881,69.1
+76,0,16,Not online,13881,69.1
+77,0,17,Not online,13881,69.1
+78,0,18,Not online,13881,69.1
+79,0,19,Not online,13881,69.1
+80,1,15,Not online,13881,69.1
+81,1,16,Not online,13881,69.1
+82,1,17,Not online,13881,69.1
+83,1,18,Not online,13881,69.1
+84,1,19,Not online,13881,69.1
+85,2,15,Not online,13881,69.1
+86,2,16,Not online,13881,69.1
+87,2,17,Not online,13881,69.1
+88,2,18,Not online,13881,69.1
+89,2,19,Not online,13881,69.1
+90,3,15,Not online,13881,69.1
+91,3,16,Not online,13881,69.1
+92,3,17,Not online,13881,69.1
+93,3,18,Not online,13881,69.1
+94,3,19,Not online,13881,69.1
+95,4,15,Not online,13881,69.1
+96,4,16,Not online,13881,69.1
+97,4,17,Not online,13881,69.1
+98,4,18,Not online,13881,69.1
+99,4,19,Not online,13881,69.1

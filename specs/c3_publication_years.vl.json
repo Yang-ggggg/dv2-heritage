@@ -187,7 +187,8 @@
         "align": "left",
         "dx": 8,
         "baseline": "middle",
-        "fontSize": 14
+        "fontSize": 14,
+        "fontWeight": 700
       },
       "encoding": {
         "x": {
@@ -200,15 +201,65 @@
         },
         "text": {
           "field": "text"
-        },
-        "fontWeight": {
-          "condition": {
-            "test": "datum.y > 3000000",
-            "value": 700
-          },
-          "value": 400
         }
-      }
+      },
+      "transform": [
+        {
+          "filter": "datum.y > 3000000"
+        }
+      ]
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "x": 1956,
+            "y": 3661437,
+            "text": "1954: 3.82 million articles"
+          },
+          {
+            "x": 1956,
+            "y": 3261437,
+            "text": "1955: only 0.79 million (79% fewer)"
+          },
+          {
+            "x": 1956,
+            "y": 2711437,
+            "text": "Copyright: Trove mostly includes papers"
+          },
+          {
+            "x": 1956,
+            "y": 2361437,
+            "text": "published before 1956."
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "baseline": "middle",
+        "fontSize": 14,
+        "fontWeight": 400
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "text"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.y <= 3000000"
+        }
+      ]
     },
     {
       "data": {

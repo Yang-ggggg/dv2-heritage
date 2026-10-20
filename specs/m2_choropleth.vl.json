@@ -10,8 +10,8 @@
       "October 2026) divided by residents (March 2026)."
     ]
   },
-  "width": 400,
-  "height": 400,
+  "width": 520,
+  "height": 390,
   "projection": {
     "type": "conicEqualArea",
     "parallels": [
@@ -21,6 +21,11 @@
     "rotate": [
       -132,
       0
+    ],
+    "scale": 620.9,
+    "translate": [
+      183.6,
+      -380.0
     ]
   },
   "layer": [
@@ -54,6 +59,10 @@
               "articles_per_resident"
             ]
           }
+        },
+        {
+          "calculate": "datum.articles_per_resident < 5 ? 'Under 5' : datum.articles_per_resident < 10 ? '5 to 9.9' : datum.articles_per_resident < 20 ? '10 to 19.9' : '20 or more'",
+          "as": "per_resident_class"
         }
       ],
       "params": [
@@ -76,15 +85,15 @@
       },
       "encoding": {
         "color": {
-          "field": "articles_per_resident",
-          "type": "quantitative",
+          "field": "per_resident_class",
+          "type": "ordinal",
           "title": "Articles per resident",
           "scale": {
-            "type": "threshold",
             "domain": [
-              5,
-              10,
-              20
+              "Under 5",
+              "5 to 9.9",
+              "10 to 19.9",
+              "20 or more"
             ],
             "range": [
               "#bdd7e7",
@@ -98,7 +107,10 @@
             "direction": "horizontal",
             "title": "Articles per resident",
             "titleOrient": "left",
-            "labelExpr": "datum.label"
+            "symbolType": "square",
+            "symbolSize": 150,
+            "symbolStrokeWidth": 0,
+            "offset": 28
           }
         },
         "strokeWidth": {

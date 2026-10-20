@@ -10,8 +10,8 @@
       "territory (October 2026). Circle area = articles."
     ]
   },
-  "width": 400,
-  "height": 400,
+  "width": 520,
+  "height": 390,
   "projection": {
     "type": "conicEqualArea",
     "parallels": [
@@ -21,6 +21,11 @@
     "rotate": [
       -132,
       0
+    ],
+    "scale": 620.9,
+    "translate": [
+      183.6,
+      -380.0
     ]
   },
   "layer": [
@@ -81,11 +86,11 @@
           "scale": {
             "domain": [
               0,
-              90000000
+              100000000
             ],
             "range": [
               0,
-              3600
+              4000
             ]
           },
           "legend": {
@@ -93,7 +98,7 @@
             "values": [
               1000000,
               10000000,
-              50000000
+              25000000
             ],
             "labelExpr": "format(datum.value/1e6,'.0f') + ' million'",
             "symbolFillColor": "#3182bd",
@@ -120,6 +125,153 @@
             "format": ","
           }
         ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 149.5,
+            "lat": -35.7,
+            "lon2": 151.0,
+            "lat2": -36.5
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#55554D",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude2": {
+          "field": "lon2"
+        },
+        "latitude2": {
+          "field": "lat2"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 122.3,
+            "lat": -28.4,
+            "t": "Western Australia",
+            "a": "center"
+          },
+          {
+            "lon": 135.96,
+            "lat": -32.6,
+            "t": "South Australia",
+            "a": "center"
+          },
+          {
+            "lon": 144.5,
+            "lat": -26.4,
+            "t": "Queensland",
+            "a": "center"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "fontSize": 12,
+        "color": "#55554D"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 141.6,
+            "lat": -39.3,
+            "t": "Victoria",
+            "a": "right"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "fontSize": 12,
+        "color": "#55554D"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 148.4,
+            "lat": -42.1,
+            "t": "Tasmania",
+            "a": "left"
+          },
+          {
+            "lon": 151.1,
+            "lat": -36.6,
+            "t": "Australian Capital Territory",
+            "a": "left"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "fontSize": 12,
+        "color": "#55554D"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t"
+        }
       }
     },
     {

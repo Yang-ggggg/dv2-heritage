@@ -1,4 +1,5 @@
-"""Build data/oral_history_icons.csv for C9 (ISOTYPE): 100 microphones, one per about 1% of recordings.
+"""Build data/oral_history_icons.csv for C9 (ISOTYPE): 100 microphones, one per about 1% of recordings,
+in 4 blocks of 5 x 5.
 
 Usage: python build_oral_history_icons.py <trove-oral-histories.csv> <site folder>
 Status (ordinal): not online < listen online, no transcript < online with a transcript.
@@ -31,10 +32,15 @@ for status in counts:
     print(f"   {status}: {counts[status]:,} recordings = {exact[status]:.1f}% -> {icons[status]} icons")
 print(f"One icon = {len(recordings) / 100:.1f} recordings")
 
+# layout: 4 blocks side by side, each block 5 x 5 icons (25 icons), filled row by row inside a block,
+# so readers can count in fives and twenty-fives (ISOTYPE grouping). 20 columns x 5 rows in total.
+ICONS_PER_BLOCK, BLOCK_WIDTH = 25, 5
 rows, position = [], 0
 for status in counts:                               # transcript first, so the rare group is read first
     for _ in range(icons[status]):
-        row, column = divmod(position, 10)
+        block, place_in_block = divmod(position, ICONS_PER_BLOCK)
+        row, column_in_block = divmod(place_in_block, BLOCK_WIDTH)
+        column = block * BLOCK_WIDTH + column_in_block
         rows.append({"position": position, "row": row, "column": column, "status": status,
                      "recordings_in_group": counts[status], "share_percent": round(exact[status], 1)})
         position += 1

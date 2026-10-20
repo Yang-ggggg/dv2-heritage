@@ -131,3 +131,16 @@ figure { margin-top: 0; }
 /* narrow screens and printing: charts shrink to fit their column instead of spilling off the page */
 figure svg { max-width: 100%; height: auto; }
 figure .vega-embed { max-width: 100%; }
+
+/* v0.11 layout: one pattern per row (Course Notes 9: consistent grid, few sight-lines).
+   Charts at span-8 have a text column (span-4) on their left; full-width charts have an
+   intro row of three equal columns (text, text, callout) that lines up with the span-4 grid lines. */
+.grid > div { min-width: 0; }
+.grid > .note, .span-4 > .note, .span-8 > .note { margin-top: 12px; }
+.text-column .side-notes { margin-top: 32px; }
+
+/* B10: headings stay larger than the text under them (Course Notes 11: hierarchy by size and weight).
+   h3 18px bold over 14-17px text; the takeaway h3 stays a small uppercase label (like the eyebrows). */
+h3 { font-size: 18px; }
+.takeaway h3 { font-size: 16px; }
+.malaysia-panel .body-text.small { max-width: 30em; }   /* one 9-word line, no gap beside it */

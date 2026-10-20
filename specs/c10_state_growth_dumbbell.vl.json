@@ -131,7 +131,7 @@
         "color": {
           "field": "harvest_label",
           "type": "ordinal",
-          "title": null,
+          "title": "Date of count",
           "scale": {
             "domain": [
               "April 2011",
@@ -145,7 +145,8 @@
           "legend": {
             "orient": "top",
             "direction": "horizontal",
-            "symbolSize": 150
+            "symbolSize": 150,
+            "titleOrient": "left"
           }
         },
         "tooltip": [

@@ -1,17 +1,14 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": [
-      "Only 9 in 100 oral history",
-      "recordings have a transcript"
-    ],
+    "text": "Only 9 in 100 oral history recordings have a transcript",
     "subtitle": [
       "Oral history recordings listed on Trove (December 2023).",
-      "Each microphone is about 200 recordings."
+      "Each microphone is about 200 recordings. Blocks hold 25."
     ]
   },
-  "width": 440,
-  "height": 470,
+  "width": 680,
+  "height": 156,
   "data": {
     "url": "data/oral_history_icons.csv",
     "format": {
@@ -26,11 +23,11 @@
   },
   "transform": [
     {
-      "calculate": "datum.column + (datum.column >= 5 ? 0.6 : 0)",
+      "calculate": "datum.column + floor(datum.column / 5) * 0.6",
       "as": "x_position"
     },
     {
-      "calculate": "datum.row + (datum.row >= 5 ? 0.5 : 0)",
+      "calculate": "datum.row",
       "as": "y_position"
     }
   ],
@@ -38,7 +35,7 @@
     "type": "point",
     "shape": "M-0.28,-0.72 A0.28,0.28 0 0 1 0.28,-0.72 L0.28,-0.12 A0.28,0.28 0 0 1 -0.28,-0.12 Z M-0.5,-0.15 L-0.4,-0.15 A0.4,0.4 0 0 0 0.4,-0.15 L0.5,-0.15 A0.5,0.5 0 0 1 -0.5,-0.15 Z M-0.06,0.33 L0.06,0.33 L0.06,0.75 L-0.06,0.75 Z M-0.35,0.75 L0.35,0.75 L0.35,0.9 L-0.35,0.9 Z",
     "filled": true,
-    "size": 950,
+    "size": 540,
     "opacity": 1,
     "strokeWidth": 0
   },
@@ -50,7 +47,7 @@
       "scale": {
         "domain": [
           -0.5,
-          10.1
+          21.3
         ],
         "nice": false
       }
@@ -62,7 +59,7 @@
       "scale": {
         "domain": [
           -0.5,
-          10.0
+          4.5
         ],
         "nice": false,
         "reverse": true
