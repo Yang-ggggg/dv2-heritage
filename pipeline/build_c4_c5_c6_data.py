@@ -90,8 +90,8 @@ def add_panel(collection_type, panel_title, year_measured, data_date, counts_by_
     return counts_by_decade, total
 
 
-newspapers_by_year = pd.read_csv(f"{site_folder}/data/trove_by_year.csv").set_index("year")["articles_2025"]
-newspaper_deciles, _ = add_panel("newspapers", "Newspaper articles", "Year of publication", "February 2025", newspapers_by_year)
+newspapers_by_year = pd.read_csv(f"{site_folder}/data/trove_by_year.csv").set_index("year")["articles_2026"]
+newspaper_deciles, _ = add_panel("newspapers", "Newspaper articles", "Year of publication", "October 2026", newspapers_by_year)
 
 periodical_issues = pd.read_csv(f"{source_folder}/trove-periodicals-data/periodical-issues.csv", usecols=["date"])
 periodical_issues["year"] = periodical_issues["date"].map(first_year_in_text)

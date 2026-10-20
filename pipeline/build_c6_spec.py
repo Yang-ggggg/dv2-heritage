@@ -11,8 +11,8 @@ PANEL_WIDTH, PANEL_HEIGHT = 290, 170
 SANS = "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif"
 
 panels = [
-    ("newspapers", "Newspaper articles", "By year of publication, February 2025", "#3182bd",
-     [("Falls from 7.5% in the 1950s", 1805, 44), ("to 0.7% in the 1960s", 1805, 39)]),
+    ("newspapers", "Newspaper articles", "By year of publication, October 2026", "#3182bd",
+     [("Falls from 8.2% in the 1950s", 1805, 44), ("to 1.6% in the 1960s", 1805, 39)]),
     ("periodicals", "Periodical issues", "By date of the issue, March 2024", "#3182bd",
      [("28% of issues are from", 1805, 44), ("1955 or later", 1805, 39)]),
     ("archive_files", "Archive files", "By start of date range, September 2026", "#e6550d",

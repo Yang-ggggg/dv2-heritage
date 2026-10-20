@@ -2,12 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": [
-      "New South Wales grew 9.2 times since 2011.",
-      "The Northern Territory did not grow."
+      "New South Wales grew 9.3 times since 2011.",
+      "The Northern Territory grew only 1.2 times."
     ],
     "subtitle": [
       "Digitised newspaper articles on Trove, April 2011 and",
-      "February 2025. States sorted by growth."
+      "October 2026. States sorted by growth."
     ]
   },
   "width": 560,
@@ -18,7 +18,7 @@
       "type": "csv",
       "parse": {
         "articles_2011": "number",
-        "articles_2025": "number",
+        "articles_2026": "number",
         "growth_times": "number"
       }
     }
@@ -29,8 +29,8 @@
       "as": "millions_2011"
     },
     {
-      "calculate": "datum.articles_2025/1e6",
-      "as": "millions_2025"
+      "calculate": "datum.articles_2026/1e6",
+      "as": "millions_2026"
     }
   ],
   "layer": [
@@ -79,7 +79,7 @@
           }
         },
         "x2": {
-          "field": "millions_2025"
+          "field": "millions_2026"
         }
       }
     },
@@ -88,7 +88,7 @@
         {
           "fold": [
             "millions_2011",
-            "millions_2025"
+            "millions_2026"
           ],
           "as": [
             "harvest",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "calculate": "datum.harvest=='millions_2011' ? 'April 2011' : 'February 2025'",
+          "calculate": "datum.harvest=='millions_2011' ? 'April 2011' : 'October 2026'",
           "as": "harvest_label"
         }
       ],
@@ -135,7 +135,7 @@
           "scale": {
             "domain": [
               "April 2011",
-              "February 2025"
+              "October 2026"
             ],
             "range": [
               "#9ecae1",
@@ -197,7 +197,7 @@
           }
         },
         "x": {
-          "field": "millions_2025",
+          "field": "millions_2026",
           "type": "quantitative"
         },
         "text": {

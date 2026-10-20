@@ -1,9 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Australia's online newspapers almost stop at 1955",
+    "text": "Australia's online newspapers drop sharply at 1955",
     "subtitle": [
-      "Digitised newspaper articles on Trove by year of publication (February 2025). Each bar is one year."
+      "Articles on Trove by year of publication, October 2026.",
+      "Each bar is one year."
     ]
   },
   "width": 1000,
@@ -14,7 +15,7 @@
       "type": "csv",
       "parse": {
         "year": "number",
-        "articles_2025": "number",
+        "articles_2026": "number",
         "articles_2011": "number"
       }
     }
@@ -42,7 +43,7 @@
       "scale": {
         "domain": [
           1800,
-          2025
+          2026
         ],
         "nice": false
       },
@@ -66,7 +67,7 @@
           "field": "year_end"
         },
         "y": {
-          "field": "articles_2025",
+          "field": "articles_2026",
           "type": "quantitative",
           "scale": {
             "domain": [
@@ -87,8 +88,8 @@
             "format": "d"
           },
           {
-            "field": "articles_2025",
-            "title": "Articles (February 2025)",
+            "field": "articles_2026",
+            "title": "Articles (October 2026)",
             "format": ","
           },
           {
@@ -129,8 +130,8 @@
         "values": [
           {
             "x": 1913,
-            "y": 4783530,
-            "text": "1915: 4.8 million articles, the peak year"
+            "y": 4900000,
+            "text": "1915: 4.9 million articles, the peak year"
           }
         ]
       },
@@ -162,12 +163,12 @@
           {
             "x": 1956,
             "y": 3661437,
-            "text": "1954: 3.66 million articles"
+            "text": "1954: 3.82 million articles"
           },
           {
             "x": 1956,
             "y": 3261437,
-            "text": "1955: only 0.44 million (88% fewer)"
+            "text": "1955: only 0.79 million (79% fewer)"
           },
           {
             "x": 1956,

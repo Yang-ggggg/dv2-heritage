@@ -38,6 +38,17 @@ for spec_path in sorted(glob.glob(f"{site_folder}/specs/*.v[lg].json")):
             found += 1
 print(f"   {found} found")
 
+print("1c) Chart text lines over", MAXIMUM_CHARACTERS, "characters or", MAXIMUM_WORDS, "words (titles, subtitles, notes)")
+long_chart_lines = 0
+for spec_path in sorted(glob.glob(f"{site_folder}/specs/*.v[lg].json")):
+    for text in strings_in(json.load(open(spec_path))):
+        if text.startswith("data/") or "datum" in text:
+            continue
+        if len(text) > MAXIMUM_CHARACTERS or len(text.split()) > MAXIMUM_WORDS:
+            print(f"   {spec_path.split('/')[-1]}: {len(text)} characters, {len(text.split())} words: {text!r}")
+            long_chart_lines += 1
+print(f"   {long_chart_lines} found")
+
 print("1b) Capital-letter short forms in tooltip text that comes from data files")
 import pandas as pd
 CAPITALS = re.compile(r"\b(?!(?:II|III|IV|VI|VII|VIII|IX|XI|XII)\b)[A-Z]{2,}s?\b")

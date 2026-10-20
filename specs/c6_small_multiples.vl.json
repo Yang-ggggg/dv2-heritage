@@ -28,7 +28,7 @@
         {
           "title": {
             "text": "Newspaper articles",
-            "subtitle": "By year of publication, February 2025",
+            "subtitle": "By year of publication, October 2026",
             "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
             "fontSize": 15,
             "subtitleFontSize": 12,
@@ -137,12 +137,12 @@
                   {
                     "decade": 1805,
                     "share": 44,
-                    "text": "Falls from 7.5% in the 1950s"
+                    "text": "Falls from 8.2% in the 1950s"
                   },
                   {
                     "decade": 1805,
                     "share": 39,
-                    "text": "to 0.7% in the 1960s"
+                    "text": "to 1.6% in the 1960s"
                   }
                 ]
               },

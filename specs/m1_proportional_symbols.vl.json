@@ -7,7 +7,7 @@
     ],
     "subtitle": [
       "Digitised newspaper articles on Trove by state or",
-      "territory (February 2025). Circle area = articles."
+      "territory (October 2026). Circle area = articles."
     ]
   },
   "width": 400,
@@ -46,7 +46,7 @@
           "type": "csv",
           "parse": {
             "articles_2011": "number",
-            "articles_2025": "number",
+            "articles_2026": "number",
             "growth_times": "number",
             "lon": "number",
             "lat": "number"
@@ -55,7 +55,7 @@
       },
       "transform": [
         {
-          "calculate": "-datum.articles_2025",
+          "calculate": "-datum.articles_2026",
           "as": "draw_order"
         }
       ],
@@ -75,7 +75,7 @@
           "type": "quantitative"
         },
         "size": {
-          "field": "articles_2025",
+          "field": "articles_2026",
           "type": "quantitative",
           "title": "Articles",
           "scale": {
@@ -115,8 +115,8 @@
             "title": "State or territory"
           },
           {
-            "field": "articles_2025",
-            "title": "Articles (February 2025)",
+            "field": "articles_2026",
+            "title": "Articles (October 2026)",
             "format": ","
           }
         ]
@@ -129,13 +129,13 @@
             "lon": 151.9,
             "lat": -31.0,
             "t1": "New South Wales",
-            "t2": "89.3 million articles"
+            "t2": "90.0 million articles"
           },
           {
             "lon": 133.4,
             "lat": -17.6,
             "t1": "Northern Territory",
-            "t2": "0.4 million, the fewest"
+            "t2": "0.5 million, the fewest"
           }
         ]
       },
@@ -167,13 +167,13 @@
             "lon": 151.9,
             "lat": -31.0,
             "t1": "New South Wales",
-            "t2": "89.3 million articles"
+            "t2": "90.0 million articles"
           },
           {
             "lon": 133.4,
             "lat": -17.6,
             "t1": "Northern Territory",
-            "t2": "0.4 million, the fewest"
+            "t2": "0.5 million, the fewest"
           }
         ]
       },

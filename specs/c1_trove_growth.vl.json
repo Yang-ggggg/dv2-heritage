@@ -1,10 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Trove's newspapers grew five times in 14 years",
+    "text": "Trove's newspapers grew 5.5 times since 2011",
     "subtitle": [
-      "Total digitised newspaper articles on Trove at each data harvest, April 2011 to February 2025.",
-      "Dots: 9 early snapshots. Line: weekly harvests from April 2022."
+      "Total digitised newspaper articles on Trove, 2011 to 2026.",
+      "Dots: single counts. Line: weekly harvests.",
+      "Dashed: no harvests from February 2025 to October 2026."
     ]
   },
   "width": 610,
@@ -27,7 +28,7 @@
       "scale": {
         "domain": [
           "2010-06-01",
-          "2026-03-01"
+          "2027-06-01"
         ]
       },
       "axis": {
@@ -42,7 +43,7 @@
       "scale": {
         "domain": [
           0,
-          280000000
+          300000000
         ]
       },
       "axis": {
@@ -58,12 +59,50 @@
         "type": "line",
         "color": "#3182bd",
         "strokeWidth": 2.5
+      },
+      "transform": [
+        {
+          "filter": "datum.harvest_type != 'api_refresh'"
+        }
+      ]
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "d": "2025-02-16",
+            "v": 251022068
+          },
+          {
+            "d": "2026-10-20",
+            "v": 266321617
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "color": "#3182bd",
+        "strokeWidth": 2,
+        "strokeDash": [
+          4,
+          4
+        ]
+      },
+      "encoding": {
+        "x": {
+          "field": "d",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "v",
+          "type": "quantitative"
+        }
       }
     },
     {
       "transform": [
         {
-          "filter": "datum.harvest_type == 'snapshot'"
+          "filter": "datum.harvest_type != 'weekly'"
         }
       ],
       "mark": {
@@ -109,7 +148,7 @@
         "type": "text",
         "align": "left",
         "dx": 10,
-        "dy": 4,
+        "dy": 16,
         "fontWeight": 700,
         "fontSize": 14
       },
@@ -131,16 +170,16 @@
       "data": {
         "values": [
           {
-            "d": "2025-02-16",
-            "v": 251022068,
-            "t": "251.0 million (February 2025)"
+            "d": "2026-10-20",
+            "v": 266321617,
+            "t": "266.3 million (October 2026)"
           }
         ]
       },
       "mark": {
         "type": "text",
         "align": "right",
-        "dx": -4,
+        "dx": 6,
         "dy": -16,
         "fontWeight": 700,
         "fontSize": 14
@@ -163,7 +202,9 @@
       "data": {
         "values": [
           {
-            "d": "2025-02-21"
+            "d": "2025-02-21",
+            "v0": 0,
+            "v1": 235000000
           }
         ]
       },
@@ -181,10 +222,11 @@
           "type": "temporal"
         },
         "y": {
-          "datum": 0
+          "field": "v0",
+          "type": "quantitative"
         },
         "y2": {
-          "datum": 265000000
+          "field": "v1"
         }
       }
     },

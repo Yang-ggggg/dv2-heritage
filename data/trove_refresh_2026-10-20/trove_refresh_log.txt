@@ -1,0 +1,7 @@
+Harvest time: 2026-10-20 09:26 UTC
+Parameters: category=newspaper, l-artType=newspaper (same as Tim Sherratt's harvester)
+API calls made: 26
+All articles: 266321617
+Articles with corrections: 17549407
+Sum of states: 266321617
+Sum of years: 266321617

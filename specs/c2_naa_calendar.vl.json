@@ -3,8 +3,9 @@
   "title": {
     "text": "One record week: 62,555 files in seven days",
     "subtitle": [
-      "Archive files digitised by the National Archives of Australia each week, March 2021 to September 2026.",
-      "Each square is one week. Grey weeks were not recorded by the data harvest, so they are not counted as zero."
+      "Files digitised each week by the National Archives,",
+      "March 2021 to September 2026. Each square is one week.",
+      "Grey weeks were not recorded, so they are not zero."
     ]
   },
   "width": 1000,

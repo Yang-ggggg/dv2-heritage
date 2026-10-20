@@ -6,9 +6,10 @@
       "are Second World War service records"
     ],
     "subtitle": [
-      "National Archives of Australia files digitised from March 2021",
-      "to September 2026, by theme. Each box is one record series;",
-      "its area is the number of files. Small series are grouped."
+      "Files digitised by the National Archives of Australia,",
+      "March 2021 to September 2026, by theme.",
+      "Each box is one record series. Bigger box, more files.",
+      "Small series are grouped."
     ],
     "anchor": "start"
   },
@@ -103,11 +104,11 @@
         },
         {
           "line": 2,
-          "text": "\u201cone of the most popular"
+          "text": "“one of the most popular"
         },
         {
           "line": 3,
-          "text": "requests\u201d it receives."
+          "text": "requests” it receives."
         }
       ]
     }

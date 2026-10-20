@@ -6,8 +6,8 @@
       "newspapers per resident"
     ],
     "subtitle": [
-      "Digitised newspaper articles on Trove (all years, February 2025)",
-      "divided by residents (March 2026)."
+      "Digitised newspaper articles on Trove (all years,",
+      "October 2026) divided by residents (March 2026)."
     ]
   },
   "width": 400,
@@ -41,7 +41,7 @@
               "format": {
                 "type": "csv",
                 "parse": {
-                  "articles_2025": "number",
+                  "articles_2026": "number",
                   "population_mar2026": "number",
                   "articles_per_resident": "number"
                 }
@@ -49,7 +49,7 @@
             },
             "key": "state",
             "fields": [
-              "articles_2025",
+              "articles_2026",
               "population_mar2026",
               "articles_per_resident"
             ]
@@ -130,7 +130,7 @@
             "format": ".1f"
           },
           {
-            "field": "articles_2025",
+            "field": "articles_2026",
             "type": "quantitative",
             "title": "Digitised articles",
             "format": ","
@@ -198,7 +198,7 @@
             "lon": 133.4,
             "lat": -15.8,
             "t1": "Northern Territory",
-            "t2": "1.5, the lowest",
+            "t2": "1.8, the lowest",
             "a": "center"
           }
         ]
@@ -250,7 +250,7 @@
             "lon": 133.4,
             "lat": -15.8,
             "t1": "Northern Territory",
-            "t2": "1.5, the lowest",
+            "t2": "1.8, the lowest",
             "a": "center"
           }
         ]
@@ -302,7 +302,7 @@
             "lon": 133.4,
             "lat": -15.8,
             "t1": "Northern Territory",
-            "t2": "1.5, the lowest",
+            "t2": "1.8, the lowest",
             "a": "center"
           }
         ]
@@ -354,7 +354,7 @@
             "lon": 133.4,
             "lat": -15.8,
             "t1": "Northern Territory",
-            "t2": "1.5, the lowest",
+            "t2": "1.8, the lowest",
             "a": "center"
           }
         ]
