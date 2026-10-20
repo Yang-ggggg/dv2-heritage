@@ -6,9 +6,8 @@
       "likely to be online"
     ],
     "subtitle": [
-      "Share of items digitised, by the decade",
-      "a collection begins (March 2023).",
-      "Decades with under 20 collections are left out."
+      "Share of items digitised, by the decade a collection",
+      "begins (March 2023). Dot area = items in that decade."
     ]
   },
   "width": 640,
@@ -97,7 +96,6 @@
         "type": "point",
         "filled": true,
         "color": "#3182bd",
-        "size": 90,
         "opacity": 1
       },
       "encoding": {
@@ -131,7 +129,33 @@
             "title": "Share digitised (per cent)",
             "format": ".1f"
           }
-        ]
+        ],
+        "size": {
+          "field": "items",
+          "type": "quantitative",
+          "title": "Dot size",
+          "scale": {
+            "domain": [
+              0,
+              40000
+            ],
+            "range": [
+              20,
+              500
+            ]
+          },
+          "legend": {
+            "orient": "top",
+            "direction": "horizontal",
+            "values": [
+              1000,
+              10000,
+              30000
+            ],
+            "titleOrient": "left",
+            "labelExpr": "format(datum.value, ',') + ' items'"
+          }
+        }
       }
     },
     {
@@ -140,22 +164,22 @@
           {
             "decade": 1858,
             "share": 92,
-            "text": "1760s to 1820s: between"
+            "text": "1760s to 1820s: 64% to 99% online,"
           },
           {
             "decade": 1858,
-            "share": 86.5,
-            "text": "64% and 99% of items are online"
+            "share": 86,
+            "text": "but only 59,417 items in total"
           },
           {
             "decade": 1912,
-            "share": 38,
-            "text": "1930s to 1980s: between"
+            "share": 42,
+            "text": "1930s to 1980s: 1% to 5.5% online,"
           },
           {
             "decade": 1912,
-            "share": 32.5,
-            "text": "1% and 5.5% of items are online"
+            "share": 36,
+            "text": "out of 158,970 items in total"
           }
         ]
       },
@@ -163,7 +187,7 @@
         "type": "text",
         "align": "left",
         "baseline": "middle",
-        "fontSize": 13,
+        "fontSize": 14,
         "fontWeight": 700
       },
       "encoding": {

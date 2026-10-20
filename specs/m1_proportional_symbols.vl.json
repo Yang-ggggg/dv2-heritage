@@ -1,10 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "New South Wales grew nine times since 2011",
+    "text": [
+      "New South Wales has the most",
+      "digitised newspapers"
+    ],
     "subtitle": [
-      "Digitised newspaper articles on Trove by state or territory.",
-      "Outline circle = April 2011. Filled circle = February 2025."
+      "Digitised newspaper articles on Trove by state or",
+      "territory (February 2025). Circle area = articles."
     ]
   },
   "width": 400,
@@ -88,9 +91,9 @@
           "legend": {
             "orient": "bottom",
             "values": [
-              5000000,
-              25000000,
-              90000000
+              1000000,
+              10000000,
+              50000000
             ],
             "labelExpr": "format(datum.value/1e6,'.0f') + ' million'",
             "symbolFillColor": "#3182bd",
@@ -112,75 +115,9 @@
             "title": "State or territory"
           },
           {
-            "field": "articles_2011",
-            "title": "April 2011",
-            "format": ","
-          },
-          {
             "field": "articles_2025",
-            "title": "February 2025",
+            "title": "Articles (February 2025)",
             "format": ","
-          },
-          {
-            "field": "growth_times",
-            "title": "Times bigger",
-            "format": ".1f"
-          }
-        ]
-      }
-    },
-    {
-      "data": {
-        "url": "data/trove_states.csv",
-        "format": {
-          "type": "csv",
-          "parse": {
-            "articles_2011": "number",
-            "articles_2025": "number",
-            "growth_times": "number",
-            "lon": "number",
-            "lat": "number"
-          }
-        }
-      },
-      "mark": {
-        "type": "circle",
-        "filled": false,
-        "stroke": "#1E1E1A",
-        "strokeWidth": 1.5
-      },
-      "encoding": {
-        "longitude": {
-          "field": "lon",
-          "type": "quantitative"
-        },
-        "latitude": {
-          "field": "lat",
-          "type": "quantitative"
-        },
-        "size": {
-          "field": "articles_2011",
-          "type": "quantitative"
-        },
-        "tooltip": [
-          {
-            "field": "state",
-            "title": "State or territory"
-          },
-          {
-            "field": "articles_2011",
-            "title": "April 2011",
-            "format": ","
-          },
-          {
-            "field": "articles_2025",
-            "title": "February 2025",
-            "format": ","
-          },
-          {
-            "field": "growth_times",
-            "title": "Times bigger",
-            "format": ".1f"
           }
         ]
       }
@@ -192,20 +129,20 @@
             "lon": 151.9,
             "lat": -31.0,
             "t1": "New South Wales",
-            "t2": "9.2 times bigger"
+            "t2": "89.3 million articles"
           },
           {
             "lon": 133.4,
             "lat": -17.6,
             "t1": "Northern Territory",
-            "t2": "no growth (1.0 times)"
+            "t2": "0.4 million, the fewest"
           }
         ]
       },
       "mark": {
         "type": "text",
         "align": "left",
-        "fontSize": 12,
+        "fontSize": 14,
         "fontWeight": 700,
         "dy": -7
       },
@@ -230,20 +167,20 @@
             "lon": 151.9,
             "lat": -31.0,
             "t1": "New South Wales",
-            "t2": "9.2 times bigger"
+            "t2": "89.3 million articles"
           },
           {
             "lon": 133.4,
             "lat": -17.6,
             "t1": "Northern Territory",
-            "t2": "no growth (1.0 times)"
+            "t2": "0.4 million, the fewest"
           }
         ]
       },
       "mark": {
         "type": "text",
         "align": "left",
-        "fontSize": 12,
+        "fontSize": 14,
         "dy": 8
       },
       "encoding": {

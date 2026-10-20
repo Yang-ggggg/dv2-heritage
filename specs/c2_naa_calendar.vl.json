@@ -176,7 +176,7 @@
           {
             "iso_week": 26,
             "iso_year": 2022,
-            "text": "Record week (outlined): ending 3 July 2022, 62,555 files, mostly Bonegilla migrant cards"
+            "text": "Record week (outlined): 62,555 files, 3 July 2022"
           }
         ]
       },
@@ -185,7 +185,7 @@
         "align": "center",
         "dx": 0,
         "dy": -22,
-        "fontSize": 13,
+        "fontSize": 14,
         "fontWeight": 700
       },
       "encoding": {

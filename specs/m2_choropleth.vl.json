@@ -1,7 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Tasmania has the most old newspapers per resident",
+    "text": [
+      "Tasmania has the most old",
+      "newspapers per resident"
+    ],
     "subtitle": [
       "Digitised newspaper articles on Trove (all years, February 2025)",
       "divided by residents (March 2026)."
@@ -208,7 +211,7 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "fontSize": 12,
+        "fontSize": 14,
         "fontWeight": 700,
         "dy": -7
       },
@@ -260,7 +263,7 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "fontSize": 12,
+        "fontSize": 14,
         "fontWeight": 400,
         "dy": 8
       },
@@ -312,7 +315,7 @@
       "mark": {
         "type": "text",
         "align": "center",
-        "fontSize": 12,
+        "fontSize": 14,
         "fontWeight": 700,
         "dy": -7
       },
@@ -364,7 +367,7 @@
       "mark": {
         "type": "text",
         "align": "center",
-        "fontSize": 12,
+        "fontSize": 14,
         "fontWeight": 400,
         "dy": 8
       },

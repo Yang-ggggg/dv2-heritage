@@ -51,7 +51,7 @@ def panel_spec(collection_type, panel_title, panel_subtitle, bar_colour, notes):
                      {"field": "items", "title": "Items", "format": ","},
                      {"field": "share_percent", "title": "Share of its items (per cent)", "format": ".1f"}]}},
             {"data": {"values": [{"decade": x, "share": y, "text": text} for text, x, y in notes]},
-             "mark": {"type": "text", "align": "left", "baseline": "middle", "fontSize": 13, "fontWeight": 700},
+             "mark": {"type": "text", "align": "left", "baseline": "middle", "fontSize": 14, "fontWeight": 700},
              "encoding": {"x": {"field": "decade", "type": "quantitative"},
                           "y": {"field": "share", "type": "quantitative"},
                           "text": {"field": "text"}}},
@@ -74,7 +74,7 @@ key_cell = {
         {"transform": [{"filter": "datum.line == 0"}],
          "mark": {"type": "text", "align": "left", "baseline": "middle", "fontSize": 15, "fontWeight": 700}},
         {"transform": [{"filter": "datum.line > 0"}],
-         "mark": {"type": "text", "align": "left", "baseline": "middle", "fontSize": 13}},
+         "mark": {"type": "text", "align": "left", "baseline": "middle", "fontSize": 14}},
     ],
 }
 

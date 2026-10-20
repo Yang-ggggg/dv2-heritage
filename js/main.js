@@ -10,6 +10,7 @@ const chartSpecs = {
   c7_naa_treemap: "specs/c7_naa_treemap.vg.json",
   c8_naa_streamgraph: "specs/c8_naa_streamgraph.vl.json",
   c9_oral_history_isotype: "specs/c9_oral_history_isotype.vl.json",
+  c10_state_growth_dumbbell: "specs/c10_state_growth_dumbbell.vl.json",
   m1_proportional_symbols: "specs/m1_proportional_symbols.vl.json",
   m2_choropleth: "specs/m2_choropleth.vl.json",
   m3_hexbin_map: "specs/m3_hexbin_map.vl.json"

@@ -1,0 +1,215 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": [
+      "New South Wales grew 9.2 times since 2011.",
+      "The Northern Territory did not grow."
+    ],
+    "subtitle": [
+      "Digitised newspaper articles on Trove, April 2011 and",
+      "February 2025. States sorted by growth."
+    ]
+  },
+  "width": 560,
+  "height": 330,
+  "data": {
+    "url": "data/trove_states.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "articles_2011": "number",
+        "articles_2025": "number",
+        "growth_times": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "datum.articles_2011/1e6",
+      "as": "millions_2011"
+    },
+    {
+      "calculate": "datum.articles_2025/1e6",
+      "as": "millions_2025"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#9E9E96",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "nominal",
+          "title": null,
+          "sort": {
+            "field": "growth_times",
+            "order": "descending"
+          },
+          "axis": {
+            "labelFontSize": 13,
+            "domain": false,
+            "ticks": false,
+            "labelPadding": 8,
+            "labelLimit": 300
+          }
+        },
+        "x": {
+          "field": "millions_2011",
+          "type": "quantitative",
+          "title": "Articles (millions)",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "axis": {
+            "values": [
+              0,
+              25,
+              50,
+              75,
+              100
+            ],
+            "grid": true
+          }
+        },
+        "x2": {
+          "field": "millions_2025"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "fold": [
+            "millions_2011",
+            "millions_2025"
+          ],
+          "as": [
+            "harvest",
+            "millions"
+          ]
+        },
+        {
+          "calculate": "datum.harvest=='millions_2011' ? 'April 2011' : 'February 2025'",
+          "as": "harvest_label"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "size": 170,
+        "opacity": 1,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "nominal",
+          "title": null,
+          "sort": {
+            "field": "growth_times",
+            "order": "descending"
+          },
+          "axis": {
+            "labelFontSize": 13,
+            "domain": false,
+            "ticks": false,
+            "labelPadding": 8,
+            "labelLimit": 300
+          }
+        },
+        "x": {
+          "field": "millions",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "harvest_label",
+          "type": "ordinal",
+          "title": null,
+          "scale": {
+            "domain": [
+              "April 2011",
+              "February 2025"
+            ],
+            "range": [
+              "#9ecae1",
+              "#08519c"
+            ]
+          },
+          "legend": {
+            "orient": "top",
+            "direction": "horizontal",
+            "symbolSize": 150
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State or territory"
+          },
+          {
+            "field": "harvest_label",
+            "title": "Harvest"
+          },
+          {
+            "field": "millions",
+            "title": "Articles (millions)",
+            "format": ".1f"
+          },
+          {
+            "field": "growth_times",
+            "title": "Times bigger since 2011",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 12,
+        "fontSize": 13,
+        "color": "#1E1E1A",
+        "fontWeight": 700
+      },
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "nominal",
+          "title": null,
+          "sort": {
+            "field": "growth_times",
+            "order": "descending"
+          },
+          "axis": {
+            "labelFontSize": 13,
+            "domain": false,
+            "ticks": false,
+            "labelPadding": 8,
+            "labelLimit": 300
+          }
+        },
+        "x": {
+          "field": "millions_2025",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "growth_label"
+        }
+      },
+      "transform": [
+        {
+          "calculate": "format(datum.growth_times,'.1f') + ' times'",
+          "as": "growth_label"
+        }
+      ]
+    }
+  ]
+}

@@ -139,7 +139,7 @@
         "align": "right",
         "dx": -2,
         "baseline": "middle",
-        "fontSize": 13,
+        "fontSize": 14,
         "fontWeight": 700
       },
       "encoding": {
@@ -186,7 +186,7 @@
         "align": "left",
         "dx": 8,
         "baseline": "middle",
-        "fontSize": 13
+        "fontSize": 14
       },
       "encoding": {
         "x": {
