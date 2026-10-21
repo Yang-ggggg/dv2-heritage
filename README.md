@@ -6,6 +6,7 @@ A one-page, scrolling data story about Australia's digitised heritage collection
 
 - `index.html`, `css/`, `js/`: the web page
 - `specs/`: one pretty-printed Vega-Lite JSON spec per chart (`theme.json` = shared fonts and greys)
+- `specs_commented/`: the same specs with short comments (JSON cannot hold comments); the page does not load them
 - `data/`: small aggregated data files used by the charts
 - `pipeline/`: Python scripts that make the files in `data/` from the original sources
 - `sketch/`: PDF of the hand-drawn A4 sketch

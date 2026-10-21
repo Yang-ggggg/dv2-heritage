@@ -8,7 +8,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Page layout and text styles (12-column grid) -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- The three chart libraries (same as the studio code):
+       vega = draws the chart, vega-lite = turns my short specs into Vega,
+       vega-embed = puts each chart into its div -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
@@ -16,6 +20,7 @@
 <body>
   <main class="page">
 
+    <!-- HEADER: title, 4 big numbers, intro and the 3 forces -->
     <header class="section">
       <p class="eyebrow">Australian heritage collections</p>
       <h1>Who Decides What Goes Online?</h1>
@@ -39,6 +44,7 @@
       </div>
     </header>
 
+    <!-- SECTION 1 GROWTH: C1 line chart, C2 calendar heat map -->
     <section class="section" id="growth">
       <p class="eyebrow">Section 1 · Growth</p>
       <h2>How much is online?</h2>
@@ -51,7 +57,7 @@
           <p class="body-text">Then it added 15.3 million in under two years.
             Most of them, 10.5 million, came from Queensland.</p>
         </div>
-        <figure class="span-8"><div id="c1_trove_growth"></div></figure>
+        <figure class="span-8"><div id="c1_trove_growth"></div></figure> <!-- C1 line chart: drawn by main.js from specs/ -->
       </div>
       <div class="grid">
         <p class="body-text span-4">The National Archives of Australia also digitises old files,
@@ -63,10 +69,11 @@
             compared with 2,025 in 2026</p></div>
       </div>
       <div class="grid">
-        <figure class="span-12"><div id="c2_naa_calendar"></div></figure>
+        <figure class="span-12"><div id="c2_naa_calendar"></div></figure> <!-- C2 calendar heat map: drawn by main.js from specs/ -->
       </div>
     </section>
 
+    <!-- SECTION 2 LAW: C3 histogram, C4 waffle, C5 lollipop, C6 small multiples -->
     <section class="section" id="law">
       <p class="eyebrow">Section 2 · Law</p>
       <h2>The copyright wall</h2>
@@ -80,7 +87,7 @@
           <p class="callout-label">articles from 1955 than from 1954</p></div>
       </div>
       <div class="grid">
-        <figure class="span-12"><div id="c3_publication_years"></div></figure>
+        <figure class="span-12"><div id="c3_publication_years"></div></figure> <!-- C3 histogram: drawn by main.js from specs/ -->
       </div>
       <div class="grid">
         <p class="body-text span-4">Newspapers are only one kind of collection.
@@ -92,11 +99,11 @@
       </div>
       <div class="grid">
         <div class="span-4">
-          <figure><div id="c4_manuscripts_waffle"></div></figure>
+          <figure><div id="c4_manuscripts_waffle"></div></figure> <!-- C4 waffle: drawn by main.js from specs/ -->
           <p class="note">Note: squares are rounded, so 29.5% shows as 30 squares.</p>
         </div>
         <div class="span-8">
-          <figure><div id="c5_manuscripts_lollipop"></div></figure>
+          <figure><div id="c5_manuscripts_lollipop"></div></figure> <!-- C5 lollipop: drawn by main.js from specs/ -->
           <p class="note">Note: decades with fewer than 20 collections are left out,
             because a few collections could swing the share.</p>
         </div>
@@ -110,10 +117,11 @@
           <p class="callout-label">of periodical issues are from 1955 or later</p></div>
       </div>
       <div class="grid">
-        <figure class="span-12"><div id="c6_small_multiples"></div></figure>
+        <figure class="span-12"><div id="c6_small_multiples"></div></figure> <!-- C6 small multiples: drawn by main.js from specs/ -->
       </div>
     </section>
 
+    <!-- SECTION 3 MONEY: C10 dumbbell, M1 symbol map, M2 choropleth -->
     <section class="section" id="money">
       <p class="eyebrow">Section 3 · Money</p>
       <h2>Where you live matters</h2>
@@ -130,7 +138,7 @@
             <p class="callout-label">growth in New South Wales since 2011,
               compared with 1.2 times in the Northern Territory</p></div>
         </div>
-        <figure class="span-8"><div id="c10_state_growth_dumbbell"></div></figure>
+        <figure class="span-8"><div id="c10_state_growth_dumbbell"></div></figure> <!-- C10 dumbbell: drawn by main.js from specs/ -->
       </div>
       <div class="grid">
         <p class="body-text span-4">Totals and fairness tell different stories.
@@ -143,13 +151,14 @@
             compared with 1.8 in the Northern Territory</p></div>
       </div>
       <div class="grid">
-        <figure class="span-6"><div id="m1_proportional_symbols"></div></figure>
-        <figure class="span-6"><div id="m2_choropleth"></div></figure>
+        <figure class="span-6"><div id="m1_proportional_symbols"></div></figure> <!-- M1 proportional symbol map: drawn by main.js from specs/ -->
+        <figure class="span-6"><div id="m2_choropleth"></div></figure> <!-- M2 choropleth: drawn by main.js from specs/ -->
       </div>
       <p class="note">Note: Queensland gained 10.5 million articles after February 2025,
         when Trove released new Queensland newspapers in 2026.</p>
     </section>
 
+    <!-- SECTION 4 DEMAND: C7 treemap (Vega), C8 streamgraph -->
     <section class="section" id="demand">
       <p class="eyebrow">Section 4 · Demand</p>
       <h2>What people ask for goes first</h2>
@@ -163,7 +172,7 @@
             <p class="callout-label">of digitised archive files are
               Second World War service records</p></div>
         </div>
-        <figure class="span-8"><div id="c7_naa_treemap"></div></figure>
+        <figure class="span-8"><div id="c7_naa_treemap"></div></figure> <!-- C7 treemap (Vega): drawn by main.js from specs/ -->
       </div>
       <div class="grid">
         <p class="body-text span-4">The mix changes from month to month.
@@ -174,13 +183,14 @@
           <p class="callout-label">of files digitised in June 2022 were migration records</p></div>
       </div>
       <div class="grid">
-        <figure class="span-12"><div id="c8_naa_streamgraph"></div></figure>
+        <figure class="span-12"><div id="c8_naa_streamgraph"></div></figure> <!-- C8 streamgraph: drawn by main.js from specs/ -->
       </div>
       <p class="note">Note: January 2022, January 2023 and December 2023 miss some weekly lists.
         They show the average of the weeks recorded. Later months are not shown.
         Weekly lists are missing from May 2025 to May 2026.</p>
     </section>
 
+    <!-- SECTION 5 PEOPLE: C9 ISOTYPE, M3 hexagon bin map -->
     <section class="section" id="people">
       <p class="eyebrow">Section 5 · People</p>
       <h2>Voices and objects</h2>
@@ -195,7 +205,7 @@
             <p class="callout-label">newspaper articles with text corrected by Trove users
               (October 2026)</p></div>
         </div>
-        <figure class="span-8"><div id="c9_oral_history_isotype"></div></figure>
+        <figure class="span-8"><div id="c9_oral_history_isotype"></div></figure> <!-- C9 ISOTYPE: drawn by main.js from specs/ -->
       </div>
       <div class="grid">
         <div class="span-4 text-column">
@@ -219,10 +229,11 @@
               With 150-kilometre hexagons, the same four areas stay on top.</p>
           </div>
         </div>
-        <figure class="span-8"><div id="m3_hexbin_map"></div></figure>
+        <figure class="span-8"><div id="m3_hexbin_map"></div></figure> <!-- M3 hexagon bin map: drawn by main.js from specs/ -->
       </div>
     </section>
 
+    <!-- SECTION 6 TAKEAWAYS: 3 cards and "What Malaysia can learn" -->
     <section class="section" id="takeaways">
       <p class="eyebrow">Section 6 · Takeaways</p>
       <h2>Who decides what goes online?</h2>
@@ -262,6 +273,8 @@
         </div>
       </div>
     </section>
+
+    <!-- ABOUT THE DATA: sources, method, code references, use of AI, author -->
 
     <footer class="section" id="about">
       <h2>About the data</h2>
@@ -341,6 +354,7 @@
     </footer>
 
   </main>
+  <!-- main.js fills every empty chart div above (see js/main.js) -->
   <script src="js/main.js"></script>
 </body>
 </html>
