@@ -8,7 +8,7 @@
     "subtitle": [
       "Digitised newspaper articles on Trove, April 2011 and",
       "October 2026. Line length shows how many times bigger.",
-      "Log scale: 1–2 is as long as 10–20."
+      "Logarithmic scale: 1–2 is as long as 10–20."
     ]
   },
   "width": 560,
@@ -61,7 +61,7 @@
         "x": {
           "field": "millions_2011",
           "type": "quantitative",
-          "title": "Articles in millions (log scale)",
+          "title": "Articles in millions (logarithmic scale)",
           "scale": {
             "type": "log",
             "domain": [
