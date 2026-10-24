@@ -55,9 +55,20 @@
               "signal": "width"
             },
             {
-              "signal": "height"
+              "signal": "height + 40"
             }
-          ]
+          ],
+          "paddingTop": 40
+        },
+        {
+          "type": "formula",
+          "as": "y0",
+          "expr": "datum.y0 - 40"
+        },
+        {
+          "type": "formula",
+          "as": "y1",
+          "expr": "datum.y1 - 40"
         }
       ]
     },
@@ -137,6 +148,42 @@
     {
       "type": "rect",
       "from": {
+        "data": "themes"
+      },
+      "interactive": true,
+      "encode": {
+        "enter": {
+          "x": {
+            "field": "x0"
+          },
+          "y": {
+            "field": "y0"
+          },
+          "x2": {
+            "field": "x1"
+          },
+          "y2": {
+            "field": "y1"
+          },
+          "fill": {
+            "scale": "theme_colour",
+            "field": "theme"
+          },
+          "stroke": {
+            "value": "#FFFFFF"
+          },
+          "strokeWidth": {
+            "value": 0
+          },
+          "tooltip": {
+            "signal": "{'Theme': datum.name, 'Share of all files': format(datum.theme_share_percent, '.1f') + '%'}"
+          }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {
         "data": "series"
       },
       "encode": {
@@ -164,7 +211,7 @@
             "value": 1
           },
           "tooltip": {
-            "signal": "{'Theme': datum.theme, 'Series': datum.name, 'Series number': datum.series === 'grouped' ? 'several' : datum.series, 'Files': format(datum.files, ','), 'Share of all files': format(datum.share_percent, '.1f') + '%'}"
+            "signal": "{'Theme': datum.theme, 'Series': datum.name, 'Files': format(datum.files, ','), 'Share of all files': format(datum.share_percent, '.1f') + '%'}"
           }
         },
         "hover": {
@@ -290,7 +337,7 @@
             "value": 10
           },
           "y": {
-            "signal": "76 + datum.line * 18"
+            "signal": "84 + datum.line * 18"
           },
           "text": {
             "field": "text"

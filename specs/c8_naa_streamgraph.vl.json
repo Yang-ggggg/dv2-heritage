@@ -3,7 +3,7 @@
   "title": {
     "text": "In mid-2022, migration records briefly took over",
     "subtitle": [
-      "Files digitised per week by the National Archives,",
+      "Files per recorded week in the National Archives' lists,",
       "monthly average, April 2021 to April 2025.",
       "Read thickness with the scale bar. Bands are centred."
     ]
@@ -139,18 +139,44 @@
             "title": "Theme"
           },
           {
-            "field": "files_per_week",
-            "type": "quantitative",
-            "title": "Files per week",
-            "format": ",.0f"
+            "field": "files_per_week_text",
+            "type": "nominal",
+            "title": "Files per week"
           },
           {
             "field": "recorded_weeks",
             "type": "quantitative",
             "title": "Weeks with data"
+          },
+          {
+            "field": "month_share_text",
+            "type": "nominal",
+            "title": "Share of the month's files"
           }
         ]
-      }
+      },
+      "transform": [
+        {
+          "joinaggregate": [
+            {
+              "op": "sum",
+              "field": "files_per_week",
+              "as": "month_total"
+            }
+          ],
+          "groupby": [
+            "month_date"
+          ]
+        },
+        {
+          "calculate": "format(datum.files_per_week / datum.month_total * 100, '.0f') + '%'",
+          "as": "month_share_text"
+        },
+        {
+          "calculate": "format(datum.files_per_week, ',.0f')",
+          "as": "files_per_week_text"
+        }
+      ]
     },
     {
       "data": {

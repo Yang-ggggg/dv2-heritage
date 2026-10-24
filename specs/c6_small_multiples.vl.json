@@ -2,12 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": [
-      "Newspapers stop at the copyright wall.",
+      "Newspapers drop at the copyright wall.",
       "Other collections reach later."
     ],
     "subtitle": [
-      "Share of each panel's records, by decade (1800 to 2029).",
-      "Only records with a usable date are counted.",
+      "Share of each panel's records, by decade.",
+      "Only records dated 1800 to 2029; undated records left out.",
       "Every panel uses the same scale."
     ]
   },
@@ -121,12 +121,12 @@
                   },
                   {
                     "field": "items",
-                    "title": "Items",
+                    "title": "Records",
                     "format": ","
                   },
                   {
                     "field": "share_percent",
-                    "title": "Share of its items (per cent)",
+                    "title": "Share of the panel's records (per cent)",
                     "format": ".1f"
                   }
                 ]
@@ -265,12 +265,12 @@
                   },
                   {
                     "field": "items",
-                    "title": "Items",
+                    "title": "Records",
                     "format": ","
                   },
                   {
                     "field": "share_percent",
-                    "title": "Share of its items (per cent)",
+                    "title": "Share of the panel's records (per cent)",
                     "format": ".1f"
                   }
                 ]
@@ -409,12 +409,12 @@
                   },
                   {
                     "field": "items",
-                    "title": "Items",
+                    "title": "Records",
                     "format": ","
                   },
                   {
                     "field": "share_percent",
-                    "title": "Share of its items (per cent)",
+                    "title": "Share of the panel's records (per cent)",
                     "format": ".1f"
                   }
                 ]
@@ -466,7 +466,7 @@
         {
           "title": {
             "text": "Manuscript collections",
-            "subtitle": "2,117 collections, by start year, March 2023",
+            "subtitle": "2,117 collections starting from 1800, March 2023",
             "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
             "fontSize": 15,
             "subtitleFontSize": 12,
@@ -558,12 +558,12 @@
                   },
                   {
                     "field": "items",
-                    "title": "Items",
+                    "title": "Records",
                     "format": ","
                   },
                   {
                     "field": "share_percent",
-                    "title": "Share of its items (per cent)",
+                    "title": "Share of the panel's records (per cent)",
                     "format": ".1f"
                   }
                 ]
@@ -702,12 +702,12 @@
                   },
                   {
                     "field": "items",
-                    "title": "Items",
+                    "title": "Records",
                     "format": ","
                   },
                   {
                     "field": "share_percent",
-                    "title": "Share of its items (per cent)",
+                    "title": "Share of the panel's records (per cent)",
                     "format": ".1f"
                   }
                 ]

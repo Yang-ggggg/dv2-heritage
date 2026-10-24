@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": [
-      "Tasmania has the most old",
-      "newspapers per resident"
+      "Tasmania has the most digitised",
+      "articles per resident"
     ],
     "subtitle": [
       "Digitised newspaper articles on Trove (all years,",

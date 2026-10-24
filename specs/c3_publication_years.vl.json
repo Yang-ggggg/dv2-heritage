@@ -93,15 +93,21 @@
             "format": ","
           },
           {
-            "field": "articles_2011",
+            "field": "articles_2011_text",
             "title": "Articles (April 2011)",
-            "format": ","
+            "type": "nominal"
           }
         ],
         "y2": {
           "datum": 0
         }
-      }
+      },
+      "transform": [
+        {
+          "calculate": "isValid(datum.articles_2011) ? format(datum.articles_2011, ',') : 'No count in the 2011 data'",
+          "as": "articles_2011_text"
+        }
+      ]
     },
     {
       "transform": [
@@ -173,12 +179,12 @@
           {
             "x": 1956,
             "y": 2711437,
-            "text": "Copyright: Trove mostly includes papers"
+            "text": "Library copyright rule: later papers"
           },
           {
             "x": 1956,
             "y": 2361437,
-            "text": "published before 1956."
+            "text": "need the publisher's permission."
           }
         ]
       },
@@ -225,12 +231,12 @@
           {
             "x": 1956,
             "y": 2711437,
-            "text": "Copyright: Trove mostly includes papers"
+            "text": "Library copyright rule: later papers"
           },
           {
             "x": 1956,
             "y": 2361437,
-            "text": "published before 1956."
+            "text": "need the publisher's permission."
           }
         ]
       },

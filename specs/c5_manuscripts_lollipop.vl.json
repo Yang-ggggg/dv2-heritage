@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": [
-      "Older collections are far more",
-      "likely to be online"
+      "Earlier collections have higher",
+      "shares of items online"
     ],
     "subtitle": [
       "Share of items digitised, by the decade a collection",

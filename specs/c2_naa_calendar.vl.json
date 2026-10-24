@@ -3,7 +3,7 @@
   "title": {
     "text": "Archive digitising peaked in 2022, then slowed each year",
     "subtitle": [
-      "Files digitised each week by the National Archives,",
+      "Files in the National Archives' weekly digitised lists,",
       "March 2021 to September 2026. Each box is one week.",
       "Grey boxes were not recorded, so they are not zero."
     ]
@@ -159,16 +159,27 @@
             "format": "%d %B %Y"
           },
           {
-            "field": "files",
+            "field": "files_text",
             "title": "Files digitised",
-            "format": ","
+            "type": "nominal"
           },
           {
-            "field": "top_series_title",
-            "title": "Largest series that week"
+            "field": "top_series_text",
+            "title": "Largest series that week",
+            "type": "nominal"
           }
         ]
-      }
+      },
+      "transform": [
+        {
+          "calculate": "isValid(datum.files) ? format(datum.files, ',') : 'Not recorded'",
+          "as": "files_text"
+        },
+        {
+          "calculate": "isValid(datum.top_series_title) && datum.top_series_title != '' ? datum.top_series_title : 'Not recorded'",
+          "as": "top_series_text"
+        }
+      ]
     },
     {
       "data": {

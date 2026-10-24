@@ -54,7 +54,7 @@
           "as": "y_position"
         },
         {
-          "calculate": "{\"Online with a transcript\": \"Audio and transcript\", \"Listen online, no transcript\": \"Audio, no transcript\", \"Not online\": \"No online audio\"}[datum.status]",
+          "calculate": "{\"Online with a transcript\": \"Audio and transcript\", \"Listen online, no transcript\": \"Audio, no transcript\", \"Not online\": \"No online audio link\"}[datum.status]",
           "as": "status_label"
         }
       ],
@@ -162,7 +162,7 @@
           },
           {
             "x": 22.75,
-            "label": "No online audio",
+            "label": "No online audio link",
             "count": "13,881 recordings · 69.1%"
           }
         ]
@@ -202,7 +202,7 @@
           },
           {
             "x": 22.75,
-            "label": "No online audio",
+            "label": "No online audio link",
             "count": "13,881 recordings · 69.1%"
           }
         ]

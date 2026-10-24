@@ -2,12 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": [
-      "One in three mapped objects",
-      "comes from the Northern Territory"
+      "One in three mapped objects has a",
+      "Northern Territory production place"
     ],
     "subtitle": [
-      "Museum objects by recorded place of production,",
-      "counted in hexagons of equal area (October 2026).",
+      "Museum catalogue records harvested 4 October 2026,",
+      "by first production place with map coordinates.",
       "Each hexagon covers about 26,000 square kilometres."
     ]
   },
