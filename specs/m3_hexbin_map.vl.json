@@ -2,11 +2,11 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": [
-      "One in three mapped objects was",
-      "made in the Northern Territory"
+      "One in three mapped objects",
+      "comes from the Northern Territory"
     ],
     "subtitle": [
-      "National Museum of Australia objects by place made,",
+      "Museum objects by recorded place of production,",
       "counted in hexagons of equal area (October 2026).",
       "Each hexagon covers about 26,000 square kilometres."
     ]
@@ -57,7 +57,7 @@
         "color": {
           "field": "object_class",
           "type": "ordinal",
-          "title": "Objects made in the hexagon",
+          "title": "Objects in the hexagon",
           "scale": {
             "domain": [
               "1 to 9",
@@ -67,11 +67,11 @@
               "1,000 or more"
             ],
             "range": [
-              "#99d8c9",
-              "#66c2a4",
-              "#2ca25f",
-              "#006d2c",
-              "#00441b"
+              "#76c578",
+              "#38a156",
+              "#137b38",
+              "#005522",
+              "#003214"
             ]
           },
           "legend": {

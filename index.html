@@ -28,20 +28,25 @@
       <p class="byline">By Tan Jing Yang · October 2026</p>
       <div class="grid stat-row">
         <div class="stat span-3 nla"><p class="stat-number">266.3 million</p><p class="stat-label">newspaper articles on Trove (National Library of Australia), October 2026</p></div>
-        <div class="stat span-3 naa"><p class="stat-number">1.49 million</p><p class="stat-label">archive files digitised by the National Archives of Australia, 2021 to 2026</p></div>
+        <div class="stat span-3 naa"><p class="stat-number">1.49 million</p><p class="stat-label">archive files in the National Archives of Australia's recorded weekly lists, 2021 to 2026</p></div>
         <div class="stat span-3 nma"><p class="stat-number">97,214</p><p class="stat-label">objects in the National Museum of Australia's online collection</p></div>
         <div class="stat span-3 nla"><p class="stat-number">20,083</p><p class="stat-label">oral history recordings listed on Trove</p></div>
       </div>
       <div class="grid intro-row">
         <p class="body-text intro span-7">Every day, libraries, archives and museums put more of Australia's past online.
-          But they cannot put everything online at once. Something has to decide what goes first and what waits.
+          Not everything can go online at once.
+          Which records go first?
           This page follows three forces through the data.</p>
         <ol class="force-list span-5">
           <li><a href="#law"><strong>Law</strong></a>: copyright decides which years can go online.</li>
-          <li><a href="#money"><strong>Money</strong></a>: funding decides which states grow.</li>
+          <li><a href="#money"><strong>Money</strong></a>: funding helps decide which states grow.</li>
           <li><a href="#demand"><strong>Demand</strong></a>: what people ask for is digitised first.</li>
         </ol>
       </div>
+      <p class="note colour-key">Colours show the source:
+        <strong class="nla-text">blue</strong> National Library,
+        <strong class="naa-text">amber</strong> National Archives,
+        <strong class="nma-text">green</strong> National Museum.</p>
     </header>
 
     <!-- SECTION 1 GROWTH: C1 line chart, C2 calendar heat map -->
@@ -51,11 +56,11 @@
       <div class="grid">
         <div class="span-4 text-column">
           <p class="body-text">Trove is the National Library's free website for old newspapers. In 2011 it held 48.5 million articles.
-            By October 2026 it held 266.3 million, 5.5 times more.</p>
+            By October 2026 it held 266.3 million, 5.5 times as many.</p>
           <p class="body-text">Most of the growth happened before 2017.
             From 2017 to 2025, Trove added about 5 million articles a year.</p>
-          <p class="body-text">Then it added 15.3 million in under two years.
-            Most of them, 10.5 million, came from Queensland.</p>
+          <p class="body-text">Then it added 15.3 million articles in under two years.
+            Queensland supplied 10.5 million of them.</p>
         </div>
         <figure class="span-8"><div id="c1_trove_growth"></div></figure> <!-- C1 line chart: drawn by main.js from specs/ -->
       </div>
@@ -92,10 +97,10 @@
       <div class="grid">
         <p class="body-text span-4">Newspapers are only one kind of collection.
           The National Library also keeps manuscripts: letters, diaries and private papers.</p>
-        <p class="body-text span-4">The oldest papers come first.
-          Papers from the 1930s to the 1980s are mostly not online.</p>
+        <p class="body-text span-4">Collections that begin earliest are the most online.
+          Collections that begin from the 1930s to the 1980s are mostly not.</p>
         <div class="callout span-4"><p class="callout-number nla-text">97% or more</p>
-          <p class="callout-label">of items from the 1760s and 1770s are online</p></div>
+          <p class="callout-label">of items in collections that begin in the 1760s and 1770s are online</p></div>
       </div>
       <div class="grid">
         <div class="span-4">
@@ -104,8 +109,8 @@
         </div>
         <div class="span-8">
           <figure><div id="c5_manuscripts_lollipop"></div></figure> <!-- C5 lollipop: drawn by main.js from specs/ -->
-          <p class="note">Note: decades with fewer than 20 collections are left out,
-            because a few collections could swing the share.</p>
+          <p class="note">Note: decades with fewer than 20 collections are left out.
+            A few collections could swing their share.</p>
         </div>
       </div>
       <div class="grid">
@@ -114,7 +119,7 @@
         <p class="body-text span-4">Periodicals, manuscripts and oral histories reach much later.
           Most oral histories were recorded from the 1970s to the 2010s.</p>
         <div class="callout span-4"><p class="callout-number nla-text">28%</p>
-          <p class="callout-label">of periodical issues are from 1955 or later</p></div>
+          <p class="callout-label">of dated periodical issues are from 1955 or later</p></div>
       </div>
       <div class="grid">
         <figure class="span-12"><div id="c6_small_multiples"></div></figure> <!-- C6 small multiples: drawn by main.js from specs/ -->
@@ -127,11 +132,13 @@
       <h2>Where you live matters</h2>
       <div class="grid">
         <div class="span-4 text-column">
-          <p class="body-text">Digitising costs money, and each state library decides how much to spend.
-            New South Wales funded a large program, so its newspapers have grown nine times since 2011.
-            The Northern Territory barely grew.</p>
-          <p class="body-text">Each row is one state or territory.
-            The light dot is April 2011 and the dark dot is October 2026.
+          <p class="body-text">Digitising costs money. The Trove Data Guide says
+            New South Wales "invested large amounts of money"
+            through its Digital Excellence program.
+            Its newspapers grew 9.3 times since 2011.
+            The Northern Territory grew only 1.2 times.</p>
+          <p class="body-text">Rows are states and territories.
+            Hollow dots show April 2011. Filled dots show October 2026.
             The scale grows by multiples, so a longer line
             means the state grew more times over.</p>
           <div class="callout"><p class="callout-number nla-text">9.3 times</p>
@@ -141,11 +148,11 @@
         <figure class="span-8"><div id="c10_state_growth_dumbbell"></div></figure> <!-- C10 dumbbell: drawn by main.js from specs/ -->
       </div>
       <div class="grid">
-        <p class="body-text span-4">Totals and fairness tell different stories.
+        <p class="body-text span-4">Totals and per resident counts tell different stories.
           New South Wales has the most articles. But per resident, Tasmania has the most.</p>
         <p class="body-text span-4">Per resident means all digitised articles
           divided by the people who live there.
-          Both maps use the same scale.</p>
+          Both maps use the same map scale.</p>
         <div class="callout span-4"><p class="callout-number nla-text">27.3</p>
           <p class="callout-label">articles per resident in Tasmania,
             compared with 1.8 in the Northern Territory</p></div>
@@ -164,12 +171,12 @@
       <h2>What people ask for goes first</h2>
       <div class="grid">
         <div class="span-4 text-column">
-          <p class="body-text">The National Archives of Australia digitised 1.49 million files
-            from March 2021 to September 2026.</p>
+          <p class="body-text">The National Archives of Australia lists the files it digitises each week.
+            Its recorded lists hold 1.49 million files, March 2021 to September 2026.</p>
           <p class="body-text">More than half are Second World War service records,
             one of its most requested kinds of record. Migration and citizenship records come next.</p>
           <div class="callout"><p class="callout-number naa-text">56%</p>
-            <p class="callout-label">of digitised archive files are
+            <p class="callout-label">of recorded archive files are
               Second World War service records</p></div>
         </div>
         <figure class="span-8"><div id="c7_naa_treemap"></div></figure> <!-- C7 treemap (Vega): drawn by main.js from specs/ -->
@@ -185,9 +192,9 @@
       <div class="grid">
         <figure class="span-12"><div id="c8_naa_streamgraph"></div></figure> <!-- C8 streamgraph: drawn by main.js from specs/ -->
       </div>
-      <p class="note">Note: January 2022, January 2023 and December 2023 miss some weekly lists.
-        They show the average of the weeks recorded. Later months are not shown.
-        Weekly lists are missing from May 2025 to May 2026.</p>
+      <p class="note">Note: some weekly lists are missing in January 2022,
+        January 2023 and December 2023. Those months use the recorded weeks.
+        No lists exist from May 2025 to May 2026, so the chart stops in April 2025.</p>
     </section>
 
     <!-- SECTION 5 PEOPLE: C9 ISOTYPE, M3 hexagon bin map -->
@@ -196,9 +203,9 @@
       <h2>Voices and objects</h2>
       <div class="grid">
         <div class="span-4 text-column">
-          <p class="body-text">The National Library holds 20,083 oral history recordings.
-            Only 6,202 can be heard online. Only 1,781 have a written transcript,
-            so most voices cannot be searched as text.</p>
+          <p class="body-text">The National Library lists 20,083 oral history recordings.
+            Only 6,202 have audio online. Only 1,781 offer a transcript to download.
+            Another 2,710 offer only a short summary.</p>
           <p class="body-text">People help where they can. Trove users fix mistakes
             in the computer-read text of old newspapers.</p>
           <div class="callout"><p class="callout-number nla-text">17.5 million</p>
@@ -209,8 +216,9 @@
       </div>
       <div class="grid">
         <div class="span-4 text-column">
-          <p class="body-text">The National Museum of Australia also shares its objects online.
-            For 18,962 of its 97,214 objects, the museum records where they were made.
+          <p class="body-text">The National Museum's online catalogue lists 97,214 objects.
+            18,962 of them record a place of production.
+            After the exclusions below, the map shows 14,348: 14.8% of the catalogue.
             Many come from Sydney, Melbourne and Canberra.
             A large group comes from around Yirrkala in Arnhem Land.</p>
           <div class="callout"><p class="callout-number nma-text">34%</p>
@@ -218,12 +226,12 @@
               home to 1% of Australians (March 2026)</p></div>
           <div class="side-notes">
             <h3>How to read</h3>
-            <p class="note">Each hexagon covers the same area of land.
-              Darker green means more objects were made there. Empty land has no mapped objects.</p>
+            <p class="note">Each hexagon covers the same geographic area.
+              Darker green means more objects come from there. Empty land has no mapped objects.</p>
             <h3>What is left out</h3>
-            <p class="note">3,168 objects made overseas. 1,435 objects that only name
-              a state or a large region, for example "Central Australia".
-              11 objects placed off the map.</p>
+            <p class="note">3,168 objects made overseas.
+              1,435 objects that name only a state or large region,
+              such as "Central Australia". 11 objects placed off the map.</p>
             <h3>Why this hexagon size</h3>
             <p class="note">Each hexagon is 100 kilometres from centre to corner.
               With 150-kilometre hexagons, the same four areas stay on top.</p>
@@ -249,12 +257,12 @@
           <p class="callout-number nla-text">9.3 times</p>
           <p class="takeaway-text">growth in New South Wales since 2011,
             compared with 1.2 times in the Northern Territory.
-            Funding decides where.</p>
+            Funding helps decide where.</p>
         </div>
         <div class="takeaway span-4 naa">
           <h3>Demand</h3>
           <p class="callout-number naa-text">56%</p>
-          <p class="takeaway-text">of digitised archive files are
+          <p class="takeaway-text">of recorded archive files are
             Second World War service records. Popular records go first.</p>
         </div>
       </div>
@@ -264,8 +272,8 @@
         <div class="grid">
           <p class="takeaway-text span-4"><strong>Start with what copyright allows.</strong>
             Old works that are out of copyright can go online first.</p>
-          <p class="takeaway-text span-4"><strong>Share the money fairly.</strong>
-            Without shared funding, some regions fall behind,
+          <p class="takeaway-text span-4"><strong>Fund the regions that fall behind.</strong>
+            Some regions grow far less,
             like the Northern Territory.</p>
           <p class="takeaway-text span-4"><strong>Ask the public to help.</strong>
             Trove users corrected the text of 17.5 million articles.
@@ -289,11 +297,11 @@
               Harvested by the author on 20 October 2026.
               <a href="https://trove.nla.gov.au/">trove.nla.gov.au</a>.</li>
             <li>Trove newspaper totals (weekly harvests to 16 February 2025), Tim Sherratt.
-              <a href="https://github.com/wragge/trove-newspaper-totals">github.com/wragge/trove-newspaper-totals</a>. Accessed 5 October 2026.</li>
+              <a href="https://github.com/wragge/trove-newspaper-totals">GitHub data repository</a>. Accessed 5 October 2026.</li>
             <li>Trove newspaper totals (historical snapshots 2011 to 2022), Tim Sherratt.
-              <a href="https://github.com/wragge/trove-newspaper-totals-historical">github.com/wragge/trove-newspaper-totals-historical</a>. Accessed 5 October 2026.</li>
+              <a href="https://github.com/wragge/trove-newspaper-totals-historical">GitHub data repository</a>. Accessed 5 October 2026.</li>
             <li>National Archives of Australia, recently digitised files (weekly, to 13 September 2026), Tim Sherratt.
-              <a href="https://github.com/wragge/naa-recently-digitised">github.com/wragge/naa-recently-digitised</a>. Accessed 5 October 2026.</li>
+              <a href="https://github.com/wragge/naa-recently-digitised">GitHub data repository</a>. Accessed 5 October 2026.</li>
             <li>Australian Bureau of Statistics, National, state and territory population, March 2026.
               <a href="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/latest-release">abs.gov.au</a>. Accessed 5 October 2026.</li>
             <li>Australian Bureau of Statistics, Australian Statistical Geography Standard Edition 4, state and territory boundaries 2026.
@@ -329,7 +337,9 @@
           <p class="body-text small">Some numbers are worked out from others.
             Articles per resident is all digitised articles divided by residents in March 2026.
             Share digitised is digitised items divided by all items.
-            Files per week means monthly files divided by recorded weeks.</p>
+            Files per week means monthly files divided by recorded weeks.
+            Transcripts and summaries are the oral history fields "transcript" and "summary"
+            (available to download).</p>
           <p class="body-text small">Archive themes come from words in each file's title,
             such as "Service Number". Series titles in the tooltips are lightly edited
             to spell out short forms.</p>
@@ -346,8 +356,8 @@
           <h3>Use of artificial intelligence</h3>
           <p class="body-text small">I used Claude (Anthropic) to help find and check data,
             write Python and Vega-Lite code, plan the layout,
-            draft and edit the text, and check grammar.
-            I chose the story and the charts, and I reviewed all final text.</p>
+            and draft and edit the text.
+            I chose the story and charts, and reviewed every final sentence.</p>
           <p class="body-text small">Author: Tan Jing Yang, FIT3179 Data Visualisation, Monash University, October 2026.</p>
         </div>
       </div>

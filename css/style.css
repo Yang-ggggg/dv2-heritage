@@ -42,7 +42,7 @@ h2 { font-size: 32px; line-height: 1.2; }
 
 .subtitle { margin: 0 0 8px; font-size: 22px; color: var(--ink-secondary); }
 .byline { margin: 0; font-size: 14px; color: var(--ink-secondary); }
-.body-text { max-width: 25em; }   /* about 8-10 words per line (DV1 feedback: at most 10 words) */
+.body-text { max-width: 23em; }   /* about 8-10 words per line (DV1 feedback: at most 10 words) */
 
 .grid {
   display: grid;
@@ -76,10 +76,10 @@ h3 { font-size: 16px; margin: 0 0 8px; }
 .stat.naa { border-color: var(--naa); }
 .stat.nma { border-color: var(--nma); }
 .stat-number { margin: 0; font-size: 32px; font-weight: 700; line-height: 1.1; }
-.stat-label { margin: 6px 0 0; font-size: 14px; color: var(--ink-secondary); }
+.stat-label { margin: 6px 0 0; font-size: 14px; color: var(--ink-secondary); max-width: 24em; }
 .intro { font-size: 19px; }
 .text-column .body-text { margin-top: 0; }
-.note { font-size: 14px; color: var(--ink-secondary); max-width: 28em; }
+.note { font-size: 14px; color: var(--ink-secondary); max-width: 23em; }
 .small { font-size: 15px; }
 .source-list { padding-left: 18px; font-size: 14px; line-height: 1.5; }
 .source-list li { margin-bottom: 8px; max-width: 60ch; }
@@ -110,7 +110,7 @@ figure { margin-top: 0; }
 .side-notes .note { margin: 0; }
 .naa-text { color: var(--naa); }
 .text-column .callout { margin-top: 24px; }
-.callout-label { max-width: 26em; }
+.callout-label { max-width: 22em; }
 
 /* takeaways and Malaysia panel: same 3 columns, so each lesson sits under its force */
 .takeaway { border-top: 5px solid; padding-top: 12px; }
@@ -122,7 +122,7 @@ figure { margin-top: 0; }
 .malaysia-panel h3 { margin: 0 0 4px; font-family: 'Libre Caslon Text', Georgia, serif; font-size: 22px; }
 .malaysia-panel .body-text { margin: 0 0 16px; }
 .body-text.small { max-width: 23em; }
-.source-list li { max-width: 26em; }
+.source-list li { max-width: 23em; }
 
 /* section separator (Course Notes 9: white space groups and separates).
    A thin light rule starts each new section, like a new chapter.
@@ -144,3 +144,6 @@ figure .vega-embed { max-width: 100%; }
 h3 { font-size: 18px; }
 .takeaway h3 { font-size: 16px; }
 .malaysia-panel .body-text.small { max-width: 30em; }   /* one 9-word line, no gap beside it */
+
+/* v0.17: colour key under the header */
+.colour-key { margin-top: 16px; }

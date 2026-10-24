@@ -135,11 +135,11 @@
             ],
             "range": [
               "#E6E6E0",
-              "#fdd0a2",
-              "#fdae6b",
-              "#fd8d3c",
-              "#e6550d",
-              "#a63603"
+              "#ffd97c",
+              "#fea130",
+              "#e96c12",
+              "#be4503",
+              "#862f06"
             ]
           },
           "legend": {
@@ -198,6 +198,32 @@
         },
         "text": {
           "field": "text"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "iso_week": 26,
+            "iso_year": 2022
+          }
+        ]
+      },
+      "mark": {
+        "type": "rect",
+        "fill": null,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 6
+      },
+      "encoding": {
+        "x": {
+          "field": "iso_week",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "iso_year",
+          "type": "ordinal"
         }
       }
     },

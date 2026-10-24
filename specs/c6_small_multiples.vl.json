@@ -6,8 +6,9 @@
       "Other collections reach later."
     ],
     "subtitle": [
-      "Share of each collection's items, by decade of content",
-      "(1800 to 2029). All panels use the same scale."
+      "Share of each panel's records, by decade (1800 to 2029).",
+      "Only records with a usable date are counted.",
+      "Every panel uses the same scale."
     ]
   },
   "data": {
@@ -172,7 +173,7 @@
         {
           "title": {
             "text": "Periodical issues",
-            "subtitle": "By date of the issue, March 2024",
+            "subtitle": "36,582 dated issues, March 2024",
             "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
             "fontSize": 15,
             "subtitleFontSize": 12,
@@ -465,7 +466,7 @@
         {
           "title": {
             "text": "Manuscript collections",
-            "subtitle": "By start of collection, March 2023",
+            "subtitle": "2,117 collections, by start year, March 2023",
             "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
             "fontSize": 15,
             "subtitleFontSize": 12,
@@ -609,7 +610,7 @@
         {
           "title": {
             "text": "Oral history recordings",
-            "subtitle": "By year recorded, December 2023",
+            "subtitle": "20,021 dated recordings, December 2023",
             "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
             "fontSize": 15,
             "subtitleFontSize": 12,
@@ -769,7 +770,7 @@
               },
               {
                 "line": 3,
-                "text": "Bar height is the share of that collection's items."
+                "text": "Bar height is the share of that panel's records."
               },
               {
                 "line": 4,

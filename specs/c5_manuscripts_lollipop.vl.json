@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": [
-      "Older manuscripts are far more",
+      "Older collections are far more",
       "likely to be online"
     ],
     "subtitle": [
@@ -61,7 +61,7 @@
     {
       "mark": {
         "type": "rule",
-        "color": "#6baed6",
+        "color": "#3182bd",
         "strokeWidth": 2.5
       },
       "encoding": {

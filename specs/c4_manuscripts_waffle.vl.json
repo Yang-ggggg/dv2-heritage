@@ -2,12 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": [
-      "Only 3 in 10 manuscript",
+      "Only 3 in 10 listed manuscript",
       "items are online"
     ],
     "subtitle": [
-      "Items in the National Library's",
-      "manuscript collections (March 2023).",
+      "Items listed in the National Library's",
+      "online finding aids (March 2023).",
       "One square is one per cent."
     ]
   },

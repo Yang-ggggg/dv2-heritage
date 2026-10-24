@@ -2,11 +2,11 @@
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "title": {
     "text": [
-      "More than half of digitised files",
+      "More than half of recorded files",
       "are Second World War service records"
     ],
     "subtitle": [
-      "Files digitised by the National Archives of Australia,",
+      "Files in the National Archives' recorded weekly lists,",
       "March 2021 to September 2026, by theme.",
       "Each box is one record series. Bigger box, more files.",
       "Small series are grouped."

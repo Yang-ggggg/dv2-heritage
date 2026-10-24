@@ -1,14 +1,15 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Only 9 in 100 oral history recordings have a transcript",
+    "text": "Only 9 in 100 recordings offer downloadable transcripts",
     "subtitle": [
       "Oral history recordings listed on Trove (December 2023).",
-      "Each microphone is about 200 recordings. Blocks hold 25."
+      "Each microphone is about 200 recordings.",
+      "Icons are rounded. The printed totals are exact."
     ]
   },
   "width": 680,
-  "height": 156,
+  "height": 230,
   "data": {
     "url": "data/oral_history_icons.csv",
     "format": {
@@ -21,93 +22,209 @@
       }
     }
   },
-  "transform": [
+  "layer": [
     {
-      "calculate": "datum.column + floor(datum.column / 5) * 0.6",
-      "as": "x_position"
-    },
-    {
-      "calculate": "datum.row",
-      "as": "y_position"
-    }
-  ],
-  "mark": {
-    "type": "point",
-    "shape": "M-0.28,-0.72 A0.28,0.28 0 0 1 0.28,-0.72 L0.28,-0.12 A0.28,0.28 0 0 1 -0.28,-0.12 Z M-0.5,-0.15 L-0.4,-0.15 A0.4,0.4 0 0 0 0.4,-0.15 L0.5,-0.15 A0.5,0.5 0 0 1 -0.5,-0.15 Z M-0.06,0.33 L0.06,0.33 L0.06,0.75 L-0.06,0.75 Z M-0.35,0.75 L0.35,0.75 L0.35,0.9 L-0.35,0.9 Z",
-    "filled": true,
-    "size": 540,
-    "opacity": 1,
-    "strokeWidth": 0
-  },
-  "encoding": {
-    "x": {
-      "field": "x_position",
-      "type": "quantitative",
-      "axis": null,
-      "scale": {
-        "domain": [
-          -0.5,
-          21.3
-        ],
-        "nice": false
+      "transform": [
+        {
+          "window": [
+            {
+              "op": "row_number",
+              "as": "number_in_group"
+            }
+          ],
+          "groupby": [
+            "status"
+          ],
+          "sort": [
+            {
+              "field": "position"
+            }
+          ]
+        },
+        {
+          "calculate": "datum.status == 'Online with a transcript' ? 0 : datum.status == 'Listen online, no transcript' ? 1 : 2",
+          "as": "group_number"
+        },
+        {
+          "calculate": "datum.group_number * 11.6 + (datum.number_in_group - 1) % 10",
+          "as": "x_position"
+        },
+        {
+          "calculate": "floor((datum.number_in_group - 1) / 10)",
+          "as": "y_position"
+        },
+        {
+          "calculate": "{\"Online with a transcript\": \"Audio and transcript\", \"Listen online, no transcript\": \"Audio, no transcript\", \"Not online\": \"No online audio\"}[datum.status]",
+          "as": "status_label"
+        }
+      ],
+      "mark": {
+        "type": "point",
+        "shape": "M-0.28,-0.72 A0.28,0.28 0 0 1 0.28,-0.72 L0.28,-0.12 A0.28,0.28 0 0 1 -0.28,-0.12 Z M-0.5,-0.15 L-0.4,-0.15 A0.4,0.4 0 0 0 0.4,-0.15 L0.5,-0.15 A0.5,0.5 0 0 1 -0.5,-0.15 Z M-0.06,0.33 L0.06,0.33 L0.06,0.75 L-0.06,0.75 Z M-0.35,0.75 L0.35,0.75 L0.35,0.9 L-0.35,0.9 Z",
+        "filled": true,
+        "size": 380,
+        "opacity": 1,
+        "strokeWidth": 0.9
+      },
+      "encoding": {
+        "x": {
+          "field": "x_position",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -0.6,
+              32.8
+            ],
+            "nice": false
+          }
+        },
+        "y": {
+          "field": "y_position",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -2.6,
+              6.6
+            ],
+            "nice": false,
+            "reverse": true
+          }
+        },
+        "fill": {
+          "field": "status",
+          "type": "nominal",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Online with a transcript",
+              "Listen online, no transcript",
+              "Not online"
+            ],
+            "range": [
+              "#3182bd",
+              "#deebf7",
+              "#E3E3DC"
+            ]
+          }
+        },
+        "stroke": {
+          "field": "status",
+          "type": "nominal",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Online with a transcript",
+              "Listen online, no transcript",
+              "Not online"
+            ],
+            "range": [
+              "#3182bd",
+              "#3182bd",
+              "#8C8C84"
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "status_label",
+            "type": "nominal",
+            "title": "Group"
+          },
+          {
+            "field": "recordings_in_group",
+            "type": "quantitative",
+            "title": "Recordings",
+            "format": ","
+          },
+          {
+            "field": "share_percent",
+            "type": "quantitative",
+            "title": "Share (per cent)",
+            "format": ".1f"
+          }
+        ]
       }
     },
-    "y": {
-      "field": "y_position",
-      "type": "quantitative",
-      "axis": null,
-      "scale": {
-        "domain": [
-          -0.5,
-          4.5
-        ],
-        "nice": false,
-        "reverse": true
-      }
-    },
-    "color": {
-      "field": "status",
-      "type": "ordinal",
-      "title": null,
-      "scale": {
-        "domain": [
-          "Online with a transcript",
-          "Listen online, no transcript",
-          "Not online"
-        ],
-        "range": [
-          "#08519c",
-          "#9ecae1",
-          "#d9d9d9"
+    {
+      "data": {
+        "values": [
+          {
+            "x": -0.45,
+            "label": "Audio and transcript",
+            "count": "1,781 recordings · 8.9%"
+          },
+          {
+            "x": 11.15,
+            "label": "Audio, no transcript",
+            "count": "4,421 recordings · 22.0%"
+          },
+          {
+            "x": 22.75,
+            "label": "No online audio",
+            "count": "13,881 recordings · 69.1%"
+          }
         ]
       },
-      "legend": {
-        "orient": "bottom",
-        "direction": "vertical",
-        "symbolType": "square",
-        "symbolSize": 150,
-        "labelLimit": 400,
-        "labelExpr": "datum.label == 'Online with a transcript' ? 'Online with a transcript: 1,781 (8.9%)' : datum.label == 'Listen online, no transcript' ? 'Listen online, no transcript: 4,421 (22.0%)' : 'Not online: 13,881 (69.1%)'"
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "color": "#1E1E1A"
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        },
+        "y": {
+          "datum": -2.0
+        },
+        "text": {
+          "field": "label"
+        }
       }
     },
-    "tooltip": [
-      {
-        "field": "status",
-        "type": "nominal",
-        "title": "Status"
+    {
+      "data": {
+        "values": [
+          {
+            "x": -0.45,
+            "label": "Audio and transcript",
+            "count": "1,781 recordings · 8.9%"
+          },
+          {
+            "x": 11.15,
+            "label": "Audio, no transcript",
+            "count": "4,421 recordings · 22.0%"
+          },
+          {
+            "x": 22.75,
+            "label": "No online audio",
+            "count": "13,881 recordings · 69.1%"
+          }
+        ]
       },
-      {
-        "field": "recordings_in_group",
-        "type": "quantitative",
-        "title": "Recordings",
-        "format": ","
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 13,
+        "color": "#55554D"
       },
-      {
-        "field": "share_percent",
-        "type": "quantitative",
-        "title": "Share (per cent)",
-        "format": ".1f"
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        },
+        "y": {
+          "datum": -1.25
+        },
+        "text": {
+          "field": "count"
+        }
       }
-    ]
-  }
+    }
+  ]
 }

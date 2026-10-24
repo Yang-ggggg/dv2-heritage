@@ -10,11 +10,13 @@ import sys
 import pandas as pd
 
 source_path, site_folder = sys.argv[1], sys.argv[2]
-recordings = pd.read_csv(source_path, usecols=["fulltext_url", "transcript"])
+recordings = pd.read_csv(source_path, usecols=["fulltext_url", "transcript", "summary"])
 online = recordings["fulltext_url"].notna()
 has_transcript = recordings["transcript"] == 1
 print(f"Recordings: {len(recordings):,}; online: {online.sum():,}; with transcript: {has_transcript.sum():,}; "
       f"transcript but not online: {(has_transcript & ~online).sum()}")
+has_summary = recordings["summary"] == 1      # "summary": a text summary is available for download (GLAM Workbench README)
+print(f"Audio online, no transcript, but a summary: {(online & ~has_transcript & has_summary).sum():,}")
 
 counts = {
     "Online with a transcript": int((online & has_transcript).sum()),

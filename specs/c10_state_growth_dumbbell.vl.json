@@ -37,7 +37,7 @@
     {
       "mark": {
         "type": "rule",
-        "color": "#9E9E96",
+        "color": "#8C8C84",
         "strokeWidth": 2
       },
       "encoding": {
@@ -107,10 +107,10 @@
       ],
       "mark": {
         "type": "circle",
-        "size": 170,
+        "size": 150,
         "opacity": 1,
-        "stroke": "#FFFFFF",
-        "strokeWidth": 1
+        "stroke": "#3182bd",
+        "strokeWidth": 2
       },
       "encoding": {
         "y": {
@@ -133,7 +133,27 @@
           "field": "millions",
           "type": "quantitative"
         },
-        "color": {
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State or territory"
+          },
+          {
+            "field": "harvest_label",
+            "title": "Date of count"
+          },
+          {
+            "field": "millions",
+            "title": "Articles (millions)",
+            "format": ".1f"
+          },
+          {
+            "field": "growth_times",
+            "title": "Growth from 2011 to 2026 (times)",
+            "format": ".1f"
+          }
+        ],
+        "fill": {
           "field": "harvest_label",
           "type": "ordinal",
           "title": "Date of count",
@@ -143,37 +163,19 @@
               "October 2026"
             ],
             "range": [
-              "#9ecae1",
-              "#08519c"
+              "#FFFFFF",
+              "#3182bd"
             ]
           },
           "legend": {
             "orient": "top",
             "direction": "horizontal",
             "symbolSize": 150,
-            "titleOrient": "left"
+            "titleOrient": "left",
+            "symbolStrokeColor": "#3182bd",
+            "symbolStrokeWidth": 2
           }
-        },
-        "tooltip": [
-          {
-            "field": "state",
-            "title": "State or territory"
-          },
-          {
-            "field": "harvest_label",
-            "title": "Harvest"
-          },
-          {
-            "field": "millions",
-            "title": "Articles (millions)",
-            "format": ".1f"
-          },
-          {
-            "field": "growth_times",
-            "title": "Times bigger since 2011",
-            "format": ".1f"
-          }
-        ]
+        }
       }
     },
     {
@@ -211,6 +213,9 @@
         }
       },
       "transform": [
+        {
+          "filter": "datum.state == 'New South Wales' || datum.state == 'Northern Territory'"
+        },
         {
           "calculate": "format(datum.growth_times,'.1f') + ' times'",
           "as": "growth_label"
