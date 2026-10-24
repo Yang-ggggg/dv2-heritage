@@ -184,28 +184,105 @@
           {
             "d": "2022-09-01",
             "y": 30000,
-            "text": "June 2022: 72% of files"
+            "text": "June 2022: 72% of recorded files"
           },
           {
             "d": "2022-09-01",
             "y": 27800,
             "text": "were migration records"
-          },
-          {
-            "d": "2024-05-01",
-            "y": 10000,
-            "text": "July to October 2024:"
-          },
-          {
-            "d": "2024-05-01",
-            "y": 7800,
-            "text": "few service records (under 10%)"
           }
         ]
       },
       "mark": {
         "type": "text",
         "align": "left",
+        "baseline": "middle",
+        "fontSize": 14,
+        "fontWeight": 700
+      },
+      "encoding": {
+        "x": {
+          "field": "d",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "text"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "d": "2022-08-26",
+            "y": 29400,
+            "d2": "2022-06-24",
+            "y2": 31900
+          },
+          {
+            "d": "2024-07-15",
+            "y": 12700,
+            "d2": "2024-10-15",
+            "y2": 12700
+          },
+          {
+            "d": "2024-07-15",
+            "y": 12700,
+            "d2": "2024-07-15",
+            "y2": 13400
+          },
+          {
+            "d": "2024-10-15",
+            "y": 12700,
+            "d2": "2024-10-15",
+            "y2": 13400
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#1E1E1A",
+        "strokeWidth": 1.2
+      },
+      "encoding": {
+        "x": {
+          "field": "d",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "x2": {
+          "field": "d2"
+        },
+        "y2": {
+          "field": "y2"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "d": "2024-08-31",
+            "y": 11300,
+            "text": "July to October 2024:"
+          },
+          {
+            "d": "2024-08-31",
+            "y": 9100,
+            "text": "few service records (under 10%)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "center",
         "baseline": "middle",
         "fontSize": 14,
         "fontWeight": 700

@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Archive digitising peaked in 2022, then slowed each year",
+    "text": "Recorded weekly averages peaked in 2022, then fell each year",
     "subtitle": [
       "Files in the National Archives' weekly digitised lists,",
       "March 2021 to September 2026. Each box is one week.",

@@ -29,7 +29,10 @@
         {
           "title": {
             "text": "Newspaper articles",
-            "subtitle": "By year of publication, October 2026",
+            "subtitle": [
+              "266.3 million articles, October 2026",
+              "By year of publication"
+            ],
             "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
             "fontSize": 15,
             "subtitleFontSize": 12,
@@ -173,7 +176,10 @@
         {
           "title": {
             "text": "Periodical issues",
-            "subtitle": "36,582 dated issues, March 2024",
+            "subtitle": [
+              "36,582 dated issues, March 2024",
+              "By date of the issue"
+            ],
             "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
             "fontSize": 15,
             "subtitleFontSize": 12,
@@ -317,7 +323,10 @@
         {
           "title": {
             "text": "Archive files",
-            "subtitle": "By start of date range, September 2026",
+            "subtitle": [
+              "1.49 million files, September 2026",
+              "By start of each file's date range"
+            ],
             "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
             "fontSize": 15,
             "subtitleFontSize": 12,
@@ -466,7 +475,10 @@
         {
           "title": {
             "text": "Manuscript collections",
-            "subtitle": "2,117 collections starting from 1800, March 2023",
+            "subtitle": [
+              "2,117 collections from 1800, March 2023",
+              "By start year of the collection"
+            ],
             "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
             "fontSize": 15,
             "subtitleFontSize": 12,
@@ -610,7 +622,10 @@
         {
           "title": {
             "text": "Oral history recordings",
-            "subtitle": "20,021 dated recordings, December 2023",
+            "subtitle": [
+              "20,021 dated recordings, December 2023",
+              "By year recorded"
+            ],
             "font": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif",
             "fontSize": 15,
             "subtitleFontSize": 12,

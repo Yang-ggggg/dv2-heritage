@@ -29,7 +29,7 @@
       <div class="grid stat-row">
         <div class="stat span-3 nla"><p class="stat-number">266.3 million</p><p class="stat-label">newspaper articles on Trove (National Library of Australia), October 2026</p></div>
         <div class="stat span-3 naa"><p class="stat-number">1.49 million</p><p class="stat-label">archive files in the National Archives of Australia's recorded weekly lists, 2021 to 2026</p></div>
-        <div class="stat span-3 nma"><p class="stat-number">97,214</p><p class="stat-label">objects in the National Museum of Australia's online collection</p></div>
+        <div class="stat span-3 nma"><p class="stat-number">97,214</p><p class="stat-label">object records harvested from the National Museum of Australia's online catalogue, October 2026</p></div>
         <div class="stat span-3 nla"><p class="stat-number">20,083</p><p class="stat-label">oral history recordings listed on Trove</p></div>
       </div>
       <div class="grid intro-row">
@@ -69,8 +69,8 @@
       <div class="grid">
         <p class="body-text span-4">The National Archives of Australia also digitises old files,
           such as war service records.</p>
-        <p class="body-text span-4">It worked fastest in 2022.
-          Since then, it has slowed down every year.</p>
+        <p class="body-text span-4">Its recorded weeks were busiest in 2022.
+          The weekly average fell every year after.</p>
         <div class="callout span-4"><p class="callout-number naa-text">11,286</p>
           <p class="callout-label">files a week on average in 2022 (recorded weeks),
             compared with 2,025 in 2026</p></div>
@@ -118,7 +118,7 @@
         </div>
       </div>
       <div class="grid">
-        <p class="body-text span-4">Do all collections stop at the same year? No.
+        <p class="body-text span-4">Do all collections cover the same years? No.
           Newspapers fall sharply after the 1950s.</p>
         <p class="body-text span-4">Periodicals, manuscripts and oral histories reach much later.
           Most oral histories were recorded from the 1970s to the 2010s.</p>
@@ -334,8 +334,8 @@
         <div class="span-6">
           <h3>How the data was prepared</h3>
           <p class="body-text small">Every chart is drawn with Vega-Lite 5, except the treemap,
-            which uses Vega 5. Python (pandas) was used only to clean, join and count the data.
-            The hexagons were counted in Python and drawn by Vega-Lite.
+            which uses Vega 5. Python (pandas) cleaned, joined and counted the data.
+            It also built the hexagon shapes. Vega-Lite draws them.
             Map boundaries were simplified with mapshaper.</p>
           <p class="body-text small">Trove counts were updated on 20 October 2026
             with my own Trove API key, using the same search settings
