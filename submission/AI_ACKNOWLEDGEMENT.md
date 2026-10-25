@@ -1,4 +1,5 @@
 # Acknowledgement of artificial intelligence
 
-Claude (Anthropic) helped me find and check data, write the Python and Vega-Lite code, test colours and line lengths, plan the layout and edit the wording. Codex (OpenAI) reviewed the page, checked course requirements, suggested corrections and helped draft the submission description. I made the final decisions about the topic, story, charts and wording.
+Claude (Anthropic) helped me find and check data, learn and write Vega-Lite code, check line lengths, choose colours and layout, and fix grammar.
 
+**The topic, story, data, chart choices and final wording are my own decisions.**

@@ -71,8 +71,9 @@
           "scale": {
             "domain": [
               0,
-              100
-            ]
+              104
+            ],
+            "nice": false
           },
           "axis": {
             "title": "Items digitised",

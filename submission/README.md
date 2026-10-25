@@ -7,7 +7,7 @@ The poster design is frozen. The local repository contains the five v0.23 correc
 ## Files to use
 
 - `PART_B_FINAL.md`: copy the four sections into Part B after reading the wording.
-- `AI_ACKNOWLEDGEMENT.md`: final acknowledgement naming Claude and Codex and their roles. The webpage carries the same substantive acknowledgement.
+- `AI_ACKNOWLEDGEMENT.md`: final acknowledgement. The webpage carries the same text.
 - `SCREENSHOT_CAPTION.md`: instructions and caption wording for the new live screenshot.
 - `FINAL_CHECKS.md`: what was verified, how it was verified and what remains to be checked after publication.
 - `verification.json`: machine-readable evidence for the final local render.
