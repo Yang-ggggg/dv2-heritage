@@ -31,7 +31,8 @@
           "files": "number",
           "share_percent": "number",
           "theme_share_percent": "number"
-        }
+        },
+        "delimiter": ","
       },
       "transform": [
         {
@@ -55,20 +56,20 @@
               "signal": "width"
             },
             {
-              "signal": "height + 40"
+              "signal": "height + 34"
             }
           ],
-          "paddingTop": 40
+          "paddingTop": 34
         },
         {
           "type": "formula",
           "as": "y0",
-          "expr": "datum.y0 - 40"
+          "expr": "datum.y0 - 34"
         },
         {
           "type": "formula",
           "as": "y1",
-          "expr": "datum.y1 - 40"
+          "expr": "datum.y1 - 34"
         }
       ]
     },
@@ -270,7 +271,7 @@
             "signal": "datum.x0 + 8"
           },
           "y": {
-            "signal": "datum.y0 + 19"
+            "signal": "datum.y0 + 15"
           },
           "text": {
             "field": "name"
@@ -305,7 +306,7 @@
             "signal": "datum.x0 + 8"
           },
           "y": {
-            "signal": "datum.y0 + 36"
+            "signal": "datum.y0 + 29"
           },
           "text": {
             "signal": "format(datum.theme_share_percent, '.1f') + ((datum.x1 - datum.x0) > 130 ? '% of files' : '%')"
