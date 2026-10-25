@@ -6,7 +6,8 @@
       "Northern Territory production place"
     ],
     "subtitle": [
-      "Museum catalogue records harvested 4 October 2026,",
+      "Only 14.8% of harvested records are mapped:",
+      "14,348 of 97,214 (catalogue harvested 4 October 2026),",
       "by first production place with map coordinates.",
       "Each hexagon covers about 26,000 square kilometres."
     ]
@@ -166,12 +167,12 @@
           {
             "lon": 135.4,
             "lat": -7.0,
-            "text": "1,056 objects, in the same"
+            "text": "1,056 objects, about half"
           },
           {
             "lon": 135.4,
             "lat": -8.1,
-            "text": "class as Sydney and Melbourne"
+            "text": "the Sydney hexagon (2,048)"
           }
         ]
       },
