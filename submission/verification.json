@@ -1,0 +1,191 @@
+{
+  "version": "v0.23 with submission acknowledgement",
+  "baseCommit": "39160309a639dbf2d78db9c545e32be3ec85ef48",
+  "siteScope": "Local repository preview; not the published GitHub page",
+  "partB": {
+    "uniqueCharts": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C10",
+      "M1",
+      "M2",
+      "C7",
+      "C8",
+      "C9",
+      "M3"
+    ],
+    "eachHasWhyAndHow": true,
+    "wordCount": 1807,
+    "referenceURLsMatchPage": true
+  },
+  "lineChecks": {
+    "1366": {
+      "paragraphs": [],
+      "chartText": [],
+      "size": {
+        "width": 1366,
+        "scroll": 1366,
+        "height": 10842
+      },
+      "figureOverflow": []
+    },
+    "1280": {
+      "paragraphs": [],
+      "chartText": [],
+      "size": {
+        "width": 1280,
+        "scroll": 1280,
+        "height": 10842
+      },
+      "figureOverflow": []
+    },
+    "820": {
+      "paragraphs": [],
+      "chartText": [],
+      "size": {
+        "width": 820,
+        "scroll": 820,
+        "height": 17213
+      },
+      "figureOverflow": []
+    }
+  },
+  "screenshots": [
+    "V23-01-about.png",
+    "V23-02-people.png",
+    "V23-03-demand.png",
+    "V23-04-money.png",
+    "V23-05-law.png",
+    "V23-06-growth.png",
+    "V23-07-header.png"
+  ],
+  "status": 200,
+  "charts": [
+    "c1_trove_growth",
+    "c2_naa_calendar",
+    "c3_publication_years",
+    "c4_manuscripts_waffle",
+    "c5_manuscripts_lollipop",
+    "c6_small_multiples",
+    "c10_state_growth_dumbbell",
+    "m1_proportional_symbols",
+    "m2_choropleth",
+    "c7_naa_treemap",
+    "c8_naa_streamgraph",
+    "c9_oral_history_isotype",
+    "m3_hexbin_map"
+  ],
+  "localPreviewDimensions": {
+    "width": 1366,
+    "height": 10842,
+    "deviceScale": 1
+  },
+  "c3CheckboxChangesChart": true,
+  "c8LegendChangesChart": true,
+  "tooltipSamples": [
+    {
+      "chart": "c1_trove_growth",
+      "text": "Harvest date\t\n12 April 2011\n\nArticles\t\n48,481,646"
+    },
+    {
+      "chart": "c2_naa_calendar",
+      "text": "Week ending\t\n28 March 2021\n\nFiles digitised\t\n2,841\n\nLargest series that week\t\nCitizen Military Forces Personnel Dossiers, 1939-1947"
+    },
+    {
+      "chart": "c3_publication_years",
+      "text": "Year\t\n1826\n\nArticles (October 2026)\t\n5,201\n\nArticles (April 2011)\t\n5,201"
+    },
+    {
+      "chart": "c4_manuscripts_waffle",
+      "text": "Status\t\nDigitised"
+    },
+    {
+      "chart": "c5_manuscripts_lollipop",
+      "text": "Decade begins\t\n1760\n\nCollections\t\n22\n\nItems\t\n9,019\n\nItems digitised\t\n8,755\n\nShare digitised (per cent)\t\n97.1"
+    },
+    {
+      "chart": "c6_small_multiples",
+      "text": "Collection\t\nNewspaper articles\n\nYear measured\t\nYear of publication\n\nDecade begins\t\n1830\n\nRecords\t\n190,792\n\nShare of the panel's records (per cent)\t\n0.1"
+    },
+    {
+      "chart": "c10_state_growth_dumbbell",
+      "text": "State or territory\t\nTasmania\n\nDate of count\t\nApril 2011\n\nArticles (millions)\t\n6.4\n\nGrowth from 2011 to 2026 (times)\t\n2.5"
+    },
+    {
+      "chart": "m1_proportional_symbols",
+      "text": "State or territory\t\nNew South Wales\n\nArticles (October 2026)\t\n90,049,249"
+    },
+    {
+      "chart": "m2_choropleth",
+      "text": "State or territory\t\nNew South Wales\n\nArticles per resident\t\n10.4\n\nDigitised articles\t\n90,049,249\n\nResidents (March 2026)\t\n8,670,105"
+    },
+    {
+      "chart": "c7_naa_treemap",
+      "text": "Theme\t\nSecond World War service records\n\nSeries\t\nSecond Australian Imperial Force Personnel Dossiers, 1939-1947\n\nFiles\t\n330,831\n\nShare of all files\t\n22.2%"
+    },
+    {
+      "chart": "c8_naa_streamgraph",
+      "text": "Month\t\nApril 2023\n\nTheme\t\nAll other files\n\nFiles per week\t\n2,894\n\nWeeks with data\t\n5\n\nShare of the month's files\t\n34%"
+    },
+    {
+      "chart": "c9_oral_history_isotype",
+      "text": "Group\t\nAudio and transcript\n\nRecordings\t\n1,781\n\nShare (per cent)\t\n8.9"
+    },
+    {
+      "chart": "m3_hexbin_map",
+      "text": "Objects\t\n48\n\nPlaces in this hexagon\t\n7\n\nPlace with the most objects\t\nBogan River, New South Wales\n\nObjects from that place\t\n22"
+    }
+  ],
+  "dataFiles": {
+    "data/naa_weekly.csv": 29514,
+    "data/trove_by_year.csv": 3681,
+    "data/manuscripts_waffle.csv": 1698,
+    "data/manuscripts_by_decade.csv": 1490,
+    "data/trove_growth.csv": 4206,
+    "data/oral_history_icons.csv": 3527,
+    "data/decade_shares.csv": 11058,
+    "data/trove_states.csv": 785,
+    "data/australia_states.topojson": 167793,
+    "data/naa_theme_months.csv": 10372,
+    "data/nma_hexbins.geojson": 63491,
+    "data/naa_treemap.csv": 10650
+  },
+  "uniqueDataBytes": 308265,
+  "runtimeErrors": [],
+  "console": [],
+  "badResponses": [],
+  "fiveCorrectionsPresent": {
+    "oralDate": true,
+    "recorded": true,
+    "museum": true,
+    "c1": true,
+    "c10": true,
+    "series": true,
+    "queensland": true
+  },
+  "success": true,
+  "publicationStatusAtPackaging": "Local v0.23 commit plus uncommitted submission/acknowledgement files; not pushed by this operation.",
+  "reviewMethod": "Actual repo copied to an isolated local server; final acknowledgement added there; screenshots inspected. No chart, data, projection or palette changed by packaging.",
+  "colourSimulationInThisPass": false,
+  "testedIndexSHA256": "d16a31ca4f96dc296e34a1b1c0baf94d933a54ef9db7133bec46d0eadb43eb3a",
+  "specSHA256": {
+    "specs/c10_state_growth_dumbbell.vl.json": "99bb7c7e43f72ef087fe806ec71eb302992c74b2e538416c3afee82ce6599298",
+    "specs/c1_trove_growth.vl.json": "2913c5910c6faeef86ed39bf2d4ced01d130e82e29523c0729c3a5acca2d9ef8",
+    "specs/c2_naa_calendar.vl.json": "a6fba4d074da24fb4f34733b6c731f0f6fd93a6704aaf6fcd523087745e87353",
+    "specs/c3_publication_years.vl.json": "5b7c96988369af15de6451a7c611414b80aa0eaffa532556254008c2ba02dc5c",
+    "specs/c4_manuscripts_waffle.vl.json": "0fa751fb346a014b415e2d0add206e148f3ede6d9d5ff0a701f65f79c7d04677",
+    "specs/c5_manuscripts_lollipop.vl.json": "137a9ca639b48c03aa46f8c81b60079066a3ba3802440322f331e26ea63a0e13",
+    "specs/c6_small_multiples.vl.json": "4dea9db28a28463b089b2f3a4d4552d12f05dc90f20312b7c8a3e60df1e5ee08",
+    "specs/c7_naa_treemap.vg.json": "88e31841e6973898e30280e5edbfbc0db07881d2293664dc86e99128a464606c",
+    "specs/c8_naa_streamgraph.vl.json": "d569ae20ee01e570aaab4667b6cffe423f52506a77a8ff37d6dfe92c63879448",
+    "specs/c9_oral_history_isotype.vl.json": "c26f0241626cfaac458b3a699b0d1d87bfd7d8c7d277a575bee04d13c9365b4f",
+    "specs/m1_proportional_symbols.vl.json": "d1902165389420c5828ababedfc4e28aaefb0ff2cf7f2aaad78ce020e2f92845",
+    "specs/m2_choropleth.vl.json": "3cbd017799d37c692336f1e130e868532015a000a9092dd4caef4434fdf70e1d",
+    "specs/m3_hexbin_map.vl.json": "42687491deff60e09e18836690c8dfed7f324b305de0318ba6a6d153d7e1a810",
+    "specs/theme.json": "356452ab236b1c94b10f6b11d3bf25233ae463901390d4ec720545caf88b6cdf"
+  }
+}
