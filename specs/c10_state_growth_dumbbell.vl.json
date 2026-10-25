@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": [
-      "New South Wales grew 9.3 times since 2011.",
-      "The Northern Territory grew only 1.2 times."
+      "New South Wales holds 9.3 times its 2011 total.",
+      "The Northern Territory holds 1.2 times its 2011 total."
     ],
     "subtitle": [
       "Digitised newspaper articles on Trove, April 2011 and",

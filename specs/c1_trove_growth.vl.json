@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Trove's newspapers grew 5.5 times since 2011",
+    "text": "Trove now holds 5.5 times its 2011 article total",
     "subtitle": [
       "Total digitised newspaper articles on Trove, 2011 to 2026.",
       "Dots: single counts. The line joins every count in order.",
